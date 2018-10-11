@@ -5,8 +5,7 @@ from random import randrange, choice
 #prueba branch naira
 print("Leemos los datasets")
 
-#BOTELLA NAIRA
-#AGUA JOSE
+
 
 
 #Leemos todos los datos
