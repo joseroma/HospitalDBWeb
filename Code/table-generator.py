@@ -2,13 +2,10 @@
 import pandas as pd
 from random import randrange, choice
 
-#prueba 41 41  jose branch naira
-
-
+#prueba branch naira
 print("Leemos los datasets")
+#prueba 40 naira
 
-
-#parte1 comentario
 
 #Leemos todos los datos
 df = pd.read_csv('../datasets/personas-extravidas-y-desaparecidas-datacivica-2018.csv')
