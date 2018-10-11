@@ -3,7 +3,7 @@ import pandas as pd
 from random import randrange, choice
 
 print("Leemos los datasets")
-
+#prueba 40 naira
 
 
 #Leemos todos los datos
