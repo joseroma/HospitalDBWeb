@@ -257,5 +257,3 @@ tabla_quirofano.to_csv('../Result_datasets/tabla_quirofano.csv', sep='\t', encod
 tabla_medico.to_csv('../Result_datasets/tabla_medico.csv', sep='\t', encoding='utf-8')
 
 
-
-#ESTO ES LO QUE YO HE AÑADIDO Y NO QUIERES QUE SE QUEDE EN TU RAMA PARA SEGUIR 
