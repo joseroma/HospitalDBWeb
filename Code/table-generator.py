@@ -5,8 +5,11 @@ from random import randrange, choice
 #prueba branch naira
 print("Leemos los datasets")
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> Naira
 
 #Leemos todos los datos
 df = pd.read_csv('../datasets/personas-extravidas-y-desaparecidas-datacivica-2018.csv')
@@ -252,3 +255,7 @@ tabla_urgencia.to_csv('../Result_datasets/tabla_urgencia.csv', sep='\t', encodin
 tabla_operacion.to_csv('../Result_datasets/tabla_operacion.csv', sep='\t', encoding='utf-8')
 tabla_quirofano.to_csv('../Result_datasets/tabla_quirofano.csv', sep='\t', encoding='utf-8')
 tabla_medico.to_csv('../Result_datasets/tabla_medico.csv', sep='\t', encoding='utf-8')
+
+
+
+#ESTO ES LO QUE YO HE AÑADIDO Y NO QUIERES QUE SE QUEDE EN TU RAMA PARA SEGUIR 
