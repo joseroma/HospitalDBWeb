@@ -5,11 +5,6 @@ from random import randrange, choice
 #prueba branch naira
 print("Leemos los datasets")
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> Naira
 
 #Leemos todos los datos
 df = pd.read_csv('../datasets/personas-extravidas-y-desaparecidas-datacivica-2018.csv')
