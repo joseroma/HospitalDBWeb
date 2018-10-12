@@ -12,7 +12,7 @@ especialidades = pd.read_csv('../datasets/especialidades.txt')
 enfermedades = pd.read_csv('../datasets/enfermedades.txt')
 doctor_names = pd.read_csv('../datasets/wc2018-players.csv')
 
-print("Generamos los dataframes vacíos")
+print("Generamos los dataframes vacios")
 
 #Creamos las diferentes tablas
 tabla_paciente = pd.DataFrame()
@@ -32,17 +32,15 @@ num_urgencia_id = []
 num_enfermedad_id = []
 cont = 0
 cont2 = 0
-pacientes_ingresados = []
 alea_Paises = []
 enfermedad = []
 vector_paises = df_paises['Albania'].tolist()
 cont_urgencia = 0
 lista_enfermedades= enfermedades['Nombres'].tolist()
+vector_enfermedad_paciente = [None] * len(lista_enfermedades)
 #Asegurar valores distintos
-#Añadir pais
-print(len(df.prim_nombre))
-for i in range(0, len(df.prim_nombre)):
-    print(i)
+#Aniadir pais
+for i in range(0, 10000):
     bool_smoker.insert(i,choice(["YES", "NO"]))
     id_expediente.insert(i, randrange(1111111, 9999999))
     num_pais_aleatorio = randrange(0, len(vector_paises))
@@ -63,8 +61,12 @@ for i in range(0, len(df.prim_nombre)):
         urgencia.insert(i, "NULL")
         if temp_enfermedad != "NULL":
             num_enfermedad_id.insert(cont2, num_enfermedad)
+
+            if vector_enfermedad_paciente[num_enfermedad] is None:
+                vector_enfermedad_paciente[num_enfermedad] = id_expediente[i]
+            else:
+                vector_enfermedad_paciente[num_enfermedad] = str(vector_enfermedad_paciente[num_enfermedad]) + ", " + str(id_expediente[i])
             cont2 = cont2 + 1
-            pacientes_ingresados.insert(cont2, df.prim_nombre[i] + df.apellido_pat)
 
 
 #Ahora elige toda la lista
@@ -104,16 +106,22 @@ for i in range(0, cont_operacion):
     id_quirof = randrange(0, 25)
     num_medico = randrange(0, len(doctor_names.Name))
     nombre_medico.insert(i,doctor_names.Name[num_medico])
-    id_quirofano1.insert(i, id_quirofano1)
+    id_quirofano1.insert(i, id_quirof)
 
 
 print("Creamos los vectores aleatorios para tabla_medico")
+vector_especialidad_medicos = [None] * len(lista_especialidades)
 especialidad_tabla_medico = []
 id_medico = []
 for i in range(0, len(doctor_names.Name)):
     id_medico.insert(i, i)
     especialidad_aleatoria = randrange(0, len(lista_especialidades))
     especialidad_tabla_medico.insert(i, lista_especialidades[especialidad_aleatoria])
+    if vector_especialidad_medicos[especialidad_aleatoria] is None:
+        vector_especialidad_medicos[especialidad_aleatoria] = id_medico[i]
+    else:
+        vector_especialidad_medicos[especialidad_aleatoria] = str(vector_especialidad_medicos[especialidad_aleatoria]) + ", " + str(
+            id_medico[i])
 
 
 print("Creamos los vectores aleatorios para tabla_quirofano")
@@ -181,25 +189,22 @@ for i in range(0, len(lista_enfermedades)):
 
 #Paciente
 tabla_paciente['num_expediente'] = id_expediente
-tabla_paciente['prim_nombre'] = df.prim_nombre
-tabla_paciente['apellido_pat'] = df.apellido_pat
-tabla_paciente['fecha_ingreso'] = df.fuerocomun_desapfecha
-tabla_paciente['hora_ingreso'] = df.fuerocomun_desaphora
-tabla_paciente['sexo_paceinte'] = df.fuerocomun_sexo
-tabla_paciente['edad_paciente'] = df.fuerocomun_edad
+tabla_paciente['prim_nombre'] = df.prim_nombre[0:10000]
+tabla_paciente['apellido_pat'] = df.apellido_pat[0:10000]
+tabla_paciente['fecha_ingreso'] = df.fuerocomun_desapfecha[0:10000]
+tabla_paciente['hora_ingreso'] = df.fuerocomun_desaphora[0:10000]
+tabla_paciente['sexo_paceinte'] = df.fuerocomun_sexo[0:10000]
+tabla_paciente['edad_paciente'] = df.fuerocomun_edad[0:10000]
 tabla_paciente['urgencia'] = urgencia
 tabla_paciente['Enfermedad'] = enfermedad
 tabla_paciente['Pais_origen'] = alea_Paises
 tabla_paciente['smoker'] = bool_smoker
 print(list(tabla_paciente))
 
-cura_conocida = []
-ingreso = []
-contagiosa = []
-hereditaria = []
-tratamiento = []
+
 #Enfermedad
 tabla_enfermedad['Nombre_enfermedad'] = lista_enfermedades
+tabla_enfermedad['Pacientes_afectados'] = vector_enfermedad_paciente
 tabla_enfermedad['Ingreso'] = ingreso
 tabla_enfermedad['Cura_conocida'] = cura_conocida
 tabla_enfermedad['Contagiosa'] = contagiosa
@@ -224,7 +229,7 @@ id_toperacion.sort()
 tabla_operacion['id_urgencia'] = id_toperacion
 tabla_operacion['Quirofano'] = id_quirofano1
 tabla_operacion['Cirujano'] = nombre_medico
-tabla_operacion['Hora'] = df.fuerocomun_desaphora[300:len(nombre_medico)+300]
+tabla_operacion['Hora'] = df.fuerocomun_desaphora[300:10300]
 print(list(tabla_operacion))
 
 
@@ -233,13 +238,14 @@ tabla_medico['Medico'] = doctor_names.Name
 tabla_medico['ID_Medico'] = id_medico
 tabla_medico['Especialidad_medico'] = especialidad_tabla_medico
 
-#Quirófano
+#Quirofano
 tabla_quirofano['ID'] = id_quirofano
 tabla_quirofano['Puerta'] = puerta_quirofano_fin
 tabla_quirofano['Planta'] = planta_quirofano
 
 #Especialidad
 tabla_especialidad['Nombre_especialidad'] = lista_especialidades
+tabla_especialidad['id_medicos'] = vector_especialidad_medicos
 
 print(len(doctor_names.Name))
 print(len(lista_especialidades))
@@ -249,5 +255,7 @@ tabla_urgencia.to_csv('../Result_datasets/tabla_urgencia.csv', sep='\t', encodin
 tabla_operacion.to_csv('../Result_datasets/tabla_operacion.csv', sep='\t', encoding='utf-8')
 tabla_quirofano.to_csv('../Result_datasets/tabla_quirofano.csv', sep='\t', encoding='utf-8')
 tabla_medico.to_csv('../Result_datasets/tabla_medico.csv', sep='\t', encoding='utf-8')
+tabla_enfermedad.to_csv('../Result_datasets/tabla_enfermedad.csv', sep='\t', encoding='utf-8')
+tabla_especialidad.to_csv('../Result_datasets/tabla_especialidad.csv', sep='\t', encoding='utf-8')
 
 
