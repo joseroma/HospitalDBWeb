@@ -1,1 +1,9 @@
 .idea
+.DS_Store
+Result_datasets\tabla_enfermedad.csv
+Result_datasets\tabla_especialidad.csv
+Result_datasets\tabla_medico.csv
+Result_datasets\tabla_operacion.csv
+Result_datasets\tabla_paciente.csv
+Result_datasets\tabla_quirofano.csv
+Result_datasets\tabla_urgencia.csv

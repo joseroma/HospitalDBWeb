@@ -1,0 +1,737 @@
+	Medico	ID_Medico	Especialidad_medico
+0	TAGLIAFICO Nicolas	0	Oncología médica
+1	PAVON Cristian	1	Medicina aeroespacial
+2	LANZINI Manuel	2	Medicina del trabajo
+3	SALVIO Eduardo	3	Anestesiología y reanimación
+4	MESSI Lionel	4	Psiquiatría
+5	ANSALDI Cristian	5	Toxicología
+6	BIGLIA Lucas	6	Medicina intensiva
+7	BANEGA Ever	7	Nutriología
+8	MASCHERANO Javier	8	Geriatría
+9	DYBALA Paulo	9	Oncología médica
+10	AGUERO Sergio	10	Hematología y hemoterapia
+11	HIGUAIN Gonzalo	11	Medicina veterinaria
+12	DI MARIA Angel	12	Medicina preventiva y salud pública
+13	LO CELSO Giovani	13	Oncología radioterápica
+14	MEZA Maximiliano	14	Nefrología
+15	ACUNA Marcos	15	Cardiología
+16	CABALLERO Wilfredo	16	Hematología y hemoterapia
+17	MERCADO Gabriel	17	Pediatría
+18	OTAMENDI Nicolas	18	Medicina legal y forense
+19	ROJO Marcos	19	Medicina legal y forense
+20	FAZIO Federico	20	Medicina del deporte
+21	ARMANI Franco	21	Medicina legal y forense
+22	GUZMAN Nahuel	22	Medicina legal y forense
+23	BEHICH Aziz	23	Medicina familiar y comunitaria
+24	KRUSE Robbie	24	Medicina preventiva y salud pública
+25	RISDON Joshua	25	Oncología radioterápica
+26	MEREDITH James	26	Psiquiatría
+27	MOOY Aaron	27	Anestesiología y reanimación
+28	MacLAREN Jamie	28	Nefrología
+29	PETRATOS Dimitrios	29	Medicina de urgencias
+30	ARZANI Daniel	30	Medicina del deporte
+31	CAHILL Tim	31	Oncología médica
+32	LUONGO Massimo	32	Nutriología
+33	SAINSBURY Trent	33	Medicina interna
+34	IRVINE Jackson	34	Cardiología
+35	MILLIGAN Mark	35	Alergología
+36	JEDINAK Mile	36	Medicina interna
+37	JURIC Tomi	37	Oncología radioterápica
+38	RYAN Mathew	38	Endocrinología
+39	JURMAN Matthew	39	Gastroenterología
+40	LECKIE Mathew	40	Neurología
+41	DEGENEK Milos	41	Rehabilitación
+42	NABBOUT Andrew	42	Rehabilitación
+43	JONES Brad	43	Medicina del trabajo
+44	ROGIC Tom	44	Oncología médica
+45	VUKOVIC Danny	45	Medicina del trabajo
+46	MERTENS Dries	46	Neumología
+47	CARRASCO Yannick	47	Medicina del trabajo
+48	DE BRUYNE Kevin	48	Infectología
+49	HAZARD Thorgan	49	Reumatología
+50	TIELEMANS Youri	50	Medicina interna
+51	WITSEL Axel	51	Pediatría
+52	HAZARD Eden	52	Medicina intensiva
+53	JANUZAJ Adnan	53	Medicina del trabajo
+54	DENDONCKER Leander	54	Cardiología
+55	BATSHUAYI Michy	55	Nefrología
+56	VERMAELEN Thomas	56	Medicina legal y forense
+57	ALDERWEIRELD Toby	57	Nefrología
+58	DEMBELE Moussa	58	Urología
+59	BOYATA Dedryck	59	Rehabilitación
+60	KOMPANY Vincent	60	Nefrología
+61	FELLAINI Marouane	61	Oncología radioterápica
+62	CHADLI Nacer	62	Gastroenterología
+63	VERTONGHEN Jan	63	Urología
+64	CASTEELS Koen	64	Neurología
+65	MIGNOLET Simon	65	Psiquiatría
+66	MEUNIER Thomas	66	Cardiología
+67	COURTOIS Thibaut	67	Nefrología
+68	LUKAKU Romelu	68	Medicina física y rehabilitación
+69	FRED	69	Medicina preventiva y salud pública
+70	TAISON	70	Toxicología
+71	FERNANDINHO	71	Oncología médica
+72	FAGNER	72	Gastroenterología
+73	NEYMAR	73	Pediatría
+74	PHILIPPE COUTINHO	74	Medicina física y rehabilitación
+75	DOUGLAS COSTA	75	Nutriología
+76	FILIPE LUIS	76	Rehabilitación
+77	GABRIEL JESUS	77	Cardiología
+78	MARQUINHOS	78	Gastroenterología
+79	ROBERTO FIRMINO	79	Nefrología
+80	WILLIAN	80	Medicina aeroespacial
+81	MIRANDA	81	Medicina veterinaria
+82	DANILO	82	Medicina legal y forense
+83	THIAGO SILVA	83	Nutriología
+84	MARCELO	84	Nefrología
+85	PAULINHO	85	Nutriología
+86	PEDRO GEROMEL	86	Reumatología
+87	CASEMIRO	87	Psiquiatría
+88	RENATO AUGUSTO	88	Reumatología
+89	EDERSON	89	Infectología
+90	ALISSON	90	Toxicología
+91	CASSIO	91	Medicina intensiva
+92	QUINTERO Juan	92	Medicina de urgencias
+93	MOJICA Johan	93	Medicina familiar y comunitaria
+94	LERMA Jefferson	94	Alergología
+95	ARIAS Santiago	95	Medicina de urgencias
+96	URIBE Mateus	96	Medicina intensiva
+97	FALCAO Radamel	97	Medicina interna
+98	CUADRADO Juan	98	Reumatología
+99	FABRA Frank	99	Oftalmología
+100	IZQUIERDO Jose	100	Nutriología
+101	BARRIOS  Wilmar	101	Nutriología
+102	BORJA Miguel	102	Alergología
+103	RODRIGUEZ James	103	Medicina preventiva y salud pública
+104	BACCA Carlos	104	Alergología
+105	MURIEL Luis	105	Medicina del deporte
+106	OSPINA David	106	Oncología médica
+107	MURILLO Oscar	107	Oncología radioterápica
+108	VARGAS Camilo	108	Reumatología
+109	CUADRADO Jose	109	Medicina familiar y comunitaria
+110	SANCHEZ Davinson	110	Medicina física y rehabilitación
+111	ZAPATA Cristian	111	Endocrinología
+112	SANCHEZ Carlos	112	Nefrología
+113	AGUILAR Abel	113	Medicina física y rehabilitación
+114	MINA Yerry	114	Toxicología
+115	BOLANOS Christian	115	Oncología médica
+116	GAMBOA Cristian	116	Medicina del trabajo
+117	TEJEDA Yeltsin	117	Nutriología
+118	SMITH Ian	118	Medicina legal y forense
+119	OVIEDO Bryan	119	Rehabilitación
+120	WALLACE Rodney	120	Gastroenterología
+121	URENA Marcos	121	Nefrología
+122	MATARRITA Ronald	122	Gastroenterología
+123	MOREIRA Leonel	123	Alergología
+124	CAMPBELL Joel	124	Rehabilitación
+125	PEMBERTON Patrick	125	Pediatría
+126	RUIZ Bryan	126	Hematología y hemoterapia
+127	ACOSTA Johnny	127	Infectología
+128	COLINDRES Daniel	128	Alergología
+129	VENEGAS Johan	129	Endocrinología
+130	GONZALEZ Giancarlo	130	Medicina aeroespacial
+131	CALVO Francisco	131	Psiquiatría
+132	GUZMAN David	132	Neurología
+133	BORGES Celso	133	Medicina familiar y comunitaria
+134	NAVAS Keylor	134	Gastroenterología
+135	DUARTE Oscar	135	Reumatología
+136	AZOFEIFA Randall	136	Toxicología
+137	WASTON Kendall	137	Nefrología
+138	MODRIC Luka	138	Medicina de urgencias
+139	BROZOVIC Marcelo	139	Neurología
+140	PIVARIC Josip	140	Medicina de urgencias
+141	KRAMARIC Andrej	141	Pediatría
+142	VRSALJKO Sime	142	Nefrología
+143	BADELJ Milan	143	Anestesiología y reanimación
+144	VIDA Domagoj	144	Anestesiología y reanimación
+145	STRINIC Ivan	145	Medicina del deporte
+146	RAKITIC Ivan	146	Alergología
+147	KOVACIC Mateo	147	Oncología radioterápica
+148	BRADARIC Filip	148	Neurología
+149	REBIC Ante	149	Medicina interna
+150	PERISIC Ivan	150	Medicina familiar y comunitaria
+151	JEDVAJ Tin	151	Medicina familiar y comunitaria
+152	KALINIC Nikola	152	Cardiología
+153	LIVAKOVIC Dominik	153	Reumatología
+154	PJACA Marko	154	Medicina del trabajo
+155	CORLUKA Vedran	155	Oncología médica
+156	LOVREN Dejan	156	Psiquiatría
+157	SUBASIC Danijel	157	Nefrología
+158	MANDZUKIC Mario	158	Rehabilitación
+159	CALETA-CAR Duje	159	Nefrología
+160	KALINIC Lovre	160	Rehabilitación
+161	KROHN-DEHLI Michael	161	Rehabilitación
+162	SISTO Pione	162	Alergología
+163	BRAITHWAITE Martin	163	Medicina legal y forense
+164	ERIKSEN Christian	164	Gastroenterología
+165	DELANEY Thomas	165	Medicina interna
+166	KVIST William	166	Urología
+167	FISCHER Viktor	167	Medicina intensiva
+168	SCHONE Lasse	168	Medicina legal y forense
+169	DALSGAARD Henrik	169	Hematología y hemoterapia
+170	KNUDSEN Jonas	170	Medicina física y rehabilitación
+171	STRYGER LARSEN Jens	171	Medicina del trabajo
+172	KJAER Simon	172	Medicina intensiva
+173	POULSEN Yussuf Yurary	173	Gastroenterología
+174	CHRISTENSEN Andreas	174	Medicina preventiva y salud pública
+175	DOLBERG Kasper	175	Reumatología
+176	JORGENSEN Mathias	176	Alergología
+177	LERAGER Lukas	177	Medicina preventiva y salud pública
+178	RONNOW Frederik	178	Hematología y hemoterapia
+179	JORGENSEN Nicolai	179	Oncología radioterápica
+180	LOSSL Jonas	180	Medicina del deporte
+181	CORNELIUS Andreas	181	Rehabilitación
+182	SCHMEICHEL Kasper	182	Oncología radioterápica
+183	VESTERGAARD Jannik	183	Pediatría
+184	TAREK HAMED	184	Medicina interna
+185	OMAR GABER	185	Gastroenterología
+186	MOHAMED SALAH	186	Oncología radioterápica
+187	MOHAMED ABDELSHAFY	187	Gastroenterología
+188	MAHMOUD HAMDY	188	Medicina del trabajo
+189	AYMAN ASHRAF	189	Medicina física y rehabilitación
+190	MOHAMED ELNENY	190	Medicina aeroespacial
+191	SAM MORSY	191	Geriatría
+192	ABDALLA SAID	192	Neumología
+193	AHMED ELMOHAMADY	193	Medicina veterinaria
+194	AHMED FATHI	194	Oncología médica
+195	KAHRABA	195	Medicina física y rehabilitación
+196	RAMADAN SOBHY	196	Anestesiología y reanimación
+197	TREZEGUET	197	Urología
+198	AMR WARDA	198	Medicina legal y forense
+199	SHIKABALA	199	Endocrinología
+200	MARWAN MOHSEN	200	Endocrinología
+201	SAMIR SAAD	201	Medicina de urgencias
+202	MOHAMED ELSHENAWY	202	Anestesiología y reanimación
+203	ALI GABR	203	Pediatría
+204	ESSAM EL HADARY	204	Pediatría
+205	SHERIF EKRAMY	205	Medicina del trabajo
+206	AHMED HEGAZY	206	Endocrinología
+207	LINGARD Jesse	207	Oftalmología
+208	STERLING Raheem	208	Oftalmología
+209	ALEXANDER-ARNOLD Trent	209	Reumatología
+210	PICKFORD Jordan	210	Medicina de urgencias
+211	STONES John	211	Psiquiatría
+212	TRIPPIER Kieran	212	Endocrinología
+213	JONES Phil	213	Medicina preventiva y salud pública
+214	LOFTUS-CHEEK Ruben	214	Anestesiología y reanimación
+215	ROSE Danny	215	Toxicología
+216	ALLI Dele	216	Neurología
+217	POPE Nick	217	Urología
+218	WELBECK Danny	218	Geriatría
+219	DELPH Fabian	219	Reumatología
+220	YOUNG Ashley	220	Gastroenterología
+221	RASHFORD Marcus	221	Cardiología
+222	VARDY Jamie	222	Alergología
+223	HENDERSON Jordan	223	Medicina familiar y comunitaria
+224	WALKER Kyle	224	Medicina del deporte
+225	CAHILL Gary	225	Anestesiología y reanimación
+226	DIER Eric	226	Neumología
+227	BUTLAND Jack	227	Gastroenterología
+228	MAGUIRE Harry	228	Anestesiología y reanimación
+229	KANE Harry	229	Oncología médica
+230	LEMAR Thomas	230	Medicina familiar y comunitaria
+231	DEMBELE Ousmane	231	Hematología y hemoterapia
+232	KANTE Ngolo	232	Hematología y hemoterapia
+233	GRIEZMANN Antoine	233	Infectología
+234	MATUIDI Blaise	234	Medicina legal y forense
+235	PAVARD Benjamin	235	Medicina física y rehabilitación
+236	FEKIR Nabil	236	Toxicología
+237	THAUVIN Florian	237	Medicina del trabajo
+238	HERNANDEZ Lucas	238	Gastroenterología
+239	KIMPEMBE Presnel	239	Psiquiatría
+240	MBAPPE Kylian	240	Anestesiología y reanimación
+241	VARANE Raphael	241	Cardiología
+242	SIDIBE Djibril	242	Medicina de urgencias
+243	LLORIS Hugo	243	Medicina del trabajo
+244	TOLISSO Corentin	244	Cardiología
+245	UMTITI Samuel	245	Medicina física y rehabilitación
+246	MENDY Benjamin	246	Neurología
+247	POGBA Paul	247	Medicina intensiva
+248	NZONZI Steven	248	Reumatología
+249	MANDANDA Steve	249	Reumatología
+250	RAMI Adil	250	Alergología
+251	GIROUD Olivier	251	Medicina del trabajo
+252	AREOLA Alphonse	252	Medicina del deporte
+253	REUS Marco	253	Medicina familiar y comunitaria
+254	OEZIL Mesut	254	Toxicología
+255	KIMMICH Joshua	255	Medicina del trabajo
+256	DRAXLER Julian	256	Endocrinología
+257	RUDY Sebastian	257	Toxicología
+258	HECTOR Jonas	258	Medicina interna
+259	WERNER Timo	259	Oncología radioterápica
+260	MUELLER Thomas	260	Medicina legal y forense
+261	PLATTENHARDT Marvin	261	Medicina preventiva y salud pública
+262	GORETZKA Leon	262	Gastroenterología
+263	KROOS Toni	263	Medicina física y rehabilitación
+264	GUENDOGAN Ilkay	264	Endocrinología
+265	KHEDIRA Sami	265	Cardiología
+266	BRANDT Julian	266	Gastroenterología
+267	GOMEZ Mario	267	Alergología
+268	GINTER Matthias	268	Nutriología
+269	RUEDIGER Antonio	269	Gastroenterología
+270	TER STEGEN Marc-Andre	270	Endocrinología
+271	TRAPP Kevin	271	Medicina familiar y comunitaria
+272	SUELE Niklas	272	Medicina física y rehabilitación
+273	HUMMELS Mats	273	Hematología y hemoterapia
+274	BOATENG Jerome	274	Medicina aeroespacial
+275	NEUER Manuel	275	Gastroenterología
+276	SKULASON Ari	276	Pediatría
+277	TRAUSTASON Arnor	277	Urología
+278	SAEVARSSON Birkir	278	Medicina aeroespacial
+279	RUNARSSON Runar	279	Geriatría
+280	GUDMUNDSSON Johann	280	Infectología
+281	BJARNASON Birkir	281	Endocrinología
+282	FRIDJONSSON Samuel	282	Oftalmología
+283	GISLASON Rurik	283	Medicina de urgencias
+284	FINNBOGASON Alfred	284	Anestesiología y reanimación
+285	SKULASON Olafur	285	Reumatología
+286	GUDMUNDSSON Albert	286	Alergología
+287	INGASON Sverrir	287	Infectología
+288	EYJOLFSSON Holmar	288	Cardiología
+289	SIGURDSSON Gylfi	289	Alergología
+290	ARNASON Kari	290	Neumología
+291	SIGURDARSON Bjorn	291	Medicina del deporte
+292	MAGNUSSON Hordur	292	Geriatría
+293	SIGURDSSON Ragnar	293	Alergología
+294	GUNNARSSON Aron	294	Medicina legal y forense
+295	HALLFREDSSON Emil	295	Nefrología
+296	HALLDORSSON Hannes	296	Medicina del deporte
+297	BODVARSSON Jon	297	Hematología y hemoterapia
+298	SCHRAM Frederik	298	Medicina interna
+299	MOHAMMADI Milad	299	Medicina del deporte
+300	TORABI Mehdi	300	Medicina interna
+301	AMIRI Vahid	301	Medicina del trabajo
+302	HAJI SAFI Ehsan	302	Medicina legal y forense
+303	EBRAHIMI Omid	303	Medicina familiar y comunitaria
+304	REZAEIAN Ramin	304	Pediatría
+305	MONTAZERI Pejman	305	Cardiología
+306	JAHANBAKHSH Alireza	306	Neurología
+307	HOSSEINI Majid	307	Nefrología
+308	DEJAGAH Ashkan	308	Medicina de urgencias
+309	SHOJAEI Masoud	309	Medicina preventiva y salud pública
+310	GHODDOS  Saman	310	Nefrología
+311	GHOOCHANNEJHAD Reza	311	Oncología radioterápica
+312	CHESHMI Roozbeh	312	Medicina del deporte
+313	ANSARIFARD Karim	313	Reumatología
+314	KHANZADEH Mohammad Reza	314	Toxicología
+315	TAREMI Mehdi	315	Gastroenterología
+316	AZMOUN Sardar	316	Toxicología
+317	ABEDZADEH Amir	317	Medicina intensiva
+318	EZATOLAHI Saeid	318	Rehabilitación
+319	POURALIGANJI Morteza	319	Medicina preventiva y salud pública
+320	MAZAHERI Rashid	320	Neumología
+321	BEIRANVAND Ali	321	Medicina aeroespacial
+322	INUI Takashi	322	Medicina del deporte
+323	SHIBASAKI Gaku	323	Medicina del trabajo
+324	OSHIMA Ryota	324	Toxicología
+325	NAGATOMO Yuto	325	Psiquiatría
+326	HARAGUCHI Genki	326	Neumología
+327	KAGAWA Shinji	327	Nefrología
+328	OKAZAKI Shinji	328	Gastroenterología
+329	SAKAI Hiroki	329	Rehabilitación
+330	OSAKO Yuya	330	Medicina preventiva y salud pública
+331	USAMI Takashi	331	Medicina física y rehabilitación
+332	MUTO Yoshinori	332	Nutriología
+333	YAMAGUCHI Hotaru	333	Medicina intensiva
+334	HASEBE Makoto	334	Medicina del trabajo
+335	NAKAMURA Kosuke	335	Cardiología
+336	KAWASHIMA Eiji	336	Toxicología
+337	SHOJI Gen	337	Infectología
+338	HONDA Keisuke	338	Neurología
+339	SAKAI Gotoku	339	Medicina del deporte
+340	ENDO Wataru	340	Oncología radioterápica
+341	MAKINO Tomoaki	341	Psiquiatría
+342	HIGASHIGUCHI Masaaki	342	Medicina del trabajo
+343	YOSHIDA Maya	343	Toxicología
+344	UEDA Naomichi	344	Medicina intensiva
+345	LEE Seungwoo	345	Rehabilitación
+346	GO Yohan	346	Medicina preventiva y salud pública
+347	HONG Chul	347	Oncología médica
+348	MOON Seonmin	348	Anestesiología y reanimación
+349	KIM Minwoo	349	Gastroenterología
+350	JU Sejong	350	Medicina del deporte
+351	LEE Jaesung	351	Medicina de urgencias
+352	PARK Jooho	352	Rehabilitación
+353	KOO Jacheol	353	Medicina aeroespacial
+354	LEE Yong	354	Neumología
+355	JUNG Seunghyun	355	Neumología
+356	KIM Younggwon	356	Medicina física y rehabilitación
+357	KI Sungyueng	357	Medicina del deporte
+358	JO Hyeonwoo	358	Endocrinología
+359	SON Heungmin	359	Pediatría
+360	HWANG Heechan	360	Medicina preventiva y salud pública
+361	JANG Hyunsoo	361	Geriatría
+362	YUN Youngsun	362	Neurología
+363	JUNG Wooyoung	363	Medicina preventiva y salud pública
+364	OH Bansuk	364	Nutriología
+365	KIM Seunggyu	365	Medicina familiar y comunitaria
+366	KIM Jinhyeon	366	Infectología
+367	KIM Shinwook	367	Hematología y hemoterapia
+368	AQUINO Javier	368	Urología
+369	GUARDADO Andres	369	Neurología
+370	LOZANO Hirving	370	Medicina preventiva y salud pública
+371	DOS SANTOS Jonathan	371	Medicina intensiva
+372	CORONA Jesus	372	Geriatría
+373	FABIAN Marco	373	Neumología
+374	DOS SANTOS Giovani	374	Oncología médica
+375	HERNANDEZ Javier	375	Toxicología
+376	LAYUN Miguel	376	Medicina familiar y comunitaria
+377	PERALTA Oribe	377	Toxicología
+378	ALVAREZ Edson	378	Medicina preventiva y salud pública
+379	GALLARDO Jesus	379	Oftalmología
+380	OCHOA Guillermo	380	Medicina del trabajo
+381	MARQUEZ Rafael	381	Oncología médica
+382	REYES Diego	382	Nefrología
+383	VELA Carlos	383	Neumología
+384	JIMENEZ Raul	384	Urología
+385	HERRERA Hector	385	Hematología y hemoterapia
+386	CORONA Jose	386	Endocrinología
+387	AYALA Hugo	387	Oftalmología
+388	MORENO Hector	388	Infectología
+389	SALCEDO Carlos	389	Oncología médica
+390	TALAVERA Alfredo	390	Medicina del deporte
+391	BOUSSOUFA Mbark	391	Neumología
+392	HAKIMI Achraf	392	Rehabilitación
+393	HARIT Amine	393	Nutriología
+394	CARCELA Mehdi	394	Nutriología
+395	MENDYL Hamza	395	Medicina familiar y comunitaria
+396	ZIYACH Hakim	396	Medicina de urgencias
+397	TAGNAOUTI Ahmed	397	Medicina intensiva
+398	EL KAABI Ayoub	398	Medicina del trabajo
+399	FAJR Faycal	399	Nefrología
+400	BELHANDA Younes	400	Oncología médica
+401	AIT BENNASSER Youssef	401	Cardiología
+402	EN NESYRI Youssef	402	Reumatología
+403	SAISS Romain	403	Gastroenterología
+404	BOUNOU Yassine	404	Urología
+405	AMRABAT Noureddine	405	Medicina aeroespacial
+406	AMRABAT Sofyan	406	Nutriología
+407	DA COSTA Manuel	407	Medicina del deporte
+408	EL AHMADI Karim	408	Reumatología
+409	BOUTAIB Khalid	409	Urología
+410	BOUHADDOUZ Aziz	410	Medicina del deporte
+411	DIRAR Nabil	411	Cardiología
+412	BENATIA Mehdi	412	Endocrinología
+413	EL KAJOUI Monir	413	Medicina legal y forense
+414	MUSA Ahmed	414	Nutriología
+415	NDIDI Onyinye	415	Medicina de urgencias
+416	ETEBO Oghenekaro	416	Medicina del deporte
+417	ONAZI Ogenyi	417	Urología
+418	EBUEHI Tyronne	418	Medicina del deporte
+419	IDOWU Bryan	419	Medicina del trabajo
+420	MOSES Victor	420	Medicina intensiva
+421	SHEHU Abdullahi	421	Medicina legal y forense
+422	AWAZIEM Chidozie	422	Urología
+423	OBI Joel	423	Medicina interna
+424	EZENWA Ikechukwu	424	Reumatología
+425	IHEANACHO Kelechi	425	Medicina familiar y comunitaria
+426	ECHIEJILE Elderson	426	Toxicología
+427	MIKEL John Obi	427	Medicina intensiva
+428	OMERUO Kenneth	428	Neurología
+429	IGHALO Odion	429	Medicina intensiva
+430	EKONG William	430	Medicina interna
+431	IWOBI Alex	431	Medicina veterinaria
+432	BALOGUN Leon	432	Geriatría
+433	NWANKWO Simeon	433	Hematología y hemoterapia
+434	OGU John	434	Medicina intensiva
+435	UZOHO Francis	435	Medicina familiar y comunitaria
+436	AKPEYI Daniel	436	Oftalmología
+437	QUINTERO Alberto	437	Gastroenterología
+438	PENEDO Jaime	438	Pediatría
+439	BARCENAS Edgar	439	Hematología y hemoterapia
+440	DIAZ Ismael	440	Medicina preventiva y salud pública
+441	COOPER Armando	441	Nutriología
+442	OVALLE Luis	442	Infectología
+443	TORRES Gabriel	443	Medicina del deporte
+444	RODRIGUEZ Jose Luis	444	Medicina del trabajo
+445	MURILLO Michael	445	Medicina de urgencias
+446	MACHADO Adolfo	446	Endocrinología
+447	PIMENTEL Valentin	447	Medicina interna
+448	DAVIS Eric	448	Gastroenterología
+449	ESCOBAR Fidel	449	Endocrinología
+450	GOMEZ Gabriel	450	Oftalmología
+451	ARROYO Abdiel	451	Geriatría
+452	GODOY Anibal	452	Medicina legal y forense
+453	PEREZ Blas	453	Cardiología
+454	RODRIGUEZ Alex	454	Neumología
+455	CALDERON Jose	455	Neurología
+456	TEJADA Luis	456	Oncología médica
+457	BALOY Felipe	457	Medicina aeroespacial
+458	CUMMINGS Harold	458	Neumología
+459	TORRES Roman	459	Endocrinología
+460	HURTADO Paolo	460	Alergología
+461	RUIDIAZ Raul	461	Nutriología
+462	LOYOLA Nilson	462	Medicina intensiva
+463	CUEVA Christian	463	Medicina legal y forense
+464	YOTUN Yoshimar	464	Medicina veterinaria
+465	POLO Andy	465	Medicina intensiva
+466	AQUINO Pedro	466	Psiquiatría
+467	RAMOS Christian	467	Nefrología
+468	FLORES Edison	468	Medicina de urgencias
+469	TRAUCO Miguel	469	Medicina aeroespacial
+470	CORZO Aldo	470	Cardiología
+471	CARTAGENA Wilder	471	Nutriología
+472	ARAUJO Miguel	472	Gastroenterología
+473	CARRILLO Andre	473	Neurología
+474	RODRIGUEZ Alberto	474	Medicina física y rehabilitación
+475	CACEDA Carlos	475	Cardiología
+476	GALLESE Pedro	476	Nutriología
+477	ADVINCULA Luis	477	Pediatría
+478	SANTAMARIA Anderson	478	Medicina aeroespacial
+479	CARVALLO Jose	479	Cardiología
+480	FARFAN Jefferson	480	Medicina legal y forense
+481	TAPIA Renato	481	Medicina veterinaria
+482	GUERRERO Paolo	482	Medicina familiar y comunitaria
+483	ZIELINSKI Piotr	483	Medicina del trabajo
+484	GORALSKI Jacek	484	Nutriología
+485	PESZKO Slawomir	485	Rehabilitación
+486	BLASZCZYKOWSKI Jakub	486	Oftalmología
+487	BERESZYNSKI Bartosz	487	Medicina intensiva
+488	LINETTY Karol	488	Medicina preventiva y salud pública
+489	KURZAWA Rafal	489	Geriatría
+490	RYBUS Maciej	490	Medicina intensiva
+491	KOWNACKI Dawid	491	Medicina del deporte
+492	BEDNAREK Jan	492	Geriatría
+493	PAZDAN Michal	493	Medicina física y rehabilitación
+494	JEDRZEJCZYK Artur	494	Infectología
+495	GROSICKI Kamil	495	Gastroenterología
+496	TEODORCZYK Lukasz	496	Medicina veterinaria
+497	LEWANDOWSKI Robert	497	Oncología médica
+498	PISZCZEK Lukasz	498	Endocrinología
+499	GLIK Kamil	499	Medicina del deporte
+500	CIONEK Thiago	500	Medicina intensiva
+501	MILIK Arkadiusz	501	Hematología y hemoterapia
+502	KRYCHOWIAK Grzegorz	502	Urología
+503	BIALKOWSKI Bartosz	503	Pediatría
+504	FABIANSKI Lukasz	504	Toxicología
+505	SZCZESNY Wojciech	505	Neumología
+506	JOAO MOUTINHO	506	Infectología
+507	GELSON MARTINS	507	Gastroenterología
+508	RAPHAEL GUERREIRO	508	Reumatología
+509	BRUNO FERNANDES	509	Medicina aeroespacial
+510	BERNARDO SILVA	510	Psiquiatría
+511	MARIO RUI	511	Nefrología
+512	CEDRIC	512	Nefrología
+513	MANUEL FERNANDES	513	Cardiología
+514	RICARDO	514	Medicina del trabajo
+515	GONCALO GUEDES	515	Oncología médica
+516	ADRIEN SILVA	516	Psiquiatría
+517	JOAO MARIO	517	Medicina preventiva y salud pública
+518	RICARDO QUARESMA	518	Medicina familiar y comunitaria
+519	ANDRE SILVA	519	Nefrología
+520	BETO	520	Medicina aeroespacial
+521	CRISTIANO RONALDO	521	Medicina intensiva
+522	WILLIAM	522	Neurología
+523	PEPE	523	Nutriología
+524	ANTHONY LOPES	524	Medicina intensiva
+525	BRUNO ALVES	525	Toxicología
+526	RUBEN DIAS	526	Medicina aeroespacial
+527	RUI PATRICIO	527	Medicina aeroespacial
+528	JOSE FONTE	528	Medicina del trabajo
+529	MIRANCHUK Anton	529	Gastroenterología
+530	CHERYSHEV Denis	530	Psiquiatría
+531	GOLOVIN Aleksandr	531	Hematología y hemoterapia
+532	SMOLNIKOV Igor	532	Urología
+533	DZAGOEV Alan	533	Medicina del deporte
+534	KUZIAEV Daler	534	Toxicología
+535	SAMEDOV Alexander	535	Medicina interna
+536	GAZINSKY Iury	536	Pediatría
+537	ZHIRKOV Yury	537	Psiquiatría
+538	ZOBNIN Roman	538	Anestesiología y reanimación
+539	MIRANCHUK Alexey	539	Oncología radioterápica
+540	KUDRIASHOV Fedor	540	Medicina del trabajo
+541	MARIO FERNANDES	541	Medicina familiar y comunitaria
+542	SMOLOV Fedor	542	Medicina de urgencias
+543	EROKHIN Aleksandr	543	Hematología y hemoterapia
+544	LUNEV Andrei	544	Medicina intensiva
+545	GRANAT Vladimir	545	Pediatría
+546	GABULOV Vladimir	546	Pediatría
+547	KUTEPOV Ilya	547	Endocrinología
+548	AKINFEEV Igor	548	Psiquiatría
+549	IGNASHEVICH Sergey	549	Medicina preventiva y salud pública
+550	SEMENOV Andrey	550	Psiquiatría
+551	DZYUBA Artem	551	Pediatría
+552	MOHAMMED ALBURAYK	552	Medicina de urgencias
+553	SALMAN ALFARAJ	553	Psiquiatría
+554	YAHIA ALSHEHRI	554	Oncología radioterápica
+555	YASIR ALSHAHRANI	555	Medicina física y rehabilitación
+556	FAHAD ALMUWALLAD	556	Geriatría
+557	HATAN BAHBIR	557	Neurología
+558	ABDULLAH OTAYF	558	Hematología y hemoterapia
+559	ABDULLAH ALKHAIBARI	559	Medicina preventiva y salud pública
+560	MANSOUR ALHARBI	560	Urología
+561	SALEM ALDAWSARI	561	Endocrinología
+562	TAISEER ALJASSAM	562	Medicina interna
+563	ABDULMALEK ALKHAIBRI	563	Gastroenterología
+564	MOHAMED KANNO	564	Psiquiatría
+565	MOHAMMED ALSAHLAWI	565	Medicina preventiva y salud pública
+566	OMAR OTHMAN	566	Medicina familiar y comunitaria
+567	HUSSAIN ALMOQAHWI	567	Medicina aeroespacial
+568	MUHANNAD ASIRI	568	Rehabilitación
+569	MOHAMMED ALOWAIS	569	Toxicología
+570	MOTAZ HAWSAWI	570	Infectología
+571	OSAMA HAWSAWI	571	Medicina intensiva
+572	ALI ALBULAYHI	572	Medicina de urgencias
+573	YASSER ALMOSAILEM	573	Urología
+574	ABDULLAH ALMUAIOUF	574	Hematología y hemoterapia
+575	GUEYE Idrissa Gana	575	Medicina legal y forense
+576	CISS Saliou	576	Rehabilitación
+577	MANE Sadio	577	Geriatría
+578	SARR Ismaila	578	Reumatología
+579	WAGUE Moussa	579	Oncología radioterápica
+580	SABALY Youssouf	580	Oncología radioterápica
+581	NDIAYE Pape Alioune	581	Geriatría
+582	NIANG Mbaye	582	Anestesiología y reanimación
+583	GASSAMA Lamine	583	Rehabilitación
+584	SOW Moussa	584	Oncología radioterápica
+585	KOUYATE Cheikhou	585	Medicina familiar y comunitaria
+586	BALDE Keita	586	Medicina familiar y comunitaria
+587	KONATE Moussa	587	Medicina física y rehabilitación
+588	DIALLO Abdoulaye	588	Toxicología
+589	SAKHO Diafra	589	Nefrología
+590	NDIAYE Alfred	590	Rehabilitación
+591	NDIAYE Khadim	591	Oftalmología
+592	GOMIS Alfred	592	Cardiología
+593	DIOUF Mame	593	Cardiología
+594	SANE Salif	594	Medicina intensiva
+595	MBODJI Kara	595	Anestesiología y reanimación
+596	KOULIBALY Kalidou	596	Endocrinología
+597	NDOYE Cheikh	597	Geriatría
+598	ZIVKOVIC Andrija	598	Alergología
+599	RODIC Milan	599	Nutriología
+600	RUKAVINA Antonio	600	Medicina física y rehabilitación
+601	LJAJIC Adem	601	Hematología y hemoterapia
+602	JOVIC Luka	602	Neumología
+603	TADIC Dusan	603	Cardiología
+604	RADONJIC Nemanja	604	Medicina aeroespacial
+605	MILINKOVIC-SAVIC Sergej	605	Medicina aeroespacial
+606	VELJKOVIC Milos	606	Medicina familiar y comunitaria
+607	TOSIC Dusko	607	Medicina preventiva y salud pública
+608	MILIVOJEVIC Luka	608	Rehabilitación
+609	SPAJIC Uros	609	Infectología
+610	MITROVIC Aleksandar	610	Neurología
+611	GRUJIC Marko	611	Reumatología
+612	KOSTIC Filip	612	Nefrología
+613	KOLAROV Aleksandar	613	Anestesiología y reanimación
+614	RAJKOVIC Predrag	614	Oftalmología
+615	MATIC Nemanja	615	Gastroenterología
+616	PRIJOVIC Aleksandar	616	Nefrología
+617	IVANOVIC Branislav	617	Neurología
+618	MILENKOVIC Nikola	618	Infectología
+619	DMITROVIC Marko	619	Gastroenterología
+620	STOJKOVIC Vladimir	620	Psiquiatría
+621	ODRIOZOLA Alvaro	621	Medicina familiar y comunitaria
+622	ASPAS Iago	622	Neurología
+623	SILVA David	623	Toxicología
+624	INIESTA Andres	624	Reumatología
+625	ALBA Jordi	625	Psiquiatría
+626	THIAGO	626	Reumatología
+627	VAZQUEZ Lucas	627	Infectología
+628	DE GEA David	628	Medicina del deporte
+629	RODRIGO	629	Medicina veterinaria
+630	MONREAL Nacho	630	Medicina preventiva y salud pública
+631	CARVAJAL Dani	631	Medicina del trabajo
+632	KOKE	632	Medicina veterinaria
+633	ISCO	633	Medicina interna
+634	RAMOS Sergio	634	Hematología y hemoterapia
+635	SAUL	635	Reumatología
+636	ASENSIO Marco	636	Toxicología
+637	NACHO	637	Medicina veterinaria
+638	BUSQUETS Sergio	638	Neurología
+639	AZPILICUETA Cesar	639	Alergología
+640	ARRIZABALAGA Kepa	640	Anestesiología y reanimación
+641	PIQUE Gerard	641	Nefrología
+642	COSTA Diego	642	Cardiología
+643	REINA Pepe	643	Oncología radioterápica
+644	DURMAZ Jimmy	644	Medicina interna
+645	LARSSON Sebastian	645	Medicina de urgencias
+646	KRAFTH Emil	646	Infectología
+647	HILJEMARK Oscar	647	Medicina del trabajo
+648	EKDAL Albin	648	Pediatría
+649	AUGUSTINSSON Ludwig	649	Oncología radioterápica
+650	BERG Marcus	650	Urología
+651	ROHDEN Marcus	651	Reumatología
+652	LUSTIG Mikael	652	Oftalmología
+653	SVENSSON Gustav	653	Nutriología
+654	FORSBERG Emil	654	Neumología
+655	TOIVONEN Ola	655	Hematología y hemoterapia
+656	GUIDETTI John	656	Rehabilitación
+657	CLAESSON Viktor	657	Endocrinología
+658	LINDELOF Victor	658	Toxicología
+659	OLSSON Martin	659	Cardiología
+660	JOHNSSON Karl-Johan	660	Rehabilitación
+661	HELANDER Filip	661	Gastroenterología
+662	THELIN Isaac Kiese	662	Oftalmología
+663	GRANQVIST Andreas	663	Neurología
+664	NORDFELDT Kristoffer	664	Toxicología
+665	OLSEN Robin	665	Neurología
+666	JANSSON Pontus	666	Oncología radioterápica
+667	FERNANDES Gelson	667	Medicina legal y forense
+668	FREULER Remo	668	Nefrología
+669	GAVRANOVIC Mario	669	Toxicología
+670	MOUBANDJE Francois	670	Pediatría
+671	LICHTSTEINER Stephan	671	Neumología
+672	ELVEDI Nico	672	Anestesiología y reanimación
+673	DZEMAILI Blerim	673	Alergología
+674	ZAKARIA Denis	674	Oncología médica
+675	LANG Michael	675	Endocrinología
+676	BEHRAMI Valon	676	Medicina física y rehabilitación
+677	DRMIC Josip	677	Urología
+678	SHAQIRI Xherdan	678	Cardiología
+679	RODRIGUEZ Ricardo	679	Pediatría
+680	ZUBER Steven	680	Oncología radioterápica
+681	SOMMER Yann	681	Alergología
+682	XHAKA Granit	682	Reumatología
+683	BUERKI Roman	683	Medicina preventiva y salud pública
+684	SCHAER Fabian	684	Medicina veterinaria
+685	MVOGO Yvon	685	Gastroenterología
+686	AKANJI Manuel	686	Cardiología
+687	EMBOLO Breel	687	Geriatría
+688	SEFEROVIC Haris	688	Medicina de urgencias
+689	DJOUROU Johan	689	Neurología
+690	SLITI Naim	690	Geriatría
+691	SKHIRI Ellyes	691	Nutriología
+692	MERIAH Yassine	692	Reumatología
+693	BADRI Anice	693	Medicina aeroespacial
+694	CHAALELI Ghaylen	694	Toxicología
+695	HASSEN Mouez	695	Medicina preventiva y salud pública
+696	SRARFI Bassem	696	Oncología médica
+697	MAALOUL Ali	697	Psiquiatría
+698	KHALIFA Saber	698	Medicina del deporte
+699	BEN ALOUANE Yohan	699	Infectología
+700	BRONN Dylan	700	Hematología y hemoterapia
+701	BEN AMOR Mohamed	701	Pediatría
+702	KHALIL Ahmed	702	Neumología
+703	NAGUEZ Hamdi	703	Nefrología
+704	HADDADI Oussama	704	Medicina física y rehabilitación
+705	KHAOUI Saifeddine	705	Urología
+706	KHAZRI Wahbi	706	Oncología radioterápica
+707	BEDOUI Rami	707	Medicina legal y forense
+708	BEN YOUSSEF Fakhreddine	708	Medicina aeroespacial
+709	SASSI Ferjani	709	Medicina veterinaria
+710	MATHLOUTHI Aymen	710	Reumatología
+711	BEN MUSTAPHA Farouk	711	Toxicología
+712	BEN YOUSSEF Syam	712	Reumatología
+713	NANDEZ Nahitan	713	Alergología
+714	TORREIRA Lucas	714	Oncología radioterápica
+715	DE ARRASCAETA Giorgian	715	Pediatría
+716	LAXALT Diego	716	Reumatología
+717	URRETAVISCAYA Jonathan	717	Medicina veterinaria
+718	VARELA Guillermo	718	Medicina aeroespacial
+719	GODIN Diego	719	Nefrología
+720	BENTANCUR Rodrigo	720	Medicina del deporte
+721	PEREIRA Maximiliano	721	Medicina de urgencias
+722	MUSLERA Fernando	722	Oftalmología
+723	SANCHEZ Carlos	723	Gastroenterología
+724	SILVA Gaston	724	Oncología radioterápica
+725	CACERES Martin	725	Medicina preventiva y salud pública
+726	GIMENEZ Jose	726	Oncología médica
+727	STUANI Cristhian	727	Oncología radioterápica
+728	CAVANI Edinson	728	Medicina de urgencias
+729	RODRIGUEZ Cristian	729	Neumología
+730	CAMPANA Martin	730	Anestesiología y reanimación
+731	VECINO Matias	731	Medicina preventiva y salud pública
+732	SILVA Martin	732	Pediatría
+733	SUAREZ Luis	733	Medicina intensiva
+734	GOMEZ Maximiliano	734	Medicina intensiva
+735	COATES Sebastian	735	Anestesiología y reanimación

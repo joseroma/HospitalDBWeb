@@ -11,7 +11,7 @@ df_paises = pd.read_csv('../datasets/paises.txt')
 especialidades = pd.read_csv('../datasets/especialidades.txt')
 enfermedades = pd.read_csv('../datasets/enfermedades.txt')
 doctor_names = pd.read_csv('../datasets/wc2018-players.csv')
-
+print(list(df))
 print("Generamos los dataframes vacios")
 
 #Creamos las diferentes tablas
@@ -194,8 +194,9 @@ tabla_paciente['apellido_pat'] = df.apellido_pat[0:10000]
 tabla_paciente['fecha_ingreso'] = df.fuerocomun_desapfecha[0:10000]
 tabla_paciente['hora_ingreso'] = df.fuerocomun_desaphora[0:10000]
 tabla_paciente['sexo_paceinte'] = df.fuerocomun_sexo[0:10000]
-tabla_paciente['edad_paciente'] = df.fuerocomun_edad[0:10000]
+tabla_paciente['Edad'] = df.fuerocomun_edad[0:10000]
 tabla_paciente['urgencia'] = urgencia
+
 tabla_paciente['Enfermedad'] = enfermedad
 tabla_paciente['Pais_origen'] = alea_Paises
 tabla_paciente['smoker'] = bool_smoker
@@ -211,6 +212,18 @@ tabla_enfermedad['Contagiosa'] = contagiosa
 tabla_enfermedad['Hereditaria'] = hereditaria
 tabla_enfermedad['Tratamiento'] = tratamiento
 tabla_enfermedad['Especialidad'] = especialidad_tenfermedad
+lista_enfermedades_escritas = []
+print(len(tratamiento))
+#for i in range(1, len(tratamiento)):
+#    print("¿Que especialidad cogerias para ...?")
+#    print("Enfermedad "+lista_enfermedades[i]+"\nCura conocida "+ cura_conocida[i]+
+#          "\nContagiosa "+ contagiosa[i] + "\nHereditaria " + hereditaria[i]+"\nTratamiento "+tratamiento[i])
+#    lista_enfermedades_escritas.insert(i, input())
+
+#tabla_enfermedad['Especialidad'] = lista_enfermedades_escritas
+    #especialidad_tenfermedad
+
+print(len(especialidad_tenfermedad))
 
 #Urgencia
 num_urgencia_id = [int(x) for x in num_urgencia_id]
@@ -247,8 +260,6 @@ tabla_quirofano['Planta'] = planta_quirofano
 tabla_especialidad['Nombre_especialidad'] = lista_especialidades
 tabla_especialidad['id_medicos'] = vector_especialidad_medicos
 
-print(len(doctor_names.Name))
-print(len(lista_especialidades))
 #Almacenamos los resultados en .csv
 tabla_paciente.to_csv('../Result_datasets/tabla_paciente.csv', sep='\t', encoding='utf-8')
 tabla_urgencia.to_csv('../Result_datasets/tabla_urgencia.csv', sep='\t', encoding='utf-8')
