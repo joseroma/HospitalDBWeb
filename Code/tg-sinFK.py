@@ -231,7 +231,8 @@ tabla_urgencia['ingreso']=tupla_ingreso
 #---------
 id_toperacion.sort()
 tabla_operacion['id_operacion'] = identificador_operacion
-tabla_operacion['hora'] = df.fuerocomun_desaphora[300:cont_operacion+300]
+print(df.fuerocomun_desaphora[300:cont_operacion+300])
+tabla_operacion['hora'] = list(df.fuerocomun_desaphora[300:(cont_operacion+300)])
 tabla_operacion['cirujano'] = nombre_medico
 
 
