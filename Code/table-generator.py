@@ -200,14 +200,12 @@ tabla_paciente['edad'] = df.fuerocomun_edad[0:10000]
 tabla_paciente['sexo'] = df.fuerocomun_sexo[0:10000]
 tabla_paciente['fecha_ingreso'] = df.fuerocomun_desapfecha[0:10000]
 tabla_paciente['hora_ingreso'] = df.fuerocomun_desaphora[0:10000]
-tabla_paciente['urgencia'] = urgencia
-tabla_paciente['enfermedad'] = enfermedad
 tabla_paciente['pais_origen'] = alea_Paises
 tabla_paciente['fumador'] = bool_smoker
 
     #FK
-#id_urgencia ?????¿¿¿????
-#nombre_especialidad
+tabla_paciente['urgencia'] = urgencia
+tabla_paciente['enfermedad'] = enfermedad
 
 
 print(list(tabla_paciente))
