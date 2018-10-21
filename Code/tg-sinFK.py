@@ -196,13 +196,10 @@ tabla_paciente['hora_ingreso'] = df.fuerocomun_desaphora[0:10000]
 tabla_paciente['pais_origen'] = alea_Paises
 tabla_paciente['fumador'] = bool_smoker
 
-    #Fk
+    # FK ??????????????????????????????????
 tabla_paciente['urgencia'] = urgencia
 tabla_paciente['enfermedad'] = enfermedad
 
-
-
-print(list(tabla_paciente))
 
 #-----------
 #ENFERMEDAD
@@ -213,14 +210,7 @@ tabla_enfermedad['cura_conocida'] = cura_conocida
 tabla_enfermedad['tratamiento'] = tratamiento
 tabla_enfermedad['contagiosa'] = contagiosa
 tabla_enfermedad['ingreso'] = ingreso
-    #FK (quitar?)
-tabla_enfermedad['nombre_especialidad'] = especialidad_tenfermedad
-tabla_enfermedad['num_expediente'] = vector_enfermedad_paciente
-lista_enfermedades_escritas = []
-print(len(tratamiento))
 
-
-print(len(especialidad_tenfermedad))
 #-----------
 #URGENCIA
 #-----------
@@ -233,25 +223,18 @@ tabla_urgencia['gravedad'] = enum_gravedad
 tabla_urgencia['uso_ambulancia'] = boolean_ambulancia
 tabla_urgencia['necesita_operacion'] = id_operacion
 tabla_urgencia['ingreso']=tupla_ingreso
-    #FK
 
-print(list(tabla_urgencia))
+
 
 #---------
 #OPERACION
 #---------
 id_toperacion.sort()
-#falta id_operacion
 tabla_operacion['id_operacion'] = identificador_operacion
 tabla_operacion['hora'] = df.fuerocomun_desaphora[300:cont_operacion+300]
 tabla_operacion['cirujano'] = nombre_medico
-    #FK:
 
 
-
-
-
-print(list(tabla_operacion))
 
 #---------
 #QUIROFANO
@@ -259,8 +242,6 @@ print(list(tabla_operacion))
 tabla_quirofano['id_quirofano'] = id_quirofano
 tabla_quirofano['planta'] = planta_quirofano
 tabla_quirofano['puerta'] = puerta_quirofano_fin
-    #FK
-
 
 
 #------
@@ -268,24 +249,23 @@ tabla_quirofano['puerta'] = puerta_quirofano_fin
 #------
 tabla_medico['id_medico'] = id_medico
 tabla_medico['nombre_medico'] = doctor_names.Name
-    #FK
-
 
 
 #------------
 #ESPECIALIDAD
 #------------
 tabla_especialidad['nombre_especialidad'] = lista_especialidades
-    #FK
+
 
 
 #Almacenamos los resultados en .csv
-tabla_paciente.to_csv('../Result_datasets_withoutFK/tabla_paciente.csv', sep='\t', encoding='utf-8')
-tabla_urgencia.to_csv('../Result_datasets_withoutFK/tabla_urgencia.csv', sep='\t', encoding='utf-8')
-tabla_operacion.to_csv('../Result_datasets_withoutFK/tabla_operacion.csv', sep='\t', encoding='utf-8')
-tabla_quirofano.to_csv('../Result_datasets_withoutFK/tabla_quirofano.csv', sep='\t', encoding='utf-8')
-tabla_medico.to_csv('../Result_datasets_withoutFK/tabla_medico.csv', sep='\t', encoding='utf-8')
-tabla_enfermedad.to_csv('../Result_datasets_withoutFK/tabla_enfermedad.csv', sep='\t', encoding='utf-8')
-tabla_especialidad.to_csv('../Result_datasets_withoutFK/tabla_especialidad.csv', sep='\t', encoding='utf-8')
+print(list(tabla_paciente))
+tabla_paciente.to_csv('../Result_datasets_withoutFK/tabla_paciente.csv', sep=',', encoding='utf-8', index=False)
+tabla_urgencia.to_csv('../Result_datasets_withoutFK/tabla_urgencia.csv', sep=',', encoding='utf-8', index=False)
+tabla_operacion.to_csv('../Result_datasets_withoutFK/tabla_operacion.csv', sep=',', encoding='utf-8', index=False)
+tabla_quirofano.to_csv('../Result_datasets_withoutFK/tabla_quirofano.csv', sep=',', encoding='utf-8', index=False)
+tabla_medico.to_csv('../Result_datasets_withoutFK/tabla_medico.csv', sep=',', encoding='utf-8', index=False)
+tabla_enfermedad.to_csv('../Result_datasets_withoutFK/tabla_enfermedad.csv', sep=',', encoding='utf-8', index=False)
+tabla_especialidad.to_csv('../Result_datasets_withoutFK/tabla_especialidad.csv', sep=',', encoding='utf-8', index=False)
 
 
