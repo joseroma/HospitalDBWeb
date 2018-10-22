@@ -186,19 +186,32 @@ for i in range(0, len(lista_enfermedades)):
 #-----------
 #PACIENTE
 #----------
-tabla_paciente['num_expediente'] = id_expediente
-tabla_paciente['nombre'] = df.prim_nombre[0:10000]
-tabla_paciente['apellido'] = df.apellido_pat[0:10000]
-tabla_paciente['edad'] = df.fuerocomun_edad[0:10000]
-tabla_paciente['sexo'] = df.fuerocomun_sexo[0:10000]
-tabla_paciente['fecha_ingreso'] = df.fuerocomun_desapfecha[0:10000]
-tabla_paciente['hora_ingreso'] = df.fuerocomun_desaphora[0:10000]
-tabla_paciente['pais_origen'] = alea_Paises
-tabla_paciente['fumador'] = bool_smoker
+tabla_paciente['num_expediente'] = list(set(id_expediente))
+tabla_paciente['nombre'] = df.prim_nombre[0:len(tabla_paciente['num_expediente'])]
+tabla_paciente['apellido'] = df.apellido_pat[0:len(tabla_paciente['num_expediente'])]
+vect_edad = []
+for i in range(0,len(tabla_paciente['num_expediente'])):
+    if  df.fuerocomun_edad[i] == "NO ESPECIFICADO":
+        vect_edad.insert(i, 20)
+    else:
+        vect_edad.insert(i,  df.fuerocomun_edad[i])
+
+tabla_paciente['edad'] = vect_edad
+tabla_paciente['sexo'] = df.fuerocomun_sexo[0:len(tabla_paciente['num_expediente'])]
+vector_fecha = []
+for i in range(0,len(tabla_paciente['num_expediente'])):
+    vect = df.fuerocomun_desapfecha[i].split("/")
+    vector_fecha.insert(i, vect[2]+"-"+vect[1]+"-" + vect[0])
+
+
+tabla_paciente['fecha_ingreso'] = vector_fecha
+tabla_paciente['hora_ingreso'] = df.fuerocomun_desaphora[0:len(tabla_paciente['num_expediente'])]
+tabla_paciente['pais_origen'] = alea_Paises[0:len(tabla_paciente['num_expediente'])]
+tabla_paciente['fumador'] = bool_smoker[0:len(tabla_paciente['num_expediente'])]
 
     # FK ??????????????????????????????????
-tabla_paciente['urgencia'] = urgencia
-tabla_paciente['enfermedad'] = enfermedad
+tabla_paciente['urgencia'] = urgencia[0:len(tabla_paciente['num_expediente'])]
+tabla_paciente['enfermedad'] = enfermedad[0:len(tabla_paciente['num_expediente'])]
 
 
 #-----------
@@ -230,7 +243,6 @@ tabla_urgencia['id_urgencia'] =  num_urgencia_id
 value_urgencia = [df.fuerocomun_descripcion[x] for x in num_urgencia_id]
 tabla_urgencia['causa'] = value_urgencia
 tabla_urgencia['gravedad'] = enum_gravedad[:len(num_urgencia_id)]
-tabla_urgencia['uso_ambulancia'] = boolean_ambulancia[:len(num_urgencia_id)]
 tabla_urgencia['necesita_operacion'] = id_operacion[:len(num_urgencia_id)]
 tabla_urgencia['ingreso']=tupla_ingreso[:len(num_urgencia_id)]
 
@@ -242,6 +254,7 @@ tabla_urgencia['ingreso']=tupla_ingreso[:len(num_urgencia_id)]
 id_toperacion.sort()
 tabla_operacion['id_operacion'] = identificador_operacion
 print(df.fuerocomun_desaphora[300:cont_operacion+300])
+
 tabla_operacion['hora'] = list(df.fuerocomun_desaphora[300:(cont_operacion+300)])
 tabla_operacion['cirujano'] = nombre_medico
 
