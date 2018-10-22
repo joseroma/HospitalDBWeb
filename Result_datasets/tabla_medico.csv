@@ -1,737 +1,737 @@
 	id_medico	nombre_medico	nombre_especialidad
-0	0	TAGLIAFICO Nicolas	Neurología
-1	1	PAVON Cristian	Toxicología
+0	0	TAGLIAFICO Nicolas	Medicina intensiva
+1	1	PAVON Cristian	Endocrinología
 2	2	LANZINI Manuel	Neurología
-3	3	SALVIO Eduardo	Nefrología
-4	4	MESSI Lionel	Cardiología
-5	5	ANSALDI Cristian	Toxicología
-6	6	BIGLIA Lucas	Medicina del deporte
-7	7	BANEGA Ever	Alergología
-8	8	MASCHERANO Javier	Neurología
-9	9	DYBALA Paulo	Infectología
-10	10	AGUERO Sergio	Nefrología
-11	11	HIGUAIN Gonzalo	Gastroenterología
-12	12	DI MARIA Angel	Medicina interna
-13	13	LO CELSO Giovani	Oftalmología
-14	14	MEZA Maximiliano	Toxicología
-15	15	ACUNA Marcos	Infectología
-16	16	CABALLERO Wilfredo	Oncología médica
-17	17	MERCADO Gabriel	Medicina del trabajo
-18	18	OTAMENDI Nicolas	Medicina interna
+3	3	SALVIO Eduardo	Medicina familiar y comunitaria
+4	4	MESSI Lionel	Infectología
+5	5	ANSALDI Cristian	Oncología médica
+6	6	BIGLIA Lucas	Medicina física y rehabilitación
+7	7	BANEGA Ever	Nefrología
+8	8	MASCHERANO Javier	Medicina preventiva y salud pública
+9	9	DYBALA Paulo	Oftalmología
+10	10	AGUERO Sergio	Toxicología
+11	11	HIGUAIN Gonzalo	Medicina preventiva y salud pública
+12	12	DI MARIA Angel	Rehabilitación
+13	13	LO CELSO Giovani	Neurología
+14	14	MEZA Maximiliano	Medicina del deporte
+15	15	ACUNA Marcos	Anestesiología y reanimación
+16	16	CABALLERO Wilfredo	Medicina intensiva
+17	17	MERCADO Gabriel	Alergología
+18	18	OTAMENDI Nicolas	Oncología médica
 19	19	ROJO Marcos	Infectología
-20	20	FAZIO Federico	Medicina intensiva
-21	21	ARMANI Franco	Pediatría
-22	22	GUZMAN Nahuel	Medicina de urgencias
-23	23	BEHICH Aziz	Alergología
-24	24	KRUSE Robbie	Medicina física y rehabilitación
-25	25	RISDON Joshua	Urología
-26	26	MEREDITH James	Geriatría
-27	27	MOOY Aaron	Neurología
-28	28	MacLAREN Jamie	Infectología
-29	29	PETRATOS Dimitrios	Oftalmología
-30	30	ARZANI Daniel	Medicina física y rehabilitación
-31	31	CAHILL Tim	Infectología
-32	32	LUONGO Massimo	Rehabilitación
-33	33	SAINSBURY Trent	Medicina del trabajo
-34	34	IRVINE Jackson	Toxicología
-35	35	MILLIGAN Mark	Anestesiología y reanimación
-36	36	JEDINAK Mile	Medicina de urgencias
-37	37	JURIC Tomi	Urología
-38	38	RYAN Mathew	Infectología
-39	39	JURMAN Matthew	Rehabilitación
-40	40	LECKIE Mathew	Cardiología
-41	41	DEGENEK Milos	Infectología
-42	42	NABBOUT Andrew	Anestesiología y reanimación
-43	43	JONES Brad	Medicina interna
-44	44	ROGIC Tom	Toxicología
-45	45	VUKOVIC Danny	Medicina aeroespacial
-46	46	MERTENS Dries	Neurología
-47	47	CARRASCO Yannick	Oncología radioterápica
-48	48	DE BRUYNE Kevin	Medicina del trabajo
-49	49	HAZARD Thorgan	Medicina preventiva y salud pública
-50	50	TIELEMANS Youri	Hematología y hemoterapia
-51	51	WITSEL Axel	Medicina interna
-52	52	HAZARD Eden	Nutriología
-53	53	JANUZAJ Adnan	Psiquiatría
-54	54	DENDONCKER Leander	Hematología y hemoterapia
-55	55	BATSHUAYI Michy	Oftalmología
-56	56	VERMAELEN Thomas	Urología
-57	57	ALDERWEIRELD Toby	Rehabilitación
-58	58	DEMBELE Moussa	Toxicología
-59	59	BOYATA Dedryck	Anestesiología y reanimación
-60	60	KOMPANY Vincent	Neurología
-61	61	FELLAINI Marouane	Neumología
-62	62	CHADLI Nacer	Medicina preventiva y salud pública
-63	63	VERTONGHEN Jan	Rehabilitación
-64	64	CASTEELS Koen	Oncología radioterápica
-65	65	MIGNOLET Simon	Psiquiatría
-66	66	MEUNIER Thomas	Neurología
-67	67	COURTOIS Thibaut	Hematología y hemoterapia
-68	68	LUKAKU Romelu	Nefrología
-69	69	FRED	Oncología médica
-70	70	TAISON	Medicina familiar y comunitaria
-71	71	FERNANDINHO	Medicina del trabajo
-72	72	FAGNER	Medicina física y rehabilitación
-73	73	NEYMAR	Oftalmología
-74	74	PHILIPPE COUTINHO	Medicina del trabajo
-75	75	DOUGLAS COSTA	Medicina legal y forense
-76	76	FILIPE LUIS	Anestesiología y reanimación
-77	77	GABRIEL JESUS	Medicina veterinaria
-78	78	MARQUINHOS	Neurología
-79	79	ROBERTO FIRMINO	Medicina veterinaria
-80	80	WILLIAN	Medicina del deporte
-81	81	MIRANDA	Psiquiatría
-82	82	DANILO	Medicina del trabajo
-83	83	THIAGO SILVA	Medicina de urgencias
-84	84	MARCELO	Nefrología
-85	85	PAULINHO	Geriatría
-86	86	PEDRO GEROMEL	Neumología
-87	87	CASEMIRO	Toxicología
-88	88	RENATO AUGUSTO	Oncología médica
-89	89	EDERSON	Urología
-90	90	ALISSON	Medicina intensiva
-91	91	CASSIO	Medicina física y rehabilitación
-92	92	QUINTERO Juan	Medicina familiar y comunitaria
-93	93	MOJICA Johan	Toxicología
-94	94	LERMA Jefferson	Medicina legal y forense
-95	95	ARIAS Santiago	Medicina veterinaria
-96	96	URIBE Mateus	Pediatría
-97	97	FALCAO Radamel	Toxicología
-98	98	CUADRADO Juan	Alergología
-99	99	FABRA Frank	Urología
-100	100	IZQUIERDO Jose	Oncología médica
+20	20	FAZIO Federico	Hematología y hemoterapia
+21	21	ARMANI Franco	Psiquiatría
+22	22	GUZMAN Nahuel	Alergología
+23	23	BEHICH Aziz	Medicina aeroespacial
+24	24	KRUSE Robbie	Medicina preventiva y salud pública
+25	25	RISDON Joshua	Neumología
+26	26	MEREDITH James	Medicina preventiva y salud pública
+27	27	MOOY Aaron	Cardiología
+28	28	MacLAREN Jamie	Oncología médica
+29	29	PETRATOS Dimitrios	Medicina del trabajo
+30	30	ARZANI Daniel	Medicina legal y forense
+31	31	CAHILL Tim	Urología
+32	32	LUONGO Massimo	Nutriología
+33	33	SAINSBURY Trent	Medicina veterinaria
+34	34	IRVINE Jackson	Nefrología
+35	35	MILLIGAN Mark	Nefrología
+36	36	JEDINAK Mile	Nefrología
+37	37	JURIC Tomi	Medicina interna
+38	38	RYAN Mathew	Medicina del trabajo
+39	39	JURMAN Matthew	Geriatría
+40	40	LECKIE Mathew	Medicina familiar y comunitaria
+41	41	DEGENEK Milos	Oncología radioterápica
+42	42	NABBOUT Andrew	Rehabilitación
+43	43	JONES Brad	Medicina veterinaria
+44	44	ROGIC Tom	Rehabilitación
+45	45	VUKOVIC Danny	Toxicología
+46	46	MERTENS Dries	Oftalmología
+47	47	CARRASCO Yannick	Oftalmología
+48	48	DE BRUYNE Kevin	Nefrología
+49	49	HAZARD Thorgan	Infectología
+50	50	TIELEMANS Youri	Geriatría
+51	51	WITSEL Axel	Medicina del trabajo
+52	52	HAZARD Eden	Hematología y hemoterapia
+53	53	JANUZAJ Adnan	Medicina del trabajo
+54	54	DENDONCKER Leander	Medicina aeroespacial
+55	55	BATSHUAYI Michy	Medicina veterinaria
+56	56	VERMAELEN Thomas	Medicina del deporte
+57	57	ALDERWEIRELD Toby	Hematología y hemoterapia
+58	58	DEMBELE Moussa	Alergología
+59	59	BOYATA Dedryck	Nefrología
+60	60	KOMPANY Vincent	Infectología
+61	61	FELLAINI Marouane	Medicina interna
+62	62	CHADLI Nacer	Oncología radioterápica
+63	63	VERTONGHEN Jan	Toxicología
+64	64	CASTEELS Koen	Nefrología
+65	65	MIGNOLET Simon	Neumología
+66	66	MEUNIER Thomas	Medicina de urgencias
+67	67	COURTOIS Thibaut	Medicina interna
+68	68	LUKAKU Romelu	Toxicología
+69	69	FRED	Geriatría
+70	70	TAISON	Medicina preventiva y salud pública
+71	71	FERNANDINHO	Medicina física y rehabilitación
+72	72	FAGNER	Medicina interna
+73	73	NEYMAR	Anestesiología y reanimación
+74	74	PHILIPPE COUTINHO	Gastroenterología
+75	75	DOUGLAS COSTA	Reumatología
+76	76	FILIPE LUIS	Infectología
+77	77	GABRIEL JESUS	Nutriología
+78	78	MARQUINHOS	Geriatría
+79	79	ROBERTO FIRMINO	Urología
+80	80	WILLIAN	Infectología
+81	81	MIRANDA	Nutriología
+82	82	DANILO	Medicina interna
+83	83	THIAGO SILVA	Hematología y hemoterapia
+84	84	MARCELO	Neumología
+85	85	PAULINHO	Cardiología
+86	86	PEDRO GEROMEL	Medicina aeroespacial
+87	87	CASEMIRO	Pediatría
+88	88	RENATO AUGUSTO	Medicina intensiva
+89	89	EDERSON	Oftalmología
+90	90	ALISSON	Neurología
+91	91	CASSIO	Hematología y hemoterapia
+92	92	QUINTERO Juan	Urología
+93	93	MOJICA Johan	Pediatría
+94	94	LERMA Jefferson	Infectología
+95	95	ARIAS Santiago	Medicina del deporte
+96	96	URIBE Mateus	Medicina del deporte
+97	97	FALCAO Radamel	Medicina del trabajo
+98	98	CUADRADO Juan	Rehabilitación
+99	99	FABRA Frank	Rehabilitación
+100	100	IZQUIERDO Jose	Oncología radioterápica
 101	101	BARRIOS  Wilmar	Pediatría
-102	102	BORJA Miguel	Medicina veterinaria
-103	103	RODRIGUEZ James	Oncología radioterápica
-104	104	BACCA Carlos	Nutriología
-105	105	MURIEL Luis	Nefrología
-106	106	OSPINA David	Medicina veterinaria
-107	107	MURILLO Oscar	Nefrología
-108	108	VARGAS Camilo	Oftalmología
-109	109	CUADRADO Jose	Medicina interna
-110	110	SANCHEZ Davinson	Medicina de urgencias
-111	111	ZAPATA Cristian	Nutriología
-112	112	SANCHEZ Carlos	Endocrinología
-113	113	AGUILAR Abel	Medicina de urgencias
-114	114	MINA Yerry	Medicina interna
-115	115	BOLANOS Christian	Nefrología
-116	116	GAMBOA Cristian	Nefrología
-117	117	TEJEDA Yeltsin	Medicina preventiva y salud pública
-118	118	SMITH Ian	Medicina de urgencias
-119	119	OVIEDO Bryan	Medicina del deporte
-120	120	WALLACE Rodney	Pediatría
-121	121	URENA Marcos	Oncología radioterápica
-122	122	MATARRITA Ronald	Infectología
-123	123	MOREIRA Leonel	Rehabilitación
-124	124	CAMPBELL Joel	Nefrología
-125	125	PEMBERTON Patrick	Medicina interna
-126	126	RUIZ Bryan	Toxicología
-127	127	ACOSTA Johnny	Medicina preventiva y salud pública
-128	128	COLINDRES Daniel	Cardiología
-129	129	VENEGAS Johan	Anestesiología y reanimación
-130	130	GONZALEZ Giancarlo	Endocrinología
-131	131	CALVO Francisco	Oftalmología
-132	132	GUZMAN David	Toxicología
-133	133	BORGES Celso	Hematología y hemoterapia
-134	134	NAVAS Keylor	Oncología médica
-135	135	DUARTE Oscar	Medicina de urgencias
-136	136	AZOFEIFA Randall	Anestesiología y reanimación
-137	137	WASTON Kendall	Medicina de urgencias
-138	138	MODRIC Luka	Endocrinología
-139	139	BROZOVIC Marcelo	Neurología
-140	140	PIVARIC Josip	Medicina intensiva
-141	141	KRAMARIC Andrej	Rehabilitación
-142	142	VRSALJKO Sime	Alergología
-143	143	BADELJ Milan	Urología
+102	102	BORJA Miguel	Toxicología
+103	103	RODRIGUEZ James	Toxicología
+104	104	BACCA Carlos	Medicina intensiva
+105	105	MURIEL Luis	Medicina aeroespacial
+106	106	OSPINA David	Hematología y hemoterapia
+107	107	MURILLO Oscar	Neumología
+108	108	VARGAS Camilo	Medicina intensiva
+109	109	CUADRADO Jose	Gastroenterología
+110	110	SANCHEZ Davinson	Medicina veterinaria
+111	111	ZAPATA Cristian	Anestesiología y reanimación
+112	112	SANCHEZ Carlos	Urología
+113	113	AGUILAR Abel	Medicina del deporte
+114	114	MINA Yerry	Medicina del deporte
+115	115	BOLANOS Christian	Alergología
+116	116	GAMBOA Cristian	Hematología y hemoterapia
+117	117	TEJEDA Yeltsin	Infectología
+118	118	SMITH Ian	Psiquiatría
+119	119	OVIEDO Bryan	Geriatría
+120	120	WALLACE Rodney	Oncología radioterápica
+121	121	URENA Marcos	Psiquiatría
+122	122	MATARRITA Ronald	Alergología
+123	123	MOREIRA Leonel	Gastroenterología
+124	124	CAMPBELL Joel	Oncología médica
+125	125	PEMBERTON Patrick	Rehabilitación
+126	126	RUIZ Bryan	Medicina del trabajo
+127	127	ACOSTA Johnny	Nefrología
+128	128	COLINDRES Daniel	Medicina legal y forense
+129	129	VENEGAS Johan	Medicina familiar y comunitaria
+130	130	GONZALEZ Giancarlo	Infectología
+131	131	CALVO Francisco	Medicina intensiva
+132	132	GUZMAN David	Medicina de urgencias
+133	133	BORGES Celso	Alergología
+134	134	NAVAS Keylor	Medicina preventiva y salud pública
+135	135	DUARTE Oscar	Nutriología
+136	136	AZOFEIFA Randall	Alergología
+137	137	WASTON Kendall	Neurología
+138	138	MODRIC Luka	Neurología
+139	139	BROZOVIC Marcelo	Rehabilitación
+140	140	PIVARIC Josip	Toxicología
+141	141	KRAMARIC Andrej	Cardiología
+142	142	VRSALJKO Sime	Medicina legal y forense
+143	143	BADELJ Milan	Rehabilitación
 144	144	VIDA Domagoj	Psiquiatría
-145	145	STRINIC Ivan	Gastroenterología
-146	146	RAKITIC Ivan	Hematología y hemoterapia
-147	147	KOVACIC Mateo	Oncología radioterápica
-148	148	BRADARIC Filip	Oncología radioterápica
-149	149	REBIC Ante	Infectología
-150	150	PERISIC Ivan	Hematología y hemoterapia
-151	151	JEDVAJ Tin	Infectología
-152	152	KALINIC Nikola	Cardiología
-153	153	LIVAKOVIC Dominik	Medicina física y rehabilitación
-154	154	PJACA Marko	Medicina legal y forense
-155	155	CORLUKA Vedran	Medicina aeroespacial
-156	156	LOVREN Dejan	Neumología
-157	157	SUBASIC Danijel	Medicina familiar y comunitaria
-158	158	MANDZUKIC Mario	Oncología radioterápica
-159	159	CALETA-CAR Duje	Medicina aeroespacial
-160	160	KALINIC Lovre	Geriatría
-161	161	KROHN-DEHLI Michael	Medicina física y rehabilitación
-162	162	SISTO Pione	Medicina interna
-163	163	BRAITHWAITE Martin	Anestesiología y reanimación
-164	164	ERIKSEN Christian	Medicina familiar y comunitaria
-165	165	DELANEY Thomas	Toxicología
-166	166	KVIST William	Medicina aeroespacial
-167	167	FISCHER Viktor	Medicina veterinaria
-168	168	SCHONE Lasse	Pediatría
-169	169	DALSGAARD Henrik	Gastroenterología
-170	170	KNUDSEN Jonas	Toxicología
-171	171	STRYGER LARSEN Jens	Medicina familiar y comunitaria
-172	172	KJAER Simon	Medicina veterinaria
-173	173	POULSEN Yussuf Yurary	Oncología radioterápica
-174	174	CHRISTENSEN Andreas	Neumología
-175	175	DOLBERG Kasper	Psiquiatría
-176	176	JORGENSEN Mathias	Oncología radioterápica
-177	177	LERAGER Lukas	Oncología radioterápica
-178	178	RONNOW Frederik	Anestesiología y reanimación
-179	179	JORGENSEN Nicolai	Endocrinología
-180	180	LOSSL Jonas	Infectología
-181	181	CORNELIUS Andreas	Neurología
-182	182	SCHMEICHEL Kasper	Medicina legal y forense
-183	183	VESTERGAARD Jannik	Medicina intensiva
-184	184	TAREK HAMED	Psiquiatría
-185	185	OMAR GABER	Pediatría
-186	186	MOHAMED SALAH	Neurología
-187	187	MOHAMED ABDELSHAFY	Medicina familiar y comunitaria
+145	145	STRINIC Ivan	Pediatría
+146	146	RAKITIC Ivan	Gastroenterología
+147	147	KOVACIC Mateo	Nefrología
+148	148	BRADARIC Filip	Oftalmología
+149	149	REBIC Ante	Medicina familiar y comunitaria
+150	150	PERISIC Ivan	Psiquiatría
+151	151	JEDVAJ Tin	Oftalmología
+152	152	KALINIC Nikola	Medicina veterinaria
+153	153	LIVAKOVIC Dominik	Rehabilitación
+154	154	PJACA Marko	Neurología
+155	155	CORLUKA Vedran	Nutriología
+156	156	LOVREN Dejan	Alergología
+157	157	SUBASIC Danijel	Anestesiología y reanimación
+158	158	MANDZUKIC Mario	Anestesiología y reanimación
+159	159	CALETA-CAR Duje	Anestesiología y reanimación
+160	160	KALINIC Lovre	Cardiología
+161	161	KROHN-DEHLI Michael	Hematología y hemoterapia
+162	162	SISTO Pione	Medicina legal y forense
+163	163	BRAITHWAITE Martin	Neurología
+164	164	ERIKSEN Christian	Medicina aeroespacial
+165	165	DELANEY Thomas	Oftalmología
+166	166	KVIST William	Gastroenterología
+167	167	FISCHER Viktor	Psiquiatría
+168	168	SCHONE Lasse	Endocrinología
+169	169	DALSGAARD Henrik	Infectología
+170	170	KNUDSEN Jonas	Oncología médica
+171	171	STRYGER LARSEN Jens	Medicina del deporte
+172	172	KJAER Simon	Medicina del trabajo
+173	173	POULSEN Yussuf Yurary	Hematología y hemoterapia
+174	174	CHRISTENSEN Andreas	Neurología
+175	175	DOLBERG Kasper	Geriatría
+176	176	JORGENSEN Mathias	Neurología
+177	177	LERAGER Lukas	Oncología médica
+178	178	RONNOW Frederik	Medicina familiar y comunitaria
+179	179	JORGENSEN Nicolai	Medicina veterinaria
+180	180	LOSSL Jonas	Neurología
+181	181	CORNELIUS Andreas	Toxicología
+182	182	SCHMEICHEL Kasper	Nefrología
+183	183	VESTERGAARD Jannik	Medicina familiar y comunitaria
+184	184	TAREK HAMED	Oftalmología
+185	185	OMAR GABER	Nefrología
+186	186	MOHAMED SALAH	Medicina interna
+187	187	MOHAMED ABDELSHAFY	Cardiología
 188	188	MAHMOUD HAMDY	Medicina aeroespacial
-189	189	AYMAN ASHRAF	Psiquiatría
-190	190	MOHAMED ELNENY	Endocrinología
-191	191	SAM MORSY	Psiquiatría
-192	192	ABDALLA SAID	Nefrología
-193	193	AHMED ELMOHAMADY	Oftalmología
-194	194	AHMED FATHI	Urología
-195	195	KAHRABA	Oncología médica
-196	196	RAMADAN SOBHY	Medicina aeroespacial
-197	197	TREZEGUET	Medicina del trabajo
-198	198	AMR WARDA	Nutriología
-199	199	SHIKABALA	Reumatología
-200	200	MARWAN MOHSEN	Pediatría
-201	201	SAMIR SAAD	Cardiología
-202	202	MOHAMED ELSHENAWY	Rehabilitación
-203	203	ALI GABR	Infectología
-204	204	ESSAM EL HADARY	Geriatría
-205	205	SHERIF EKRAMY	Oftalmología
-206	206	AHMED HEGAZY	Medicina de urgencias
-207	207	LINGARD Jesse	Reumatología
-208	208	STERLING Raheem	Rehabilitación
-209	209	ALEXANDER-ARNOLD Trent	Gastroenterología
-210	210	PICKFORD Jordan	Urología
-211	211	STONES John	Medicina interna
-212	212	TRIPPIER Kieran	Medicina del deporte
-213	213	JONES Phil	Gastroenterología
-214	214	LOFTUS-CHEEK Ruben	Toxicología
+189	189	AYMAN ASHRAF	Alergología
+190	190	MOHAMED ELNENY	Infectología
+191	191	SAM MORSY	Reumatología
+192	192	ABDALLA SAID	Medicina interna
+193	193	AHMED ELMOHAMADY	Endocrinología
+194	194	AHMED FATHI	Endocrinología
+195	195	KAHRABA	Hematología y hemoterapia
+196	196	RAMADAN SOBHY	Geriatría
+197	197	TREZEGUET	Rehabilitación
+198	198	AMR WARDA	Infectología
+199	199	SHIKABALA	Alergología
+200	200	MARWAN MOHSEN	Medicina del deporte
+201	201	SAMIR SAAD	Medicina del deporte
+202	202	MOHAMED ELSHENAWY	Medicina interna
+203	203	ALI GABR	Medicina física y rehabilitación
+204	204	ESSAM EL HADARY	Medicina del trabajo
+205	205	SHERIF EKRAMY	Geriatría
+206	206	AHMED HEGAZY	Urología
+207	207	LINGARD Jesse	Nefrología
+208	208	STERLING Raheem	Medicina familiar y comunitaria
+209	209	ALEXANDER-ARNOLD Trent	Medicina preventiva y salud pública
+210	210	PICKFORD Jordan	Oncología radioterápica
+211	211	STONES John	Medicina del trabajo
+212	212	TRIPPIER Kieran	Rehabilitación
+213	213	JONES Phil	Medicina física y rehabilitación
+214	214	LOFTUS-CHEEK Ruben	Anestesiología y reanimación
 215	215	ROSE Danny	Urología
-216	216	ALLI Dele	Medicina física y rehabilitación
-217	217	POPE Nick	Medicina física y rehabilitación
-218	218	WELBECK Danny	Nutriología
-219	219	DELPH Fabian	Urología
-220	220	YOUNG Ashley	Cardiología
-221	221	RASHFORD Marcus	Urología
-222	222	VARDY Jamie	Hematología y hemoterapia
-223	223	HENDERSON Jordan	Oncología médica
-224	224	WALKER Kyle	Infectología
-225	225	CAHILL Gary	Rehabilitación
-226	226	DIER Eric	Rehabilitación
-227	227	BUTLAND Jack	Anestesiología y reanimación
-228	228	MAGUIRE Harry	Medicina interna
-229	229	KANE Harry	Neumología
-230	230	LEMAR Thomas	Pediatría
-231	231	DEMBELE Ousmane	Oncología radioterápica
-232	232	KANTE Ngolo	Neumología
-233	233	GRIEZMANN Antoine	Endocrinología
-234	234	MATUIDI Blaise	Medicina familiar y comunitaria
-235	235	PAVARD Benjamin	Medicina física y rehabilitación
-236	236	FEKIR Nabil	Endocrinología
-237	237	THAUVIN Florian	Medicina familiar y comunitaria
-238	238	HERNANDEZ Lucas	Toxicología
-239	239	KIMPEMBE Presnel	Medicina del deporte
-240	240	MBAPPE Kylian	Medicina legal y forense
-241	241	VARANE Raphael	Alergología
-242	242	SIDIBE Djibril	Oncología radioterápica
-243	243	LLORIS Hugo	Anestesiología y reanimación
-244	244	TOLISSO Corentin	Anestesiología y reanimación
-245	245	UMTITI Samuel	Psiquiatría
-246	246	MENDY Benjamin	Rehabilitación
-247	247	POGBA Paul	Medicina preventiva y salud pública
-248	248	NZONZI Steven	Oncología radioterápica
-249	249	MANDANDA Steve	Oftalmología
-250	250	RAMI Adil	Medicina física y rehabilitación
-251	251	GIROUD Olivier	Medicina aeroespacial
-252	252	AREOLA Alphonse	Medicina aeroespacial
-253	253	REUS Marco	Rehabilitación
-254	254	OEZIL Mesut	Medicina interna
-255	255	KIMMICH Joshua	Gastroenterología
-256	256	DRAXLER Julian	Psiquiatría
-257	257	RUDY Sebastian	Medicina de urgencias
-258	258	HECTOR Jonas	Neurología
-259	259	WERNER Timo	Pediatría
-260	260	MUELLER Thomas	Neumología
-261	261	PLATTENHARDT Marvin	Reumatología
-262	262	GORETZKA Leon	Medicina del trabajo
-263	263	KROOS Toni	Oncología radioterápica
-264	264	GUENDOGAN Ilkay	Gastroenterología
-265	265	KHEDIRA Sami	Medicina preventiva y salud pública
-266	266	BRANDT Julian	Endocrinología
-267	267	GOMEZ Mario	Medicina familiar y comunitaria
-268	268	GINTER Matthias	Medicina interna
+216	216	ALLI Dele	Endocrinología
+217	217	POPE Nick	Medicina intensiva
+218	218	WELBECK Danny	Alergología
+219	219	DELPH Fabian	Cardiología
+220	220	YOUNG Ashley	Rehabilitación
+221	221	RASHFORD Marcus	Nutriología
+222	222	VARDY Jamie	Medicina del trabajo
+223	223	HENDERSON Jordan	Toxicología
+224	224	WALKER Kyle	Reumatología
+225	225	CAHILL Gary	Nefrología
+226	226	DIER Eric	Endocrinología
+227	227	BUTLAND Jack	Reumatología
+228	228	MAGUIRE Harry	Gastroenterología
+229	229	KANE Harry	Medicina aeroespacial
+230	230	LEMAR Thomas	Endocrinología
+231	231	DEMBELE Ousmane	Medicina intensiva
+232	232	KANTE Ngolo	Infectología
+233	233	GRIEZMANN Antoine	Urología
+234	234	MATUIDI Blaise	Medicina legal y forense
+235	235	PAVARD Benjamin	Infectología
+236	236	FEKIR Nabil	Medicina preventiva y salud pública
+237	237	THAUVIN Florian	Nutriología
+238	238	HERNANDEZ Lucas	Oncología radioterápica
+239	239	KIMPEMBE Presnel	Rehabilitación
+240	240	MBAPPE Kylian	Oftalmología
+241	241	VARANE Raphael	Medicina del trabajo
+242	242	SIDIBE Djibril	Neurología
+243	243	LLORIS Hugo	Medicina intensiva
+244	244	TOLISSO Corentin	Nefrología
+245	245	UMTITI Samuel	Medicina preventiva y salud pública
+246	246	MENDY Benjamin	Gastroenterología
+247	247	POGBA Paul	Nutriología
+248	248	NZONZI Steven	Infectología
+249	249	MANDANDA Steve	Reumatología
+250	250	RAMI Adil	Anestesiología y reanimación
+251	251	GIROUD Olivier	Endocrinología
+252	252	AREOLA Alphonse	Toxicología
+253	253	REUS Marco	Psiquiatría
+254	254	OEZIL Mesut	Anestesiología y reanimación
+255	255	KIMMICH Joshua	Medicina del deporte
+256	256	DRAXLER Julian	Nutriología
+257	257	RUDY Sebastian	Reumatología
+258	258	HECTOR Jonas	Psiquiatría
+259	259	WERNER Timo	Medicina del deporte
+260	260	MUELLER Thomas	Alergología
+261	261	PLATTENHARDT Marvin	Medicina del deporte
+262	262	GORETZKA Leon	Neumología
+263	263	KROOS Toni	Medicina aeroespacial
+264	264	GUENDOGAN Ilkay	Toxicología
+265	265	KHEDIRA Sami	Medicina intensiva
+266	266	BRANDT Julian	Toxicología
+267	267	GOMEZ Mario	Medicina preventiva y salud pública
+268	268	GINTER Matthias	Psiquiatría
 269	269	RUEDIGER Antonio	Hematología y hemoterapia
-270	270	TER STEGEN Marc-Andre	Medicina veterinaria
-271	271	TRAPP Kevin	Cardiología
-272	272	SUELE Niklas	Medicina aeroespacial
-273	273	HUMMELS Mats	Medicina interna
-274	274	BOATENG Jerome	Neumología
-275	275	NEUER Manuel	Urología
-276	276	SKULASON Ari	Neurología
-277	277	TRAUSTASON Arnor	Pediatría
-278	278	SAEVARSSON Birkir	Alergología
-279	279	RUNARSSON Runar	Endocrinología
-280	280	GUDMUNDSSON Johann	Cardiología
-281	281	BJARNASON Birkir	Psiquiatría
-282	282	FRIDJONSSON Samuel	Urología
-283	283	GISLASON Rurik	Nefrología
-284	284	FINNBOGASON Alfred	Oncología médica
-285	285	SKULASON Olafur	Medicina preventiva y salud pública
-286	286	GUDMUNDSSON Albert	Gastroenterología
-287	287	INGASON Sverrir	Neumología
-288	288	EYJOLFSSON Holmar	Endocrinología
-289	289	SIGURDSSON Gylfi	Toxicología
-290	290	ARNASON Kari	Toxicología
-291	291	SIGURDARSON Bjorn	Neumología
-292	292	MAGNUSSON Hordur	Medicina legal y forense
-293	293	SIGURDSSON Ragnar	Rehabilitación
-294	294	GUNNARSSON Aron	Oncología radioterápica
-295	295	HALLFREDSSON Emil	Medicina de urgencias
-296	296	HALLDORSSON Hannes	Nutriología
-297	297	BODVARSSON Jon	Endocrinología
-298	298	SCHRAM Frederik	Medicina interna
-299	299	MOHAMMADI Milad	Reumatología
-300	300	TORABI Mehdi	Alergología
-301	301	AMIRI Vahid	Medicina veterinaria
-302	302	HAJI SAFI Ehsan	Nefrología
-303	303	EBRAHIMI Omid	Medicina familiar y comunitaria
-304	304	REZAEIAN Ramin	Medicina del trabajo
-305	305	MONTAZERI Pejman	Medicina interna
-306	306	JAHANBAKHSH Alireza	Oncología radioterápica
-307	307	HOSSEINI Majid	Medicina del trabajo
-308	308	DEJAGAH Ashkan	Toxicología
-309	309	SHOJAEI Masoud	Infectología
-310	310	GHODDOS  Saman	Oftalmología
-311	311	GHOOCHANNEJHAD Reza	Medicina física y rehabilitación
-312	312	CHESHMI Roozbeh	Toxicología
-313	313	ANSARIFARD Karim	Toxicología
-314	314	KHANZADEH Mohammad Reza	Psiquiatría
-315	315	TAREMI Mehdi	Medicina física y rehabilitación
-316	316	AZMOUN Sardar	Pediatría
-317	317	ABEDZADEH Amir	Neumología
-318	318	EZATOLAHI Saeid	Pediatría
-319	319	POURALIGANJI Morteza	Geriatría
-320	320	MAZAHERI Rashid	Hematología y hemoterapia
-321	321	BEIRANVAND Ali	Hematología y hemoterapia
-322	322	INUI Takashi	Neurología
-323	323	SHIBASAKI Gaku	Nefrología
-324	324	OSHIMA Ryota	Hematología y hemoterapia
-325	325	NAGATOMO Yuto	Medicina de urgencias
-326	326	HARAGUCHI Genki	Reumatología
-327	327	KAGAWA Shinji	Medicina veterinaria
-328	328	OKAZAKI Shinji	Medicina aeroespacial
-329	329	SAKAI Hiroki	Medicina legal y forense
-330	330	OSAKO Yuya	Nutriología
-331	331	USAMI Takashi	Endocrinología
-332	332	MUTO Yoshinori	Geriatría
-333	333	YAMAGUCHI Hotaru	Oncología médica
-334	334	HASEBE Makoto	Rehabilitación
-335	335	NAKAMURA Kosuke	Pediatría
-336	336	KAWASHIMA Eiji	Anestesiología y reanimación
-337	337	SHOJI Gen	Medicina veterinaria
-338	338	HONDA Keisuke	Medicina aeroespacial
-339	339	SAKAI Gotoku	Medicina del trabajo
-340	340	ENDO Wataru	Pediatría
-341	341	MAKINO Tomoaki	Psiquiatría
-342	342	HIGASHIGUCHI Masaaki	Oftalmología
-343	343	YOSHIDA Maya	Medicina física y rehabilitación
-344	344	UEDA Naomichi	Nutriología
-345	345	LEE Seungwoo	Medicina aeroespacial
-346	346	GO Yohan	Gastroenterología
-347	347	HONG Chul	Medicina familiar y comunitaria
-348	348	MOON Seonmin	Reumatología
-349	349	KIM Minwoo	Infectología
-350	350	JU Sejong	Medicina legal y forense
-351	351	LEE Jaesung	Alergología
-352	352	PARK Jooho	Medicina interna
-353	353	KOO Jacheol	Medicina del deporte
-354	354	LEE Yong	Medicina del deporte
-355	355	JUNG Seunghyun	Medicina intensiva
-356	356	KIM Younggwon	Medicina preventiva y salud pública
-357	357	KI Sungyueng	Medicina preventiva y salud pública
-358	358	JO Hyeonwoo	Anestesiología y reanimación
-359	359	SON Heungmin	Medicina legal y forense
-360	360	HWANG Heechan	Medicina familiar y comunitaria
-361	361	JANG Hyunsoo	Medicina física y rehabilitación
-362	362	YUN Youngsun	Psiquiatría
-363	363	JUNG Wooyoung	Medicina familiar y comunitaria
-364	364	OH Bansuk	Medicina preventiva y salud pública
-365	365	KIM Seunggyu	Psiquiatría
-366	366	KIM Jinhyeon	Hematología y hemoterapia
-367	367	KIM Shinwook	Medicina del trabajo
-368	368	AQUINO Javier	Infectología
-369	369	GUARDADO Andres	Gastroenterología
-370	370	LOZANO Hirving	Hematología y hemoterapia
-371	371	DOS SANTOS Jonathan	Nutriología
-372	372	CORONA Jesus	Medicina veterinaria
-373	373	FABIAN Marco	Medicina veterinaria
-374	374	DOS SANTOS Giovani	Medicina de urgencias
-375	375	HERNANDEZ Javier	Reumatología
-376	376	LAYUN Miguel	Neurología
-377	377	PERALTA Oribe	Infectología
-378	378	ALVAREZ Edson	Neurología
-379	379	GALLARDO Jesus	Oncología radioterápica
+270	270	TER STEGEN Marc-Andre	Endocrinología
+271	271	TRAPP Kevin	Medicina aeroespacial
+272	272	SUELE Niklas	Oncología médica
+273	273	HUMMELS Mats	Medicina intensiva
+274	274	BOATENG Jerome	Psiquiatría
+275	275	NEUER Manuel	Endocrinología
+276	276	SKULASON Ari	Medicina interna
+277	277	TRAUSTASON Arnor	Psiquiatría
+278	278	SAEVARSSON Birkir	Oncología radioterápica
+279	279	RUNARSSON Runar	Cardiología
+280	280	GUDMUNDSSON Johann	Hematología y hemoterapia
+281	281	BJARNASON Birkir	Medicina de urgencias
+282	282	FRIDJONSSON Samuel	Rehabilitación
+283	283	GISLASON Rurik	Pediatría
+284	284	FINNBOGASON Alfred	Alergología
+285	285	SKULASON Olafur	Gastroenterología
+286	286	GUDMUNDSSON Albert	Medicina preventiva y salud pública
+287	287	INGASON Sverrir	Rehabilitación
+288	288	EYJOLFSSON Holmar	Pediatría
+289	289	SIGURDSSON Gylfi	Anestesiología y reanimación
+290	290	ARNASON Kari	Medicina intensiva
+291	291	SIGURDARSON Bjorn	Medicina veterinaria
+292	292	MAGNUSSON Hordur	Medicina interna
+293	293	SIGURDSSON Ragnar	Oncología radioterápica
+294	294	GUNNARSSON Aron	Gastroenterología
+295	295	HALLFREDSSON Emil	Reumatología
+296	296	HALLDORSSON Hannes	Cardiología
+297	297	BODVARSSON Jon	Reumatología
+298	298	SCHRAM Frederik	Gastroenterología
+299	299	MOHAMMADI Milad	Medicina de urgencias
+300	300	TORABI Mehdi	Medicina legal y forense
+301	301	AMIRI Vahid	Oftalmología
+302	302	HAJI SAFI Ehsan	Reumatología
+303	303	EBRAHIMI Omid	Medicina física y rehabilitación
+304	304	REZAEIAN Ramin	Urología
+305	305	MONTAZERI Pejman	Anestesiología y reanimación
+306	306	JAHANBAKHSH Alireza	Geriatría
+307	307	HOSSEINI Majid	Gastroenterología
+308	308	DEJAGAH Ashkan	Urología
+309	309	SHOJAEI Masoud	Nefrología
+310	310	GHODDOS  Saman	Cardiología
+311	311	GHOOCHANNEJHAD Reza	Medicina de urgencias
+312	312	CHESHMI Roozbeh	Pediatría
+313	313	ANSARIFARD Karim	Oncología radioterápica
+314	314	KHANZADEH Mohammad Reza	Urología
+315	315	TAREMI Mehdi	Pediatría
+316	316	AZMOUN Sardar	Oftalmología
+317	317	ABEDZADEH Amir	Neurología
+318	318	EZATOLAHI Saeid	Medicina del trabajo
+319	319	POURALIGANJI Morteza	Toxicología
+320	320	MAZAHERI Rashid	Endocrinología
+321	321	BEIRANVAND Ali	Oncología médica
+322	322	INUI Takashi	Neumología
+323	323	SHIBASAKI Gaku	Neumología
+324	324	OSHIMA Ryota	Nutriología
+325	325	NAGATOMO Yuto	Rehabilitación
+326	326	HARAGUCHI Genki	Pediatría
+327	327	KAGAWA Shinji	Pediatría
+328	328	OKAZAKI Shinji	Medicina interna
+329	329	SAKAI Hiroki	Hematología y hemoterapia
+330	330	OSAKO Yuya	Psiquiatría
+331	331	USAMI Takashi	Pediatría
+332	332	MUTO Yoshinori	Alergología
+333	333	YAMAGUCHI Hotaru	Medicina preventiva y salud pública
+334	334	HASEBE Makoto	Neurología
+335	335	NAKAMURA Kosuke	Alergología
+336	336	KAWASHIMA Eiji	Medicina legal y forense
+337	337	SHOJI Gen	Nutriología
+338	338	HONDA Keisuke	Hematología y hemoterapia
+339	339	SAKAI Gotoku	Oncología radioterápica
+340	340	ENDO Wataru	Alergología
+341	341	MAKINO Tomoaki	Cardiología
+342	342	HIGASHIGUCHI Masaaki	Endocrinología
+343	343	YOSHIDA Maya	Rehabilitación
+344	344	UEDA Naomichi	Alergología
+345	345	LEE Seungwoo	Medicina física y rehabilitación
+346	346	GO Yohan	Medicina aeroespacial
+347	347	HONG Chul	Medicina del deporte
+348	348	MOON Seonmin	Medicina del deporte
+349	349	KIM Minwoo	Toxicología
+350	350	JU Sejong	Medicina interna
+351	351	LEE Jaesung	Nutriología
+352	352	PARK Jooho	Rehabilitación
+353	353	KOO Jacheol	Toxicología
+354	354	LEE Yong	Nutriología
+355	355	JUNG Seunghyun	Oncología médica
+356	356	KIM Younggwon	Oncología radioterápica
+357	357	KI Sungyueng	Cardiología
+358	358	JO Hyeonwoo	Medicina intensiva
+359	359	SON Heungmin	Medicina familiar y comunitaria
+360	360	HWANG Heechan	Medicina preventiva y salud pública
+361	361	JANG Hyunsoo	Oftalmología
+362	362	YUN Youngsun	Gastroenterología
+363	363	JUNG Wooyoung	Medicina preventiva y salud pública
+364	364	OH Bansuk	Medicina aeroespacial
+365	365	KIM Seunggyu	Gastroenterología
+366	366	KIM Jinhyeon	Gastroenterología
+367	367	KIM Shinwook	Medicina intensiva
+368	368	AQUINO Javier	Psiquiatría
+369	369	GUARDADO Andres	Alergología
+370	370	LOZANO Hirving	Medicina del deporte
+371	371	DOS SANTOS Jonathan	Psiquiatría
+372	372	CORONA Jesus	Hematología y hemoterapia
+373	373	FABIAN Marco	Neurología
+374	374	DOS SANTOS Giovani	Hematología y hemoterapia
+375	375	HERNANDEZ Javier	Cardiología
+376	376	LAYUN Miguel	Reumatología
+377	377	PERALTA Oribe	Nefrología
+378	378	ALVAREZ Edson	Nefrología
+379	379	GALLARDO Jesus	Endocrinología
 380	380	OCHOA Guillermo	Medicina familiar y comunitaria
-381	381	MARQUEZ Rafael	Medicina interna
-382	382	REYES Diego	Geriatría
-383	383	VELA Carlos	Urología
-384	384	JIMENEZ Raul	Medicina familiar y comunitaria
-385	385	HERRERA Hector	Oftalmología
-386	386	CORONA Jose	Cardiología
-387	387	AYALA Hugo	Anestesiología y reanimación
-388	388	MORENO Hector	Medicina del deporte
-389	389	SALCEDO Carlos	Medicina legal y forense
-390	390	TALAVERA Alfredo	Oftalmología
-391	391	BOUSSOUFA Mbark	Pediatría
-392	392	HAKIMI Achraf	Cardiología
-393	393	HARIT Amine	Medicina aeroespacial
-394	394	CARCELA Mehdi	Gastroenterología
-395	395	MENDYL Hamza	Medicina veterinaria
-396	396	ZIYACH Hakim	Reumatología
-397	397	TAGNAOUTI Ahmed	Neurología
-398	398	EL KAABI Ayoub	Alergología
-399	399	FAJR Faycal	Medicina legal y forense
-400	400	BELHANDA Younes	Pediatría
-401	401	AIT BENNASSER Youssef	Nefrología
-402	402	EN NESYRI Youssef	Hematología y hemoterapia
-403	403	SAISS Romain	Cardiología
-404	404	BOUNOU Yassine	Medicina intensiva
-405	405	AMRABAT Noureddine	Reumatología
-406	406	AMRABAT Sofyan	Oncología médica
-407	407	DA COSTA Manuel	Medicina del trabajo
+381	381	MARQUEZ Rafael	Medicina preventiva y salud pública
+382	382	REYES Diego	Medicina preventiva y salud pública
+383	383	VELA Carlos	Toxicología
+384	384	JIMENEZ Raul	Oftalmología
+385	385	HERRERA Hector	Medicina del deporte
+386	386	CORONA Jose	Medicina aeroespacial
+387	387	AYALA Hugo	Infectología
+388	388	MORENO Hector	Psiquiatría
+389	389	SALCEDO Carlos	Nefrología
+390	390	TALAVERA Alfredo	Infectología
+391	391	BOUSSOUFA Mbark	Neumología
+392	392	HAKIMI Achraf	Medicina interna
+393	393	HARIT Amine	Medicina intensiva
+394	394	CARCELA Mehdi	Endocrinología
+395	395	MENDYL Hamza	Alergología
+396	396	ZIYACH Hakim	Toxicología
+397	397	TAGNAOUTI Ahmed	Medicina legal y forense
+398	398	EL KAABI Ayoub	Medicina familiar y comunitaria
+399	399	FAJR Faycal	Reumatología
+400	400	BELHANDA Younes	Endocrinología
+401	401	AIT BENNASSER Youssef	Oncología radioterápica
+402	402	EN NESYRI Youssef	Oncología médica
+403	403	SAISS Romain	Nutriología
+404	404	BOUNOU Yassine	Alergología
+405	405	AMRABAT Noureddine	Hematología y hemoterapia
+406	406	AMRABAT Sofyan	Hematología y hemoterapia
+407	407	DA COSTA Manuel	Medicina legal y forense
 408	408	EL AHMADI Karim	Gastroenterología
-409	409	BOUTAIB Khalid	Cardiología
-410	410	BOUHADDOUZ Aziz	Neurología
-411	411	DIRAR Nabil	Medicina interna
-412	412	BENATIA Mehdi	Medicina intensiva
-413	413	EL KAJOUI Monir	Oncología radioterápica
-414	414	MUSA Ahmed	Oncología médica
-415	415	NDIDI Onyinye	Oncología médica
-416	416	ETEBO Oghenekaro	Oncología radioterápica
-417	417	ONAZI Ogenyi	Neurología
-418	418	EBUEHI Tyronne	Psiquiatría
-419	419	IDOWU Bryan	Medicina intensiva
-420	420	MOSES Victor	Medicina legal y forense
-421	421	SHEHU Abdullahi	Rehabilitación
-422	422	AWAZIEM Chidozie	Medicina del deporte
-423	423	OBI Joel	Cardiología
-424	424	EZENWA Ikechukwu	Neurología
-425	425	IHEANACHO Kelechi	Medicina veterinaria
-426	426	ECHIEJILE Elderson	Neurología
-427	427	MIKEL John Obi	Toxicología
-428	428	OMERUO Kenneth	Oftalmología
-429	429	IGHALO Odion	Medicina aeroespacial
-430	430	EKONG William	Neurología
-431	431	IWOBI Alex	Oncología médica
-432	432	BALOGUN Leon	Urología
-433	433	NWANKWO Simeon	Gastroenterología
-434	434	OGU John	Alergología
-435	435	UZOHO Francis	Medicina familiar y comunitaria
-436	436	AKPEYI Daniel	Medicina veterinaria
-437	437	QUINTERO Alberto	Endocrinología
-438	438	PENEDO Jaime	Endocrinología
-439	439	BARCENAS Edgar	Nefrología
-440	440	DIAZ Ismael	Oftalmología
-441	441	COOPER Armando	Rehabilitación
-442	442	OVALLE Luis	Nefrología
-443	443	TORRES Gabriel	Hematología y hemoterapia
-444	444	RODRIGUEZ Jose Luis	Gastroenterología
-445	445	MURILLO Michael	Reumatología
-446	446	MACHADO Adolfo	Neumología
-447	447	PIMENTEL Valentin	Cardiología
-448	448	DAVIS Eric	Medicina preventiva y salud pública
-449	449	ESCOBAR Fidel	Cardiología
-450	450	GOMEZ Gabriel	Infectología
+409	409	BOUTAIB Khalid	Medicina interna
+410	410	BOUHADDOUZ Aziz	Medicina aeroespacial
+411	411	DIRAR Nabil	Geriatría
+412	412	BENATIA Mehdi	Medicina familiar y comunitaria
+413	413	EL KAJOUI Monir	Cardiología
+414	414	MUSA Ahmed	Toxicología
+415	415	NDIDI Onyinye	Medicina legal y forense
+416	416	ETEBO Oghenekaro	Toxicología
+417	417	ONAZI Ogenyi	Medicina veterinaria
+418	418	EBUEHI Tyronne	Reumatología
+419	419	IDOWU Bryan	Medicina preventiva y salud pública
+420	420	MOSES Victor	Neumología
+421	421	SHEHU Abdullahi	Medicina legal y forense
+422	422	AWAZIEM Chidozie	Endocrinología
+423	423	OBI Joel	Medicina aeroespacial
+424	424	EZENWA Ikechukwu	Medicina preventiva y salud pública
+425	425	IHEANACHO Kelechi	Medicina interna
+426	426	ECHIEJILE Elderson	Nefrología
+427	427	MIKEL John Obi	Anestesiología y reanimación
+428	428	OMERUO Kenneth	Anestesiología y reanimación
+429	429	IGHALO Odion	Neumología
+430	430	EKONG William	Infectología
+431	431	IWOBI Alex	Infectología
+432	432	BALOGUN Leon	Toxicología
+433	433	NWANKWO Simeon	Nutriología
+434	434	OGU John	Reumatología
+435	435	UZOHO Francis	Rehabilitación
+436	436	AKPEYI Daniel	Oncología radioterápica
+437	437	QUINTERO Alberto	Medicina veterinaria
+438	438	PENEDO Jaime	Pediatría
+439	439	BARCENAS Edgar	Medicina aeroespacial
+440	440	DIAZ Ismael	Medicina del deporte
+441	441	COOPER Armando	Geriatría
+442	442	OVALLE Luis	Hematología y hemoterapia
+443	443	TORRES Gabriel	Oncología radioterápica
+444	444	RODRIGUEZ Jose Luis	Anestesiología y reanimación
+445	445	MURILLO Michael	Infectología
+446	446	MACHADO Adolfo	Psiquiatría
+447	447	PIMENTEL Valentin	Psiquiatría
+448	448	DAVIS Eric	Medicina del deporte
+449	449	ESCOBAR Fidel	Anestesiología y reanimación
+450	450	GOMEZ Gabriel	Medicina interna
 451	451	ARROYO Abdiel	Hematología y hemoterapia
-452	452	GODOY Anibal	Neumología
-453	453	PEREZ Blas	Medicina física y rehabilitación
-454	454	RODRIGUEZ Alex	Endocrinología
-455	455	CALDERON Jose	Medicina veterinaria
-456	456	TEJADA Luis	Endocrinología
-457	457	BALOY Felipe	Medicina del trabajo
-458	458	CUMMINGS Harold	Nutriología
-459	459	TORRES Roman	Infectología
-460	460	HURTADO Paolo	Nutriología
-461	461	RUIDIAZ Raul	Nutriología
-462	462	LOYOLA Nilson	Psiquiatría
-463	463	CUEVA Christian	Medicina de urgencias
-464	464	YOTUN Yoshimar	Cardiología
-465	465	POLO Andy	Pediatría
-466	466	AQUINO Pedro	Toxicología
-467	467	RAMOS Christian	Anestesiología y reanimación
-468	468	FLORES Edison	Oftalmología
-469	469	TRAUCO Miguel	Pediatría
-470	470	CORZO Aldo	Reumatología
-471	471	CARTAGENA Wilder	Pediatría
-472	472	ARAUJO Miguel	Medicina intensiva
-473	473	CARRILLO Andre	Pediatría
-474	474	RODRIGUEZ Alberto	Medicina aeroespacial
-475	475	CACEDA Carlos	Neurología
-476	476	GALLESE Pedro	Oftalmología
-477	477	ADVINCULA Luis	Oftalmología
-478	478	SANTAMARIA Anderson	Pediatría
+452	452	GODOY Anibal	Reumatología
+453	453	PEREZ Blas	Medicina legal y forense
+454	454	RODRIGUEZ Alex	Reumatología
+455	455	CALDERON Jose	Medicina familiar y comunitaria
+456	456	TEJADA Luis	Oncología radioterápica
+457	457	BALOY Felipe	Geriatría
+458	458	CUMMINGS Harold	Endocrinología
+459	459	TORRES Roman	Rehabilitación
+460	460	HURTADO Paolo	Anestesiología y reanimación
+461	461	RUIDIAZ Raul	Medicina aeroespacial
+462	462	LOYOLA Nilson	Oncología médica
+463	463	CUEVA Christian	Urología
+464	464	YOTUN Yoshimar	Medicina legal y forense
+465	465	POLO Andy	Medicina física y rehabilitación
+466	466	AQUINO Pedro	Anestesiología y reanimación
+467	467	RAMOS Christian	Medicina de urgencias
+468	468	FLORES Edison	Oncología radioterápica
+469	469	TRAUCO Miguel	Medicina del deporte
+470	470	CORZO Aldo	Anestesiología y reanimación
+471	471	CARTAGENA Wilder	Oncología radioterápica
+472	472	ARAUJO Miguel	Anestesiología y reanimación
+473	473	CARRILLO Andre	Rehabilitación
+474	474	RODRIGUEZ Alberto	Medicina interna
+475	475	CACEDA Carlos	Oncología radioterápica
+476	476	GALLESE Pedro	Medicina física y rehabilitación
+477	477	ADVINCULA Luis	Anestesiología y reanimación
+478	478	SANTAMARIA Anderson	Toxicología
 479	479	CARVALLO Jose	Oncología médica
-480	480	FARFAN Jefferson	Oftalmología
-481	481	TAPIA Renato	Psiquiatría
-482	482	GUERRERO Paolo	Medicina familiar y comunitaria
-483	483	ZIELINSKI Piotr	Medicina del trabajo
-484	484	GORALSKI Jacek	Cardiología
-485	485	PESZKO Slawomir	Oftalmología
-486	486	BLASZCZYKOWSKI Jakub	Neumología
+480	480	FARFAN Jefferson	Medicina de urgencias
+481	481	TAPIA Renato	Medicina aeroespacial
+482	482	GUERRERO Paolo	Medicina física y rehabilitación
+483	483	ZIELINSKI Piotr	Medicina aeroespacial
+484	484	GORALSKI Jacek	Urología
+485	485	PESZKO Slawomir	Neurología
+486	486	BLASZCZYKOWSKI Jakub	Medicina veterinaria
 487	487	BERESZYNSKI Bartosz	Nefrología
-488	488	LINETTY Karol	Medicina veterinaria
-489	489	KURZAWA Rafal	Medicina familiar y comunitaria
-490	490	RYBUS Maciej	Medicina legal y forense
-491	491	KOWNACKI Dawid	Rehabilitación
-492	492	BEDNAREK Jan	Nutriología
-493	493	PAZDAN Michal	Oncología radioterápica
+488	488	LINETTY Karol	Medicina preventiva y salud pública
+489	489	KURZAWA Rafal	Oncología médica
+490	490	RYBUS Maciej	Infectología
+491	491	KOWNACKI Dawid	Neumología
+492	492	BEDNAREK Jan	Medicina aeroespacial
+493	493	PAZDAN Michal	Cardiología
 494	494	JEDRZEJCZYK Artur	Medicina intensiva
-495	495	GROSICKI Kamil	Medicina aeroespacial
-496	496	TEODORCZYK Lukasz	Oncología médica
+495	495	GROSICKI Kamil	Oftalmología
+496	496	TEODORCZYK Lukasz	Psiquiatría
 497	497	LEWANDOWSKI Robert	Medicina física y rehabilitación
 498	498	PISZCZEK Lukasz	Medicina física y rehabilitación
-499	499	GLIK Kamil	Medicina aeroespacial
-500	500	CIONEK Thiago	Rehabilitación
-501	501	MILIK Arkadiusz	Geriatría
-502	502	KRYCHOWIAK Grzegorz	Medicina preventiva y salud pública
-503	503	BIALKOWSKI Bartosz	Medicina preventiva y salud pública
-504	504	FABIANSKI Lukasz	Medicina familiar y comunitaria
+499	499	GLIK Kamil	Toxicología
+500	500	CIONEK Thiago	Oncología radioterápica
+501	501	MILIK Arkadiusz	Neurología
+502	502	KRYCHOWIAK Grzegorz	Neurología
+503	503	BIALKOWSKI Bartosz	Medicina de urgencias
+504	504	FABIANSKI Lukasz	Neurología
 505	505	SZCZESNY Wojciech	Alergología
-506	506	JOAO MOUTINHO	Medicina interna
-507	507	GELSON MARTINS	Alergología
-508	508	RAPHAEL GUERREIRO	Reumatología
-509	509	BRUNO FERNANDES	Rehabilitación
-510	510	BERNARDO SILVA	Medicina preventiva y salud pública
-511	511	MARIO RUI	Oncología radioterápica
-512	512	CEDRIC	Alergología
-513	513	MANUEL FERNANDES	Medicina física y rehabilitación
-514	514	RICARDO	Pediatría
-515	515	GONCALO GUEDES	Anestesiología y reanimación
-516	516	ADRIEN SILVA	Reumatología
-517	517	JOAO MARIO	Oncología radioterápica
-518	518	RICARDO QUARESMA	Oftalmología
-519	519	ANDRE SILVA	Hematología y hemoterapia
-520	520	BETO	Nefrología
-521	521	CRISTIANO RONALDO	Medicina familiar y comunitaria
-522	522	WILLIAM	Medicina legal y forense
-523	523	PEPE	Psiquiatría
-524	524	ANTHONY LOPES	Medicina legal y forense
-525	525	BRUNO ALVES	Endocrinología
-526	526	RUBEN DIAS	Medicina del deporte
-527	527	RUI PATRICIO	Medicina de urgencias
-528	528	JOSE FONTE	Medicina veterinaria
-529	529	MIRANCHUK Anton	Toxicología
-530	530	CHERYSHEV Denis	Medicina de urgencias
-531	531	GOLOVIN Aleksandr	Nefrología
-532	532	SMOLNIKOV Igor	Medicina interna
-533	533	DZAGOEV Alan	Medicina veterinaria
-534	534	KUZIAEV Daler	Medicina física y rehabilitación
-535	535	SAMEDOV Alexander	Rehabilitación
-536	536	GAZINSKY Iury	Medicina del deporte
-537	537	ZHIRKOV Yury	Hematología y hemoterapia
-538	538	ZOBNIN Roman	Alergología
-539	539	MIRANCHUK Alexey	Endocrinología
-540	540	KUDRIASHOV Fedor	Oncología médica
-541	541	MARIO FERNANDES	Infectología
-542	542	SMOLOV Fedor	Anestesiología y reanimación
-543	543	EROKHIN Aleksandr	Oftalmología
-544	544	LUNEV Andrei	Medicina del trabajo
-545	545	GRANAT Vladimir	Medicina preventiva y salud pública
-546	546	GABULOV Vladimir	Medicina física y rehabilitación
-547	547	KUTEPOV Ilya	Medicina del deporte
-548	548	AKINFEEV Igor	Neurología
-549	549	IGNASHEVICH Sergey	Urología
-550	550	SEMENOV Andrey	Medicina legal y forense
-551	551	DZYUBA Artem	Nefrología
+506	506	JOAO MOUTINHO	Reumatología
+507	507	GELSON MARTINS	Oftalmología
+508	508	RAPHAEL GUERREIRO	Hematología y hemoterapia
+509	509	BRUNO FERNANDES	Infectología
+510	510	BERNARDO SILVA	Geriatría
+511	511	MARIO RUI	Medicina legal y forense
+512	512	CEDRIC	Hematología y hemoterapia
+513	513	MANUEL FERNANDES	Oncología radioterápica
+514	514	RICARDO	Toxicología
+515	515	GONCALO GUEDES	Alergología
+516	516	ADRIEN SILVA	Oncología médica
+517	517	JOAO MARIO	Hematología y hemoterapia
+518	518	RICARDO QUARESMA	Medicina familiar y comunitaria
+519	519	ANDRE SILVA	Oncología radioterápica
+520	520	BETO	Nutriología
+521	521	CRISTIANO RONALDO	Medicina veterinaria
+522	522	WILLIAM	Medicina aeroespacial
+523	523	PEPE	Oncología radioterápica
+524	524	ANTHONY LOPES	Alergología
+525	525	BRUNO ALVES	Medicina preventiva y salud pública
+526	526	RUBEN DIAS	Neurología
+527	527	RUI PATRICIO	Psiquiatría
+528	528	JOSE FONTE	Psiquiatría
+529	529	MIRANCHUK Anton	Infectología
+530	530	CHERYSHEV Denis	Medicina aeroespacial
+531	531	GOLOVIN Aleksandr	Oncología médica
+532	532	SMOLNIKOV Igor	Oncología radioterápica
+533	533	DZAGOEV Alan	Psiquiatría
+534	534	KUZIAEV Daler	Gastroenterología
+535	535	SAMEDOV Alexander	Endocrinología
+536	536	GAZINSKY Iury	Gastroenterología
+537	537	ZHIRKOV Yury	Gastroenterología
+538	538	ZOBNIN Roman	Medicina legal y forense
+539	539	MIRANCHUK Alexey	Psiquiatría
+540	540	KUDRIASHOV Fedor	Infectología
+541	541	MARIO FERNANDES	Urología
+542	542	SMOLOV Fedor	Oncología radioterápica
+543	543	EROKHIN Aleksandr	Nutriología
+544	544	LUNEV Andrei	Nutriología
+545	545	GRANAT Vladimir	Medicina física y rehabilitación
+546	546	GABULOV Vladimir	Nefrología
+547	547	KUTEPOV Ilya	Anestesiología y reanimación
+548	548	AKINFEEV Igor	Medicina aeroespacial
+549	549	IGNASHEVICH Sergey	Infectología
+550	550	SEMENOV Andrey	Medicina interna
+551	551	DZYUBA Artem	Rehabilitación
 552	552	MOHAMMED ALBURAYK	Endocrinología
-553	553	SALMAN ALFARAJ	Medicina del trabajo
-554	554	YAHIA ALSHEHRI	Medicina familiar y comunitaria
-555	555	YASIR ALSHAHRANI	Toxicología
-556	556	FAHAD ALMUWALLAD	Medicina veterinaria
-557	557	HATAN BAHBIR	Medicina de urgencias
-558	558	ABDULLAH OTAYF	Medicina aeroespacial
-559	559	ABDULLAH ALKHAIBARI	Medicina física y rehabilitación
-560	560	MANSOUR ALHARBI	Oncología médica
-561	561	SALEM ALDAWSARI	Cardiología
-562	562	TAISEER ALJASSAM	Neurología
-563	563	ABDULMALEK ALKHAIBRI	Gastroenterología
-564	564	MOHAMED KANNO	Toxicología
-565	565	MOHAMMED ALSAHLAWI	Urología
-566	566	OMAR OTHMAN	Medicina del deporte
-567	567	HUSSAIN ALMOQAHWI	Pediatría
-568	568	MUHANNAD ASIRI	Medicina del deporte
-569	569	MOHAMMED ALOWAIS	Medicina familiar y comunitaria
-570	570	MOTAZ HAWSAWI	Medicina legal y forense
-571	571	OSAMA HAWSAWI	Neurología
-572	572	ALI ALBULAYHI	Toxicología
-573	573	YASSER ALMOSAILEM	Alergología
-574	574	ABDULLAH ALMUAIOUF	Nutriología
+553	553	SALMAN ALFARAJ	Urología
+554	554	YAHIA ALSHEHRI	Oncología médica
+555	555	YASIR ALSHAHRANI	Oftalmología
+556	556	FAHAD ALMUWALLAD	Medicina preventiva y salud pública
+557	557	HATAN BAHBIR	Hematología y hemoterapia
+558	558	ABDULLAH OTAYF	Medicina física y rehabilitación
+559	559	ABDULLAH ALKHAIBARI	Gastroenterología
+560	560	MANSOUR ALHARBI	Neurología
+561	561	SALEM ALDAWSARI	Pediatría
+562	562	TAISEER ALJASSAM	Hematología y hemoterapia
+563	563	ABDULMALEK ALKHAIBRI	Endocrinología
+564	564	MOHAMED KANNO	Medicina veterinaria
+565	565	MOHAMMED ALSAHLAWI	Oncología médica
+566	566	OMAR OTHMAN	Medicina de urgencias
+567	567	HUSSAIN ALMOQAHWI	Medicina intensiva
+568	568	MUHANNAD ASIRI	Endocrinología
+569	569	MOHAMMED ALOWAIS	Medicina veterinaria
+570	570	MOTAZ HAWSAWI	Medicina de urgencias
+571	571	OSAMA HAWSAWI	Medicina intensiva
+572	572	ALI ALBULAYHI	Rehabilitación
+573	573	YASSER ALMOSAILEM	Medicina del deporte
+574	574	ABDULLAH ALMUAIOUF	Alergología
 575	575	GUEYE Idrissa Gana	Alergología
-576	576	CISS Saliou	Medicina interna
-577	577	MANE Sadio	Infectología
-578	578	SARR Ismaila	Neumología
-579	579	WAGUE Moussa	Pediatría
-580	580	SABALY Youssouf	Medicina intensiva
-581	581	NDIAYE Pape Alioune	Alergología
-582	582	NIANG Mbaye	Reumatología
-583	583	GASSAMA Lamine	Neurología
-584	584	SOW Moussa	Neurología
-585	585	KOUYATE Cheikhou	Hematología y hemoterapia
-586	586	BALDE Keita	Medicina del deporte
-587	587	KONATE Moussa	Medicina física y rehabilitación
-588	588	DIALLO Abdoulaye	Geriatría
+576	576	CISS Saliou	Oncología radioterápica
+577	577	MANE Sadio	Medicina preventiva y salud pública
+578	578	SARR Ismaila	Alergología
+579	579	WAGUE Moussa	Rehabilitación
+580	580	SABALY Youssouf	Oncología médica
+581	581	NDIAYE Pape Alioune	Medicina intensiva
+582	582	NIANG Mbaye	Oncología médica
+583	583	GASSAMA Lamine	Medicina intensiva
+584	584	SOW Moussa	Urología
+585	585	KOUYATE Cheikhou	Oftalmología
+586	586	BALDE Keita	Medicina legal y forense
+587	587	KONATE Moussa	Neumología
+588	588	DIALLO Abdoulaye	Reumatología
 589	589	SAKHO Diafra	Medicina del deporte
-590	590	NDIAYE Alfred	Psiquiatría
-591	591	NDIAYE Khadim	Gastroenterología
-592	592	GOMIS Alfred	Cardiología
-593	593	DIOUF Mame	Pediatría
-594	594	SANE Salif	Anestesiología y reanimación
-595	595	MBODJI Kara	Medicina del deporte
-596	596	KOULIBALY Kalidou	Medicina intensiva
-597	597	NDOYE Cheikh	Urología
-598	598	ZIVKOVIC Andrija	Psiquiatría
-599	599	RODIC Milan	Cardiología
-600	600	RUKAVINA Antonio	Medicina interna
-601	601	LJAJIC Adem	Geriatría
-602	602	JOVIC Luka	Medicina del deporte
-603	603	TADIC Dusan	Urología
-604	604	RADONJIC Nemanja	Endocrinología
-605	605	MILINKOVIC-SAVIC Sergej	Reumatología
-606	606	VELJKOVIC Milos	Medicina legal y forense
-607	607	TOSIC Dusko	Pediatría
-608	608	MILIVOJEVIC Luka	Alergología
-609	609	SPAJIC Uros	Medicina legal y forense
-610	610	MITROVIC Aleksandar	Pediatría
-611	611	GRUJIC Marko	Medicina intensiva
-612	612	KOSTIC Filip	Hematología y hemoterapia
-613	613	KOLAROV Aleksandar	Neurología
-614	614	RAJKOVIC Predrag	Reumatología
-615	615	MATIC Nemanja	Medicina de urgencias
-616	616	PRIJOVIC Aleksandar	Oftalmología
-617	617	IVANOVIC Branislav	Reumatología
-618	618	MILENKOVIC Nikola	Medicina interna
-619	619	DMITROVIC Marko	Toxicología
-620	620	STOJKOVIC Vladimir	Medicina preventiva y salud pública
-621	621	ODRIOZOLA Alvaro	Medicina familiar y comunitaria
-622	622	ASPAS Iago	Pediatría
-623	623	SILVA David	Alergología
-624	624	INIESTA Andres	Gastroenterología
-625	625	ALBA Jordi	Oncología médica
-626	626	THIAGO	Alergología
-627	627	VAZQUEZ Lucas	Oftalmología
-628	628	DE GEA David	Gastroenterología
-629	629	RODRIGO	Nefrología
-630	630	MONREAL Nacho	Psiquiatría
-631	631	CARVAJAL Dani	Medicina legal y forense
-632	632	KOKE	Medicina interna
-633	633	ISCO	Toxicología
-634	634	RAMOS Sergio	Medicina veterinaria
-635	635	SAUL	Alergología
-636	636	ASENSIO Marco	Medicina de urgencias
-637	637	NACHO	Cardiología
-638	638	BUSQUETS Sergio	Medicina de urgencias
-639	639	AZPILICUETA Cesar	Gastroenterología
-640	640	ARRIZABALAGA Kepa	Nutriología
-641	641	PIQUE Gerard	Medicina del trabajo
-642	642	COSTA Diego	Reumatología
-643	643	REINA Pepe	Urología
-644	644	DURMAZ Jimmy	Medicina familiar y comunitaria
-645	645	LARSSON Sebastian	Anestesiología y reanimación
-646	646	KRAFTH Emil	Hematología y hemoterapia
-647	647	HILJEMARK Oscar	Medicina aeroespacial
-648	648	EKDAL Albin	Medicina interna
-649	649	AUGUSTINSSON Ludwig	Geriatría
-650	650	BERG Marcus	Oftalmología
-651	651	ROHDEN Marcus	Medicina preventiva y salud pública
-652	652	LUSTIG Mikael	Pediatría
-653	653	SVENSSON Gustav	Medicina del trabajo
-654	654	FORSBERG Emil	Neumología
-655	655	TOIVONEN Ola	Anestesiología y reanimación
-656	656	GUIDETTI John	Medicina preventiva y salud pública
-657	657	CLAESSON Viktor	Rehabilitación
-658	658	LINDELOF Victor	Medicina legal y forense
-659	659	OLSSON Martin	Oncología médica
-660	660	JOHNSSON Karl-Johan	Medicina del deporte
-661	661	HELANDER Filip	Urología
-662	662	THELIN Isaac Kiese	Neurología
-663	663	GRANQVIST Andreas	Oncología radioterápica
-664	664	NORDFELDT Kristoffer	Infectología
-665	665	OLSEN Robin	Nutriología
-666	666	JANSSON Pontus	Alergología
-667	667	FERNANDES Gelson	Urología
-668	668	FREULER Remo	Infectología
-669	669	GAVRANOVIC Mario	Neumología
-670	670	MOUBANDJE Francois	Medicina del deporte
-671	671	LICHTSTEINER Stephan	Geriatría
-672	672	ELVEDI Nico	Infectología
-673	673	DZEMAILI Blerim	Oftalmología
-674	674	ZAKARIA Denis	Medicina preventiva y salud pública
-675	675	LANG Michael	Medicina de urgencias
-676	676	BEHRAMI Valon	Medicina familiar y comunitaria
-677	677	DRMIC Josip	Geriatría
-678	678	SHAQIRI Xherdan	Medicina familiar y comunitaria
-679	679	RODRIGUEZ Ricardo	Medicina física y rehabilitación
-680	680	ZUBER Steven	Oncología radioterápica
+590	590	NDIAYE Alfred	Geriatría
+591	591	NDIAYE Khadim	Medicina del trabajo
+592	592	GOMIS Alfred	Urología
+593	593	DIOUF Mame	Rehabilitación
+594	594	SANE Salif	Medicina aeroespacial
+595	595	MBODJI Kara	Pediatría
+596	596	KOULIBALY Kalidou	Toxicología
+597	597	NDOYE Cheikh	Medicina aeroespacial
+598	598	ZIVKOVIC Andrija	Reumatología
+599	599	RODIC Milan	Oncología médica
+600	600	RUKAVINA Antonio	Rehabilitación
+601	601	LJAJIC Adem	Oftalmología
+602	602	JOVIC Luka	Cardiología
+603	603	TADIC Dusan	Medicina física y rehabilitación
+604	604	RADONJIC Nemanja	Medicina interna
+605	605	MILINKOVIC-SAVIC Sergej	Gastroenterología
+606	606	VELJKOVIC Milos	Nutriología
+607	607	TOSIC Dusko	Cardiología
+608	608	MILIVOJEVIC Luka	Medicina aeroespacial
+609	609	SPAJIC Uros	Geriatría
+610	610	MITROVIC Aleksandar	Rehabilitación
+611	611	GRUJIC Marko	Medicina interna
+612	612	KOSTIC Filip	Pediatría
+613	613	KOLAROV Aleksandar	Psiquiatría
+614	614	RAJKOVIC Predrag	Neurología
+615	615	MATIC Nemanja	Rehabilitación
+616	616	PRIJOVIC Aleksandar	Medicina física y rehabilitación
+617	617	IVANOVIC Branislav	Psiquiatría
+618	618	MILENKOVIC Nikola	Nefrología
+619	619	DMITROVIC Marko	Medicina del trabajo
+620	620	STOJKOVIC Vladimir	Medicina intensiva
+621	621	ODRIOZOLA Alvaro	Infectología
+622	622	ASPAS Iago	Medicina legal y forense
+623	623	SILVA David	Medicina legal y forense
+624	624	INIESTA Andres	Alergología
+625	625	ALBA Jordi	Cardiología
+626	626	THIAGO	Medicina física y rehabilitación
+627	627	VAZQUEZ Lucas	Reumatología
+628	628	DE GEA David	Medicina intensiva
+629	629	RODRIGO	Hematología y hemoterapia
+630	630	MONREAL Nacho	Pediatría
+631	631	CARVAJAL Dani	Medicina del deporte
+632	632	KOKE	Rehabilitación
+633	633	ISCO	Geriatría
+634	634	RAMOS Sergio	Medicina intensiva
+635	635	SAUL	Nefrología
+636	636	ASENSIO Marco	Oftalmología
+637	637	NACHO	Endocrinología
+638	638	BUSQUETS Sergio	Oftalmología
+639	639	AZPILICUETA Cesar	Anestesiología y reanimación
+640	640	ARRIZABALAGA Kepa	Rehabilitación
+641	641	PIQUE Gerard	Medicina intensiva
+642	642	COSTA Diego	Medicina legal y forense
+643	643	REINA Pepe	Endocrinología
+644	644	DURMAZ Jimmy	Pediatría
+645	645	LARSSON Sebastian	Psiquiatría
+646	646	KRAFTH Emil	Oftalmología
+647	647	HILJEMARK Oscar	Endocrinología
+648	648	EKDAL Albin	Alergología
+649	649	AUGUSTINSSON Ludwig	Nutriología
+650	650	BERG Marcus	Medicina física y rehabilitación
+651	651	ROHDEN Marcus	Medicina del trabajo
+652	652	LUSTIG Mikael	Infectología
+653	653	SVENSSON Gustav	Medicina preventiva y salud pública
+654	654	FORSBERG Emil	Infectología
+655	655	TOIVONEN Ola	Infectología
+656	656	GUIDETTI John	Nefrología
+657	657	CLAESSON Viktor	Endocrinología
+658	658	LINDELOF Victor	Medicina de urgencias
+659	659	OLSSON Martin	Medicina física y rehabilitación
+660	660	JOHNSSON Karl-Johan	Oncología radioterápica
+661	661	HELANDER Filip	Oncología radioterápica
+662	662	THELIN Isaac Kiese	Anestesiología y reanimación
+663	663	GRANQVIST Andreas	Neumología
+664	664	NORDFELDT Kristoffer	Rehabilitación
+665	665	OLSEN Robin	Medicina aeroespacial
+666	666	JANSSON Pontus	Neumología
+667	667	FERNANDES Gelson	Medicina legal y forense
+668	668	FREULER Remo	Geriatría
+669	669	GAVRANOVIC Mario	Oncología médica
+670	670	MOUBANDJE Francois	Gastroenterología
+671	671	LICHTSTEINER Stephan	Neurología
+672	672	ELVEDI Nico	Medicina intensiva
+673	673	DZEMAILI Blerim	Nutriología
+674	674	ZAKARIA Denis	Psiquiatría
+675	675	LANG Michael	Nefrología
+676	676	BEHRAMI Valon	Medicina del trabajo
+677	677	DRMIC Josip	Medicina del trabajo
+678	678	SHAQIRI Xherdan	Alergología
+679	679	RODRIGUEZ Ricardo	Medicina aeroespacial
+680	680	ZUBER Steven	Cardiología
 681	681	SOMMER Yann	Medicina legal y forense
-682	682	XHAKA Granit	Toxicología
-683	683	BUERKI Roman	Medicina familiar y comunitaria
-684	684	SCHAER Fabian	Oncología radioterápica
-685	685	MVOGO Yvon	Toxicología
-686	686	AKANJI Manuel	Cardiología
-687	687	EMBOLO Breel	Rehabilitación
-688	688	SEFEROVIC Haris	Neurología
-689	689	DJOUROU Johan	Oncología radioterápica
-690	690	SLITI Naim	Hematología y hemoterapia
-691	691	SKHIRI Ellyes	Rehabilitación
-692	692	MERIAH Yassine	Oncología médica
-693	693	BADRI Anice	Medicina intensiva
-694	694	CHAALELI Ghaylen	Geriatría
-695	695	HASSEN Mouez	Medicina del trabajo
-696	696	SRARFI Bassem	Neurología
-697	697	MAALOUL Ali	Medicina veterinaria
-698	698	KHALIFA Saber	Nutriología
-699	699	BEN ALOUANE Yohan	Pediatría
-700	700	BRONN Dylan	Medicina familiar y comunitaria
-701	701	BEN AMOR Mohamed	Gastroenterología
-702	702	KHALIL Ahmed	Reumatología
-703	703	NAGUEZ Hamdi	Medicina familiar y comunitaria
-704	704	HADDADI Oussama	Gastroenterología
-705	705	KHAOUI Saifeddine	Medicina veterinaria
-706	706	KHAZRI Wahbi	Medicina preventiva y salud pública
+682	682	XHAKA Granit	Neumología
+683	683	BUERKI Roman	Hematología y hemoterapia
+684	684	SCHAER Fabian	Medicina de urgencias
+685	685	MVOGO Yvon	Cardiología
+686	686	AKANJI Manuel	Oncología médica
+687	687	EMBOLO Breel	Neurología
+688	688	SEFEROVIC Haris	Gastroenterología
+689	689	DJOUROU Johan	Medicina veterinaria
+690	690	SLITI Naim	Medicina familiar y comunitaria
+691	691	SKHIRI Ellyes	Oncología radioterápica
+692	692	MERIAH Yassine	Cardiología
+693	693	BADRI Anice	Medicina interna
+694	694	CHAALELI Ghaylen	Urología
+695	695	HASSEN Mouez	Medicina del deporte
+696	696	SRARFI Bassem	Medicina intensiva
+697	697	MAALOUL Ali	Medicina familiar y comunitaria
+698	698	KHALIFA Saber	Medicina de urgencias
+699	699	BEN ALOUANE Yohan	Medicina legal y forense
+700	700	BRONN Dylan	Medicina legal y forense
+701	701	BEN AMOR Mohamed	Medicina familiar y comunitaria
+702	702	KHALIL Ahmed	Nutriología
+703	703	NAGUEZ Hamdi	Rehabilitación
+704	704	HADDADI Oussama	Medicina legal y forense
+705	705	KHAOUI Saifeddine	Medicina aeroespacial
+706	706	KHAZRI Wahbi	Oncología médica
 707	707	BEDOUI Rami	Hematología y hemoterapia
-708	708	BEN YOUSSEF Fakhreddine	Medicina familiar y comunitaria
-709	709	SASSI Ferjani	Nefrología
-710	710	MATHLOUTHI Aymen	Nefrología
-711	711	BEN MUSTAPHA Farouk	Infectología
-712	712	BEN YOUSSEF Syam	Medicina legal y forense
-713	713	NANDEZ Nahitan	Medicina legal y forense
-714	714	TORREIRA Lucas	Medicina legal y forense
-715	715	DE ARRASCAETA Giorgian	Medicina del deporte
-716	716	LAXALT Diego	Urología
-717	717	URRETAVISCAYA Jonathan	Medicina física y rehabilitación
-718	718	VARELA Guillermo	Rehabilitación
-719	719	GODIN Diego	Infectología
-720	720	BENTANCUR Rodrigo	Medicina del trabajo
-721	721	PEREIRA Maximiliano	Medicina aeroespacial
-722	722	MUSLERA Fernando	Endocrinología
+708	708	BEN YOUSSEF Fakhreddine	Oncología radioterápica
+709	709	SASSI Ferjani	Anestesiología y reanimación
+710	710	MATHLOUTHI Aymen	Medicina preventiva y salud pública
+711	711	BEN MUSTAPHA Farouk	Medicina del trabajo
+712	712	BEN YOUSSEF Syam	Pediatría
+713	713	NANDEZ Nahitan	Oncología radioterápica
+714	714	TORREIRA Lucas	Endocrinología
+715	715	DE ARRASCAETA Giorgian	Geriatría
+716	716	LAXALT Diego	Rehabilitación
+717	717	URRETAVISCAYA Jonathan	Neurología
+718	718	VARELA Guillermo	Pediatría
+719	719	GODIN Diego	Neurología
+720	720	BENTANCUR Rodrigo	Psiquiatría
+721	721	PEREIRA Maximiliano	Gastroenterología
+722	722	MUSLERA Fernando	Neurología
 723	723	SANCHEZ Carlos	Geriatría
-724	724	SILVA Gaston	Toxicología
-725	725	CACERES Martin	Geriatría
-726	726	GIMENEZ Jose	Infectología
-727	727	STUANI Cristhian	Medicina del trabajo
-728	728	CAVANI Edinson	Medicina intensiva
-729	729	RODRIGUEZ Cristian	Neumología
-730	730	CAMPANA Martin	Medicina física y rehabilitación
-731	731	VECINO Matias	Medicina preventiva y salud pública
-732	732	SILVA Martin	Rehabilitación
-733	733	SUAREZ Luis	Medicina veterinaria
-734	734	GOMEZ Maximiliano	Cardiología
+724	724	SILVA Gaston	Endocrinología
+725	725	CACERES Martin	Medicina del deporte
+726	726	GIMENEZ Jose	Medicina legal y forense
+727	727	STUANI Cristhian	Medicina de urgencias
+728	728	CAVANI Edinson	Medicina legal y forense
+729	729	RODRIGUEZ Cristian	Medicina aeroespacial
+730	730	CAMPANA Martin	Medicina intensiva
+731	731	VECINO Matias	Psiquiatría
+732	732	SILVA Martin	Medicina preventiva y salud pública
+733	733	SUAREZ Luis	Oftalmología
+734	734	GOMEZ Maximiliano	Medicina legal y forense
 735	735	COATES Sebastian	Oftalmología

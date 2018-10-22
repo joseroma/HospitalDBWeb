@@ -90,8 +90,8 @@ for i in range(0, cont):
     id_operacion_num = randrange(1111111, 9999999)
     num_especialidad = randrange(0, len(lista_especialidades))
     especialidad.insert(i, choice(["NULL", lista_especialidades[num_especialidad]]))
-    id_operacion.insert(i, choice(["NULL", id_operacion_num]))
-    if id_operacion[i] != "NULL":
+    id_operacion.insert(i, choice(["NULL", int(id_operacion_num)]))
+    if id_operacion[i] != None:
         id_toperacion.insert(cont_operacion, int(id_operacion_num))
         cont_operacion = cont_operacion + 1
 
@@ -238,6 +238,8 @@ print(len(especialidad_tenfermedad))
 #-----------
 #URGENCIA
 #-----------
+
+
 num_urgencia_id = [int(x) for x in num_urgencia_id]
 num_urgencia_id.sort()
 tabla_urgencia['id_urgencia'] = num_urgencia_id

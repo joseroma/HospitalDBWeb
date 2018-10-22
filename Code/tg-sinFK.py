@@ -211,18 +211,28 @@ tabla_enfermedad['tratamiento'] = tratamiento
 tabla_enfermedad['contagiosa'] = contagiosa
 tabla_enfermedad['ingreso'] = ingreso
 
+
+#for i in range(1, len(tratamiento)):
+            #    print("¿Que especialidad cogerias para ...?")
+            #    print("Enfermedad "+lista_enfermedades[i]+"\nCura conocida "+ cura_conocida[i]+
+            #          "\nContagiosa "+ contagiosa[i] + "\nHereditaria " + hereditaria[i]+"\nTratamiento "+tratamiento[i])
+            #    lista_enfermedades_escritas.insert(i, input())
+
+            #tabla_enfermedad['Especialidad'] = lista_enfermedades_escritas
+                #especialidad_tenfermedad
 #-----------
 #URGENCIA
 #-----------
+num_urgencia_id = list(set(num_urgencia_id))
 num_urgencia_id = [int(x) for x in num_urgencia_id]
 num_urgencia_id.sort()
-tabla_urgencia['id_urgencia'] = num_urgencia_id
+tabla_urgencia['id_urgencia'] =  num_urgencia_id
 value_urgencia = [df.fuerocomun_descripcion[x] for x in num_urgencia_id]
 tabla_urgencia['causa'] = value_urgencia
-tabla_urgencia['gravedad'] = enum_gravedad
-tabla_urgencia['uso_ambulancia'] = boolean_ambulancia
-tabla_urgencia['necesita_operacion'] = id_operacion
-tabla_urgencia['ingreso']=tupla_ingreso
+tabla_urgencia['gravedad'] = enum_gravedad[:len(num_urgencia_id)]
+tabla_urgencia['uso_ambulancia'] = boolean_ambulancia[:len(num_urgencia_id)]
+tabla_urgencia['necesita_operacion'] = id_operacion[:len(num_urgencia_id)]
+tabla_urgencia['ingreso']=tupla_ingreso[:len(num_urgencia_id)]
 
 
 
