@@ -89,15 +89,12 @@ for i in range(0, cont):
     tupla_ingreso.insert(i, choice(["YES", "NO"]))
     id_operacion_num = randrange(1111111, 9999999)
     num_especialidad = randrange(0, len(lista_especialidades))
-    especialidad.insert(i, choice(["NULL", lista_especialidades[num_especialidad]]))
+    especialidad.insert(i,  lista_especialidades[num_especialidad])
     id_operacion.insert(i, choice(["NULL", int(id_operacion_num)]))
     if id_operacion[i] != None:
         id_toperacion.insert(cont_operacion, int(id_operacion_num))
         cont_operacion = cont_operacion + 1
 
-    if especialidad[i] != "NULL":
-        id_tespecialidad.insert(cont_operacion, lista_especialidades[num_especialidad])
-        cont_especialidad = cont_especialidad + 1
 
 
 print("Creamos los vectores aleatorios para tabla_operacion")

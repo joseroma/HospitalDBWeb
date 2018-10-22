@@ -1,93 +1,93 @@
-nombre_enfermedad,hereditaria,cura_conocida,tratamiento,contagiosa,ingreso,ESPECIALIDAD_nombre_especialidad
-Absceso dental,YES,NO,NO,NO,NO,Medicina interna
-Accidente cerebro vascular ACV,YES,NO,NO,NO,NO,Medicina veterinaria
-Alcoholismo,NO,YES,YES,YES,YES,Hematología y hemoterapia
-Anemia,YES,NO,NO,NO,NO,Pediatría
-Anemia de Fanconi,NO,NO,NO,NO,YES,Medicina aeroespacial
-Anemia ferropénica,YES,NO,NO,NO,NO,Hematología y hemoterapia
-Anemia hemolítica,YES,NO,NO,NO,NO,Rehabilitación
-Anorexia,YES,NO,NO,NO,NO,Medicina preventiva y salud pública
-Apnea del sueño,YES,NO,NO,NO,NO,Medicina legal y forense
-Asma,YES,NO,NO,NO,YES,Oncología médica
-Aterosclerosis,NO,YES,YES,NO,NO,Anestesiología y reanimación
-Bronquiectasias,YES,NO,NO,NO,NO,Psiquiatría
-Bronquitis,YES,NO,NO,NO,YES,Medicina veterinaria
-Brucelosis,NO,YES,NO,YES,YES,Hematología y hemoterapia
-Bulimia,NO,YES,YES,NO,NO,Neurología
-Calambres musculares,YES,NO,NO,NO,NO,Medicina aeroespacial
-Cálculos de riñón,YES,NO,NO,NO,NO,Psiquiatría
-Callos y callosidades,NO,YES,YES,YES,YES,Medicina del trabajo
-Cefaleas,NO,NO,NO,YES,YES,Medicina del deporte
-Cefaleas de tensión,NO,NO,NO,NO,YES,Reumatología
-Ciática,YES,NO,NO,NO,YES,Toxicología
-Colitis Ulcerosa,NO,YES,NO,YES,NO,Reumatología
-Colon irritable,YES,NO,NO,NO,YES,Oncología radioterápica
-Coma etílico,NO,YES,YES,YES,NO,Medicina intensiva
-Congelación,YES,NO,NO,NO,YES,Oncología radioterápica
-Degeneración macular del ojo,NO,NO,NO,NO,NO,Medicina aeroespacial
-Depresión,NO,YES,YES,YES,NO,Geriatría
-Deshidratación,YES,NO,NO,NO,NO,Oncología radioterápica
-Desmayos y mareos,YES,NO,NO,NO,YES,Rehabilitación
-Diarrea,NO,YES,NO,YES,YES,Neumología
-Diarrea del viajero,YES,NO,NO,NO,YES,Rehabilitación
-Dolor de espalda,NO,YES,NO,YES,YES,Anestesiología y reanimación
-Dolor de garganta,YES,NO,NO,NO,YES,Reumatología
-Dolor de oído,NO,YES,NO,NO,YES,Reumatología
-Embarazo en la adolescencia,YES,NO,NO,NO,NO,Psiquiatría
-Enfermedad de Crohn,NO,YES,YES,YES,NO,Oncología radioterápica
-Enfermedad de Parkinson,YES,NO,NO,NO,YES,Toxicología
-Estreñimiento,NO,YES,NO,YES,NO,Geriatría
-Fisura anal,YES,NO,NO,NO,NO,Medicina física y rehabilitación
-Ganglión,YES,NO,NO,NO,NO,Urología
-Glositis,NO,NO,NO,NO,NO,Anestesiología y reanimación
-Gota,YES,NO,NO,NO,YES,Medicina de urgencias
-Hemorroides,NO,YES,NO,NO,NO,Toxicología
-Hernia discal,YES,NO,NO,NO,YES,Medicina veterinaria
-Hiperlipemias y colesterol elevado,YES,NO,NO,NO,YES,Alergología
-Hipertensión arterial HTA,NO,YES,NO,NO,YES,Medicina preventiva y salud pública
-Hipertensión intracraneal idiopática,YES,NO,NO,NO,YES,Gastroenterología
-Hipocondría,NO,YES,NO,NO,NO,Medicina preventiva y salud pública
-Hipotensión,YES,NO,NO,NO,YES,Medicina del trabajo
-Hongos,YES,NO,NO,NO,YES,Medicina del deporte
-Hongos en las uñas,YES,NO,NO,NO,NO,Infectología
-Juanetes,NO,NO,NO,NO,NO,Alergología
-La gripe,NO,NO,NO,NO,YES,Nefrología
-Laberintitis,NO,YES,NO,YES,NO,Endocrinología
-Labios agrietados,NO,YES,NO,YES,NO,Medicina aeroespacial
-Laringitis,YES,NO,NO,NO,YES,Medicina legal y forense
-Latigazo cervical,NO,YES,YES,YES,YES,Hematología y hemoterapia
-Lengua geográfica,NO,YES,NO,NO,YES,Medicina del deporte
-Lengua negra vellosa,NO,YES,YES,NO,NO,Nutriología
-Litiasis renal,NO,YES,YES,YES,NO,Oncología radioterápica
-Mareo,NO,NO,NO,YES,YES,Neurología
-Mastoiditis,NO,YES,NO,NO,NO,Medicina interna
-Medicamento: Prozac®,YES,NO,NO,NO,NO,Neurología
-Medidas sanitarias en los viajes al extranjero,YES,NO,NO,NO,NO,Infectología
-Migrañas y jaquecas,NO,NO,NO,YES,NO,Medicina del deporte
-Obesidad,NO,YES,NO,NO,YES,Medicina física y rehabilitación
-Orinar por la noche,NO,YES,YES,NO,NO,Medicina preventiva y salud pública
-Parálisis facial de Bell,YES,NO,NO,NO,NO,Medicina intensiva
-Piel seca,YES,NO,NO,NO,NO,Medicina familiar y comunitaria
-Preparación de los viajes largos,YES,NO,NO,NO,YES,Nutriología
-Prevención de las hemorroides,NO,NO,NO,NO,YES,Anestesiología y reanimación
-Reflujo gastroesofágico,NO,NO,NO,YES,NO,Medicina de urgencias
-Resfriados,NO,YES,YES,YES,YES,Urología
-Ronquidos,NO,NO,NO,NO,YES,Toxicología
-Rotura de tímpano,NO,NO,NO,NO,NO,Neurología
-Sangrado nasal,NO,YES,YES,NO,NO,Gastroenterología
-Sangrado rectal,NO,YES,NO,YES,NO,Medicina del deporte
-Sangre en el esputo,YES,NO,NO,NO,YES,Urología
-Sangre en la orina,YES,NO,NO,NO,NO,Hematología y hemoterapia
-Síndrome de astenia crónica,YES,NO,NO,NO,YES,Nefrología
-Síndrome de piernas inquietas,YES,NO,NO,NO,YES,Urología
-Síndrome hepático renal,NO,YES,NO,NO,YES,Anestesiología y reanimación
-Síndrome nefrótico,NO,NO,NO,YES,YES,Medicina del trabajo
-Sinusitis,NO,NO,NO,YES,YES,Rehabilitación
-Talasemia,NO,YES,NO,YES,NO,Medicina de urgencias
-Tendinitis,NO,NO,NO,YES,NO,Reumatología
-Tic en el párpado,NO,NO,NO,YES,NO,Medicina interna
-Tratamiento de las jaquecas,YES,NO,NO,NO,YES,Rehabilitación
-Tratamiento del alcoholismo,YES,NO,NO,NO,NO,Medicina intensiva
-Varices,NO,NO,NO,NO,NO,Oftalmología
-Vértigo,NO,NO,NO,YES,NO,Medicina física y rehabilitación
-Vómitos de sangre,YES,NO,NO,NO,YES,Medicina del trabajo
+nombre_enfermedad,hereditaria,cura_conocida,tratamiento,contagiosa,ingreso
+Absceso dental,NO,NO,NO,NO,NO
+Accidente cerebro vascular ACV,YES,NO,NO,NO,NO
+Alcoholismo,YES,NO,NO,NO,NO
+Anemia,NO,NO,NO,YES,YES
+Anemia de Fanconi,NO,NO,NO,NO,YES
+Anemia ferropénica,YES,NO,NO,NO,YES
+Anemia hemolítica,YES,NO,NO,NO,YES
+Anorexia,YES,NO,NO,NO,YES
+Apnea del sueño,YES,NO,NO,NO,NO
+Asma,YES,NO,NO,NO,NO
+Aterosclerosis,NO,YES,YES,NO,YES
+Bronquiectasias,YES,NO,NO,NO,NO
+Bronquitis,NO,YES,NO,YES,YES
+Brucelosis,YES,NO,NO,NO,YES
+Bulimia,NO,NO,NO,NO,NO
+Calambres musculares,NO,YES,YES,YES,YES
+Cálculos de riñón,YES,NO,NO,NO,NO
+Callos y callosidades,YES,NO,NO,NO,YES
+Cefaleas,NO,NO,NO,YES,NO
+Cefaleas de tensión,YES,NO,NO,NO,NO
+Ciática,YES,NO,NO,NO,NO
+Colitis Ulcerosa,YES,NO,NO,NO,YES
+Colon irritable,NO,NO,NO,YES,YES
+Coma etílico,NO,NO,NO,YES,NO
+Congelación,YES,NO,NO,NO,NO
+Degeneración macular del ojo,YES,NO,NO,NO,YES
+Depresión,NO,YES,YES,YES,YES
+Deshidratación,NO,YES,YES,YES,NO
+Desmayos y mareos,YES,NO,NO,NO,YES
+Diarrea,YES,NO,NO,NO,YES
+Diarrea del viajero,NO,NO,NO,NO,NO
+Dolor de espalda,YES,NO,NO,NO,NO
+Dolor de garganta,NO,YES,YES,NO,NO
+Dolor de oído,YES,NO,NO,NO,YES
+Embarazo en la adolescencia,NO,YES,YES,YES,NO
+Enfermedad de Crohn,NO,YES,YES,NO,YES
+Enfermedad de Parkinson,NO,YES,NO,NO,YES
+Estreñimiento,YES,NO,NO,NO,NO
+Fisura anal,NO,NO,NO,NO,NO
+Ganglión,YES,NO,NO,NO,YES
+Glositis,YES,NO,NO,NO,NO
+Gota,NO,YES,YES,NO,YES
+Hemorroides,NO,YES,YES,YES,YES
+Hernia discal,NO,NO,NO,YES,NO
+Hiperlipemias y colesterol elevado,NO,YES,YES,NO,YES
+Hipertensión arterial HTA,NO,NO,NO,YES,NO
+Hipertensión intracraneal idiopática,NO,NO,NO,YES,NO
+Hipocondría,YES,NO,NO,NO,YES
+Hipotensión,YES,NO,NO,NO,NO
+Hongos,NO,YES,NO,YES,NO
+Hongos en las uñas,YES,NO,NO,NO,NO
+Juanetes,YES,NO,NO,NO,NO
+La gripe,YES,NO,NO,NO,NO
+Laberintitis,NO,NO,NO,NO,YES
+Labios agrietados,YES,NO,NO,NO,YES
+Laringitis,NO,YES,NO,NO,YES
+Latigazo cervical,YES,NO,NO,NO,YES
+Lengua geográfica,YES,NO,NO,NO,YES
+Lengua negra vellosa,NO,NO,NO,YES,NO
+Litiasis renal,NO,YES,NO,YES,YES
+Mareo,NO,NO,NO,YES,NO
+Mastoiditis,YES,NO,NO,NO,YES
+Medicamento: Prozac®,YES,NO,NO,NO,NO
+Medidas sanitarias en los viajes al extranjero,YES,NO,NO,NO,NO
+Migrañas y jaquecas,NO,YES,NO,YES,NO
+Obesidad,YES,NO,NO,NO,NO
+Orinar por la noche,NO,YES,YES,NO,YES
+Parálisis facial de Bell,YES,NO,NO,NO,NO
+Piel seca,YES,NO,NO,NO,YES
+Preparación de los viajes largos,NO,YES,YES,NO,YES
+Prevención de las hemorroides,YES,NO,NO,NO,YES
+Reflujo gastroesofágico,NO,YES,NO,NO,NO
+Resfriados,YES,NO,NO,NO,NO
+Ronquidos,YES,NO,NO,NO,NO
+Rotura de tímpano,YES,NO,NO,NO,YES
+Sangrado nasal,NO,YES,NO,YES,NO
+Sangrado rectal,NO,NO,NO,NO,NO
+Sangre en el esputo,YES,NO,NO,NO,YES
+Sangre en la orina,YES,NO,NO,NO,NO
+Síndrome de astenia crónica,NO,NO,NO,YES,YES
+Síndrome de piernas inquietas,YES,NO,NO,NO,YES
+Síndrome hepático renal,NO,NO,NO,YES,NO
+Síndrome nefrótico,NO,NO,NO,YES,YES
+Sinusitis,YES,NO,NO,NO,YES
+Talasemia,YES,NO,NO,NO,NO
+Tendinitis,NO,YES,NO,YES,NO
+Tic en el párpado,YES,NO,NO,NO,YES
+Tratamiento de las jaquecas,YES,NO,NO,NO,YES
+Tratamiento del alcoholismo,NO,NO,NO,YES,NO
+Varices,YES,NO,NO,NO,NO
+Vértigo,YES,NO,NO,NO,NO
+Vómitos de sangre,YES,NO,NO,NO,YES
