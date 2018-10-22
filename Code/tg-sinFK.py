@@ -1,4 +1,4 @@
-# coding=utf-8
+﻿# coding=utf-8
 import pandas as pd
 from random import randrange, choice
 
@@ -271,12 +271,12 @@ tabla_especialidad['nombre_especialidad'] = lista_especialidades
 
 #Almacenamos los resultados en .csv
 print(list(tabla_paciente))
-tabla_paciente.to_csv('../Result_datasets_withoutFK/tabla_paciente.csv', sep=',', encoding='utf-8', index=False)
-tabla_urgencia.to_csv('../Result_datasets_withoutFK/tabla_urgencia.csv', sep=',', encoding='utf-8', index=False)
-tabla_operacion.to_csv('../Result_datasets_withoutFK/tabla_operacion.csv', sep=',', encoding='utf-8', index=False)
-tabla_quirofano.to_csv('../Result_datasets_withoutFK/tabla_quirofano.csv', sep=',', encoding='utf-8', index=False)
-tabla_medico.to_csv('../Result_datasets_withoutFK/tabla_medico.csv', sep=',', encoding='utf-8', index=False)
-tabla_enfermedad.to_csv('../Result_datasets_withoutFK/tabla_enfermedad.csv', sep=',', encoding='utf-8', index=False)
-tabla_especialidad.to_csv('../Result_datasets_withoutFK/tabla_especialidad.csv', sep=',', encoding='utf-8', index=False)
+tabla_paciente.to_csv('../Result_datasets_withFK/tabla_paciente.csv', sep=',', encoding='utf-8', index=False)
+tabla_urgencia.to_csv('../Result_datasets_withFK/tabla_urgencia.csv', sep=',', encoding='utf-8', index=False)
+tabla_operacion.to_csv('../Result_datasets_withFK/tabla_operacion.csv', sep=',', encoding='utf-8', index=False)
+tabla_quirofano.to_csv('../Result_datasets_withFK/tabla_quirofano.csv', sep=',', encoding='utf-8', index=False)
+tabla_medico.to_csv('../Result_datasets_withFK/tabla_medico.csv', sep=',', encoding='utf-8', index=False)
+tabla_enfermedad.to_csv('../Result_datasets_withFK/tabla_enfermedad.csv', sep=',', encoding='utf-8', index=False)
+tabla_especialidad.to_csv('../Result_datasets_withFK/tabla_especialidad.csv', sep=',', encoding='utf-8', index=False)
 
 
