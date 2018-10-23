@@ -7,5 +7,9 @@
 + Columnas FK?
 
 2. XLST
++ Columnas FK?
++ Link?
 
-3.Exportación?
+3.Componente exportación?¿¿?
+
+
