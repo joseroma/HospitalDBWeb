@@ -2,9 +2,10 @@
 
 ### Tareas pendientes
 
-1. Acabar la base de datos
-+ Añadir a la tabla enfermedad la especialidad para cada enfermedad
-+ Corregir los nombres del modelo para que coincidan con los de las tablas y poder añadirlos
+1. XML
++ Anidaciones/Cardinalidades
++ Columnas FK?
 
+2. XLST
 
-2. Empezar a mirar información de XML
+3.Exportación?
