@@ -1,93 +1,93 @@
 nombre_enfermedad,hereditaria,cura_conocida,tratamiento,contagiosa,ingreso
-Absceso dental,YES,NO,NO,NO,NO
-Accidente cerebro vascular ACV,YES,NO,NO,NO,YES
-Alcoholismo,NO,NO,NO,NO,YES
-Anemia,NO,YES,YES,YES,NO
+Absceso dental,YES,NO,NO,NO,YES
+Accidente cerebro vascular ACV,NO,YES,NO,NO,YES
+Alcoholismo,YES,NO,NO,NO,NO
+Anemia,YES,NO,NO,NO,YES
 Anemia de Fanconi,NO,YES,YES,YES,NO
 Anemia ferropénica,NO,NO,NO,YES,YES
-Anemia hemolítica,YES,NO,NO,NO,YES
+Anemia hemolítica,NO,NO,NO,YES,YES
 Anorexia,YES,NO,NO,NO,YES
-Apnea del sueño,YES,NO,NO,NO,NO
-Asma,NO,NO,NO,NO,YES
-Aterosclerosis,YES,NO,NO,NO,NO
-Bronquiectasias,NO,YES,YES,NO,YES
-Bronquitis,YES,NO,NO,NO,NO
-Brucelosis,YES,NO,NO,NO,YES
-Bulimia,YES,NO,NO,NO,NO
-Calambres musculares,YES,NO,NO,NO,YES
+Apnea del sueño,YES,NO,NO,NO,YES
+Asma,YES,NO,NO,NO,YES
+Aterosclerosis,YES,NO,NO,NO,YES
+Bronquiectasias,NO,YES,YES,YES,YES
+Bronquitis,NO,NO,NO,YES,NO
+Brucelosis,YES,NO,NO,NO,NO
+Bulimia,NO,YES,NO,NO,YES
+Calambres musculares,NO,NO,NO,YES,YES
 Cálculos de riñón,YES,NO,NO,NO,NO
-Callos y callosidades,YES,NO,NO,NO,YES
-Cefaleas,NO,YES,NO,NO,YES
+Callos y callosidades,YES,NO,NO,NO,NO
+Cefaleas,NO,NO,NO,YES,NO
 Cefaleas de tensión,YES,NO,NO,NO,NO
-Ciática,YES,NO,NO,NO,YES
-Colitis Ulcerosa,YES,NO,NO,NO,NO
-Colon irritable,YES,NO,NO,NO,NO
-Coma etílico,NO,NO,NO,YES,YES
-Congelación,NO,YES,NO,YES,YES
-Degeneración macular del ojo,YES,NO,NO,NO,NO
-Depresión,NO,NO,NO,YES,YES
-Deshidratación,YES,NO,NO,NO,YES
+Ciática,YES,NO,NO,NO,NO
+Colitis Ulcerosa,NO,NO,NO,YES,NO
+Colon irritable,YES,NO,NO,NO,YES
+Coma etílico,NO,NO,NO,YES,NO
+Congelación,YES,NO,NO,NO,YES
+Degeneración macular del ojo,NO,NO,NO,NO,YES
+Depresión,NO,NO,NO,YES,NO
+Deshidratación,NO,NO,NO,YES,YES
 Desmayos y mareos,YES,NO,NO,NO,NO
-Diarrea,NO,YES,NO,NO,NO
-Diarrea del viajero,YES,NO,NO,NO,NO
-Dolor de espalda,YES,NO,NO,NO,YES
-Dolor de garganta,NO,YES,NO,NO,NO
-Dolor de oído,YES,NO,NO,NO,YES
-Embarazo en la adolescencia,YES,NO,NO,NO,NO
-Enfermedad de Crohn,YES,NO,NO,NO,YES
-Enfermedad de Parkinson,YES,NO,NO,NO,YES
-Estreñimiento,YES,NO,NO,NO,NO
-Fisura anal,NO,YES,NO,YES,YES
+Diarrea,NO,NO,NO,NO,YES
+Diarrea del viajero,NO,NO,NO,NO,YES
+Dolor de espalda,NO,NO,NO,YES,YES
+Dolor de garganta,YES,NO,NO,NO,YES
+Dolor de oído,NO,NO,NO,YES,NO
+Embarazo en la adolescencia,NO,NO,NO,NO,NO
+Enfermedad de Crohn,NO,NO,NO,NO,NO
+Enfermedad de Parkinson,YES,NO,NO,NO,NO
+Estreñimiento,NO,YES,YES,YES,NO
+Fisura anal,NO,NO,NO,YES,YES
 Ganglión,YES,NO,NO,NO,NO
-Glositis,NO,YES,YES,NO,NO
-Gota,YES,NO,NO,NO,NO
-Hemorroides,YES,NO,NO,NO,NO
+Glositis,YES,NO,NO,NO,YES
+Gota,YES,NO,NO,NO,YES
+Hemorroides,YES,NO,NO,NO,YES
 Hernia discal,YES,NO,NO,NO,NO
-Hiperlipemias y colesterol elevado,NO,NO,NO,YES,YES
-Hipertensión arterial HTA,NO,YES,NO,YES,NO
-Hipertensión intracraneal idiopática,NO,YES,NO,YES,YES
-Hipocondría,NO,NO,NO,NO,YES
-Hipotensión,NO,YES,YES,NO,YES
-Hongos,YES,NO,NO,NO,YES
-Hongos en las uñas,YES,NO,NO,NO,YES
-Juanetes,YES,NO,NO,NO,NO
-La gripe,NO,NO,NO,NO,YES
-Laberintitis,NO,NO,NO,YES,NO
-Labios agrietados,NO,YES,NO,YES,YES
-Laringitis,NO,YES,YES,NO,YES
-Latigazo cervical,YES,NO,NO,NO,NO
-Lengua geográfica,NO,YES,YES,YES,YES
+Hiperlipemias y colesterol elevado,NO,YES,YES,NO,YES
+Hipertensión arterial HTA,YES,NO,NO,NO,YES
+Hipertensión intracraneal idiopática,YES,NO,NO,NO,NO
+Hipocondría,NO,YES,NO,NO,NO
+Hipotensión,YES,NO,NO,NO,YES
+Hongos,NO,YES,NO,NO,NO
+Hongos en las uñas,NO,YES,NO,YES,NO
+Juanetes,NO,YES,YES,YES,YES
+La gripe,YES,NO,NO,NO,YES
+Laberintitis,NO,NO,NO,NO,YES
+Labios agrietados,NO,NO,NO,NO,NO
+Laringitis,YES,NO,NO,NO,YES
+Latigazo cervical,NO,YES,NO,NO,NO
+Lengua geográfica,NO,YES,NO,YES,NO
 Lengua negra vellosa,YES,NO,NO,NO,NO
-Litiasis renal,NO,YES,YES,YES,YES
-Mareo,NO,NO,NO,NO,NO
-Mastoiditis,YES,NO,NO,NO,NO
-Medicamento: Prozac®,YES,NO,NO,NO,NO
-Medidas sanitarias en los viajes al extranjero,NO,NO,NO,NO,YES
-Migrañas y jaquecas,YES,NO,NO,NO,YES
-Obesidad,YES,NO,NO,NO,NO
-Orinar por la noche,NO,NO,NO,NO,NO
-Parálisis facial de Bell,YES,NO,NO,NO,YES
-Piel seca,NO,NO,NO,NO,NO
-Preparación de los viajes largos,YES,NO,NO,NO,NO
-Prevención de las hemorroides,NO,NO,NO,NO,NO
-Reflujo gastroesofágico,YES,NO,NO,NO,YES
-Resfriados,NO,NO,NO,YES,NO
-Ronquidos,YES,NO,NO,NO,YES
-Rotura de tímpano,YES,NO,NO,NO,NO
-Sangrado nasal,NO,NO,NO,YES,NO
-Sangrado rectal,NO,NO,NO,NO,YES
+Litiasis renal,YES,NO,NO,NO,NO
+Mareo,NO,YES,YES,YES,YES
+Mastoiditis,NO,YES,NO,YES,YES
+Medicamento: Prozac®,NO,NO,NO,NO,NO
+Medidas sanitarias en los viajes al extranjero,YES,NO,NO,NO,NO
+Migrañas y jaquecas,NO,NO,NO,YES,YES
+Obesidad,NO,YES,YES,NO,NO
+Orinar por la noche,NO,NO,NO,YES,YES
+Parálisis facial de Bell,NO,NO,NO,YES,NO
+Piel seca,YES,NO,NO,NO,YES
+Preparación de los viajes largos,YES,NO,NO,NO,YES
+Prevención de las hemorroides,YES,NO,NO,NO,YES
+Reflujo gastroesofágico,NO,NO,NO,NO,YES
+Resfriados,YES,NO,NO,NO,YES
+Ronquidos,YES,NO,NO,NO,NO
+Rotura de tímpano,NO,YES,YES,YES,NO
+Sangrado nasal,NO,YES,NO,YES,NO
+Sangrado rectal,YES,NO,NO,NO,YES
 Sangre en el esputo,YES,NO,NO,NO,NO
-Sangre en la orina,NO,NO,NO,YES,NO
-Síndrome de astenia crónica,NO,YES,YES,YES,YES
-Síndrome de piernas inquietas,NO,YES,NO,YES,YES
-Síndrome hepático renal,NO,YES,NO,YES,NO
-Síndrome nefrótico,NO,NO,NO,YES,YES
-Sinusitis,NO,NO,NO,NO,NO
-Talasemia,YES,NO,NO,NO,NO
-Tendinitis,YES,NO,NO,NO,NO
-Tic en el párpado,NO,NO,NO,NO,YES
-Tratamiento de las jaquecas,NO,YES,NO,YES,NO
+Sangre en la orina,NO,YES,NO,NO,NO
+Síndrome de astenia crónica,YES,NO,NO,NO,YES
+Síndrome de piernas inquietas,YES,NO,NO,NO,YES
+Síndrome hepático renal,YES,NO,NO,NO,YES
+Síndrome nefrótico,NO,NO,NO,NO,YES
+Sinusitis,YES,NO,NO,NO,NO
+Talasemia,NO,YES,NO,NO,NO
+Tendinitis,NO,YES,YES,YES,NO
+Tic en el párpado,YES,NO,NO,NO,YES
+Tratamiento de las jaquecas,YES,NO,NO,NO,NO
 Tratamiento del alcoholismo,YES,NO,NO,NO,NO
 Varices,YES,NO,NO,NO,YES
-Vértigo,YES,NO,NO,NO,YES
-Vómitos de sangre,NO,NO,NO,YES,YES
+Vértigo,YES,NO,NO,NO,NO
+Vómitos de sangre,NO,NO,NO,YES,NO

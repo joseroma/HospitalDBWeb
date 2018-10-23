@@ -1,4 +1,4 @@
-# coding=utf-8
+﻿# coding=utf-8
 import pandas as pd
 from random import randrange, choice
 
@@ -186,19 +186,32 @@ for i in range(0, len(lista_enfermedades)):
 #-----------
 #PACIENTE
 #----------
-tabla_paciente['num_expediente'] = id_expediente
-tabla_paciente['nombre'] = df.prim_nombre[0:10000]
-tabla_paciente['apellido'] = df.apellido_pat[0:10000]
-tabla_paciente['edad'] = df.fuerocomun_edad[0:10000]
-tabla_paciente['sexo'] = df.fuerocomun_sexo[0:10000]
-tabla_paciente['fecha_ingreso'] = df.fuerocomun_desapfecha[0:10000]
-tabla_paciente['hora_ingreso'] = df.fuerocomun_desaphora[0:10000]
-tabla_paciente['pais_origen'] = alea_Paises
-tabla_paciente['fumador'] = bool_smoker
+tabla_paciente['num_expediente'] = list(set(id_expediente))
+tabla_paciente['nombre'] = df.prim_nombre[0:len(tabla_paciente['num_expediente'])]
+tabla_paciente['apellido'] = df.apellido_pat[0:len(tabla_paciente['num_expediente'])]
+vect_edad = []
+for i in range(0,len(tabla_paciente['num_expediente'])):
+    if  df.fuerocomun_edad[i] == "NO ESPECIFICADO":
+        vect_edad.insert(i, 20)
+    else:
+        vect_edad.insert(i,  df.fuerocomun_edad[i])
+
+tabla_paciente['edad'] = vect_edad
+tabla_paciente['sexo'] = df.fuerocomun_sexo[0:len(tabla_paciente['num_expediente'])]
+vector_fecha = []
+for i in range(0,len(tabla_paciente['num_expediente'])):
+    vect = df.fuerocomun_desapfecha[i].split("/")
+    vector_fecha.insert(i, vect[2]+"-"+vect[1]+"-" + vect[0])
+
+
+tabla_paciente['fecha_ingreso'] = vector_fecha
+tabla_paciente['hora_ingreso'] = df.fuerocomun_desaphora[0:len(tabla_paciente['num_expediente'])]
+tabla_paciente['pais_origen'] = alea_Paises[0:len(tabla_paciente['num_expediente'])]
+tabla_paciente['fumador'] = bool_smoker[0:len(tabla_paciente['num_expediente'])]
 
     # FK ??????????????????????????????????
-tabla_paciente['urgencia'] = urgencia
-tabla_paciente['enfermedad'] = enfermedad
+tabla_paciente['urgencia'] = urgencia[0:len(tabla_paciente['num_expediente'])]
+tabla_paciente['enfermedad'] = enfermedad[0:len(tabla_paciente['num_expediente'])]
 
 
 #-----------
@@ -211,18 +224,27 @@ tabla_enfermedad['tratamiento'] = tratamiento
 tabla_enfermedad['contagiosa'] = contagiosa
 tabla_enfermedad['ingreso'] = ingreso
 
+
+#for i in range(1, len(tratamiento)):
+            #    print("¿Que especialidad cogerias para ...?")
+            #    print("Enfermedad "+lista_enfermedades[i]+"\nCura conocida "+ cura_conocida[i]+
+            #          "\nContagiosa "+ contagiosa[i] + "\nHereditaria " + hereditaria[i]+"\nTratamiento "+tratamiento[i])
+            #    lista_enfermedades_escritas.insert(i, input())
+
+            #tabla_enfermedad['Especialidad'] = lista_enfermedades_escritas
+                #especialidad_tenfermedad
 #-----------
 #URGENCIA
 #-----------
+num_urgencia_id = list(set(num_urgencia_id))
 num_urgencia_id = [int(x) for x in num_urgencia_id]
 num_urgencia_id.sort()
-tabla_urgencia['id_urgencia'] = num_urgencia_id
+tabla_urgencia['id_urgencia'] =  num_urgencia_id
 value_urgencia = [df.fuerocomun_descripcion[x] for x in num_urgencia_id]
 tabla_urgencia['causa'] = value_urgencia
-tabla_urgencia['gravedad'] = enum_gravedad
-tabla_urgencia['uso_ambulancia'] = boolean_ambulancia
-tabla_urgencia['necesita_operacion'] = id_operacion
-tabla_urgencia['ingreso']=tupla_ingreso
+tabla_urgencia['gravedad'] = enum_gravedad[:len(num_urgencia_id)]
+tabla_urgencia['necesita_operacion'] = id_operacion[:len(num_urgencia_id)]
+tabla_urgencia['ingreso']=tupla_ingreso[:len(num_urgencia_id)]
 
 
 
@@ -232,6 +254,7 @@ tabla_urgencia['ingreso']=tupla_ingreso
 id_toperacion.sort()
 tabla_operacion['id_operacion'] = identificador_operacion
 print(df.fuerocomun_desaphora[300:cont_operacion+300])
+
 tabla_operacion['hora'] = list(df.fuerocomun_desaphora[300:(cont_operacion+300)])
 tabla_operacion['cirujano'] = nombre_medico
 
@@ -261,12 +284,12 @@ tabla_especialidad['nombre_especialidad'] = lista_especialidades
 
 #Almacenamos los resultados en .csv
 print(list(tabla_paciente))
-tabla_paciente.to_csv('../Result_datasets_withoutFK/tabla_paciente.csv', sep=',', encoding='utf-8', index=False)
-tabla_urgencia.to_csv('../Result_datasets_withoutFK/tabla_urgencia.csv', sep=',', encoding='utf-8', index=False)
-tabla_operacion.to_csv('../Result_datasets_withoutFK/tabla_operacion.csv', sep=',', encoding='utf-8', index=False)
-tabla_quirofano.to_csv('../Result_datasets_withoutFK/tabla_quirofano.csv', sep=',', encoding='utf-8', index=False)
-tabla_medico.to_csv('../Result_datasets_withoutFK/tabla_medico.csv', sep=',', encoding='utf-8', index=False)
-tabla_enfermedad.to_csv('../Result_datasets_withoutFK/tabla_enfermedad.csv', sep=',', encoding='utf-8', index=False)
-tabla_especialidad.to_csv('../Result_datasets_withoutFK/tabla_especialidad.csv', sep=',', encoding='utf-8', index=False)
+tabla_paciente.to_csv('../Result_datasets_withFK/tabla_paciente.csv', sep=',', encoding='utf-8', index=False)
+tabla_urgencia.to_csv('../Result_datasets_withFK/tabla_urgencia.csv', sep=',', encoding='utf-8', index=False)
+tabla_operacion.to_csv('../Result_datasets_withFK/tabla_operacion.csv', sep=',', encoding='utf-8', index=False)
+tabla_quirofano.to_csv('../Result_datasets_withFK/tabla_quirofano.csv', sep=',', encoding='utf-8', index=False)
+tabla_medico.to_csv('../Result_datasets_withFK/tabla_medico.csv', sep=',', encoding='utf-8', index=False)
+tabla_enfermedad.to_csv('../Result_datasets_withFK/tabla_enfermedad.csv', sep=',', encoding='utf-8', index=False)
+tabla_especialidad.to_csv('../Result_datasets_withFK/tabla_especialidad.csv', sep=',', encoding='utf-8', index=False)
 
 
