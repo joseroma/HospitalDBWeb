@@ -26,7 +26,8 @@ elementFormDefault="qualified">
   	</xs:element>
 		
 	<xs:element name="fecha_ingreso" type="xs:date"/>  
-	<xs:element name="hora_ingreso" type="xs:time"/> 
+	<xs:element name="hora_ingreso" type="xs:time"/>
+    <xs:element name="URGENCIA_id_urgencia" base="xs:integer"/>
   <!---Urgencia nested in Paciente-->
   <xs:complexType name="Urgencia">
     <xs:sequence>
@@ -63,6 +64,9 @@ elementFormDefault="qualified">
             </xs:restriction>
           </xs:simpleType>
         </xs:element>
+        <xs:element name="OPERACION_id_operacion" base="xs:integer"/>
+        <xs:element name="ESPECIALIDAD_nombre_especialidad" base="xs:string"/>
+
         <!---Especialidad nested in Urgencia nested in Paciente-->
         <xs:complexType name="Especialidad">
     		  <xs:sequence>
@@ -71,7 +75,8 @@ elementFormDefault="qualified">
       			<xs:complexType name="Medico">
     				  <xs:sequence>
       					<xs:element name="id_medico" type="xs:nonNegativeInteger"/>
-                <xs:element name="nombre_medico" type="xs:string"/>
+                        <xs:element name="nombre_medico" type="xs:string"/>
+                          <xs:element name="ESPECIALIDAD_nombre_especialidad" type="xs:string"/>
     				  </xs:sequence>
  				   </xs:complexType>
     		  </xs:sequence>
@@ -82,6 +87,7 @@ elementFormDefault="qualified">
       			<xs:element name="id_operacion" type="xs:nonNegativeInteger"/>
       			<xs:element name="hora" type="xs:time"/>
       			<xs:element name="cirujano" type="xs:string"/>
+                  <xs:element name="QUIROFANO_id_quirofano" type="xs:integer"/>
       			<!---Quirófano nested in Operación nested in Urgencia nested in Paciente-->
       			<xs:complexType name="Quirófano">
     				  <xs:sequence>
