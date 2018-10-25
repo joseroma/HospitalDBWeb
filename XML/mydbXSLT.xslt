@@ -19,6 +19,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>hora_ingreso</th>
         <th>pais_origen</th>
         <th>fumador</th>
+        <th>URGENCIA_id_urgencia</th>
       </tr>
       <xsl:for-each select="Paciente">
         <tr>
@@ -30,6 +31,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           <td><xsl:value-of select="fecha_ingreso"/></td>
           <td><xsl:value-of select="hora_ingreso"/></td>
           <td><xsl:value-of select="fumador"/></td>
+          <td><xsl:value-of select="URGENCIA_id_urgencia"/></td>
         </tr>
       </xsl:for-each>
     </table>
@@ -43,6 +45,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>uso_ambulancia</th>
         <th>necesita_operacion</th>
         <th>ingreso</th>
+        <th>OPERACION_id_operacion</th>
+        <th>ESPECIALIDAD_nombre_especialidad</th>
       </tr>
       <xsl:for-each select="Paciente/Urgencia">
         <tr>
