@@ -10,7 +10,6 @@
 + Link?
 
 3.Componente exportación
-
-+Arreglar datos
++ Arreglar datos
 
 
