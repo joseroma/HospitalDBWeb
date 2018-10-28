@@ -30,6 +30,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           <td><xsl:value-of select="sexo"/></td>
           <td><xsl:value-of select="fecha_ingreso"/></td>
           <td><xsl:value-of select="hora_ingreso"/></td>
+          <td><xsl:value-of select="pais_origen"/></td>
           <td><xsl:value-of select="fumador"/></td>
           <td><xsl:value-of select="URGENCIA_id_urgencia"/></td>
         </tr>

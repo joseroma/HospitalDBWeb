@@ -27,6 +27,15 @@ elementFormDefault="qualified">
 		
 	<xs:element name="fecha_ingreso" type="xs:date"/>  
 	<xs:element name="hora_ingreso" type="xs:time"/>
+  <xs:element name="pais_origen" type="xs:string"/>
+  <xs:element name="fumador"> 
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="SI|NO"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:element>
+
     <xs:element name="URGENCIA_id_urgencia" base="xs:integer"/>
   <!---Urgencia nested in Paciente-->
   <xs:complexType name="Urgencia">
