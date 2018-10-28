@@ -14,13 +14,18 @@ todaydate = i.strftime('%Y') + i.strftime('%m') + i.strftime('%d')
 db = pymysql.connect(host='localhost', port=3306, user="root",
                       passwd="admin", db="mydb")
 cur = db.cursor()
-cur.execute('SELECT `*` FROM MEDICO, QUIROFANO')
-print(cur.fetchall())
-# WRITING XML FILE
-root = ET.Element('HOSPITAL')
-
+cur.execute('SELECT `*` FROM PACIENTE;')
 for row in cur.fetchall():
-    paciente = ET.SubElement(root, "PACIENTES")
+    print(row)
+
+cur1 = db.cursor()
+cur1.execute('SELECT `*` FROM URGENCIA;')
+for row in cur1.fetchall():
+    print(row)
+# WRITING XML FILE
+
+paciente = ET.Element('PACIENTE')
+for row in cur.fetchall():
     ET.SubElement(paciente, "num_expediente").text = str(row[0])
     ET.SubElement(paciente, "nombre").text = str(row[1])
     ET.SubElement(paciente, "apellido").text = row[2]
@@ -69,7 +74,7 @@ for row in cur.fetchall():
 cur.close()
 db.close()
 
-tree_out = (ET.tostring(root, pretty_print=True))
+tree_out = (ET.tostring(paciente, pretty_print=True))
 
 xmlfile = open(os.path.join(cd, 'CLData_Output.xml'),'wb')
 xmlfile.write(tree_out)
