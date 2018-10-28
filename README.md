@@ -9,6 +9,7 @@
 2. XLST
 + Link?
 
-3.Componente exportación?¿¿?
+3.Componente exportación
++ Arreglar datos
 
 
