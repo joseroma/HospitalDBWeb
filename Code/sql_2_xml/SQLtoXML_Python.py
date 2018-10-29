@@ -14,28 +14,17 @@ todaydate = i.strftime('%Y') + i.strftime('%m') + i.strftime('%d')
 db = pymysql.connect(host='localhost', port=3306, user="root",
                       passwd="admin", db="mydb")
 cur = db.cursor()
-cur.execute('SELECT `*` FROM PACIENTE;')
+cur.execute('SELECT (`num_expediente`, `nombre`,`apellido`,`edad`,`sexo`,`fecha_ingreso`,`hora_ingreso`,`pais_origen`,`fumador`,`URGENCIA_id_urgencia`,`id_urgencia`,`causa`,`gravedad`,`uso_ambulancia`,`uso_ambulancia`,`ingreso`,`OPERACION_id_operacion`,`ESPECIALIDAD_nombre_especialidad`,`id_operacion`,`hora`,`cirujano`,`QUIROFANO_id_quirofano`,`nombre_especialidad`,`id_quirofano`,`planta`,`puerta`,`id_medico`,`nombre_medico`,`medico.ESPECIALIDAD_nombre_especialidad`) FROM (paciente, urgencia, operacion, especialidad, quirofano, medico) WHERE (`PACIENTE.URGENCIA_id_urgencia`=`URGENCIA.id_urgencia`) AND (`URGENCIA.OPERACION_id_operacion`=`OPERACION.id_operacion`) AND (`URGENCIA.ESPECIALIDAD_nombre_especialidad`=`ESPECIALIDAD.nombre_especialidad`) AND (`OPERACION.QUIROFANO_id_quirofano` =`QUIROFANO.id_quirofano`) AND (`MEDICO.ESPECIALIDAD_nombre_especialidad`=`ESPECIALIDAD.nombre_especialidad`);')
+#cur.execute('SELECT `*` FROM (PACIENTE, URGENCIA, OPERACION, ESPECIALIDAD, QUIROFANO, MEDICO) WHERE (`PACIENTE.URGENCIA_id_urgencia`=`URGENCIA.id_urgencia`) AND (`URGENCIA.OPERACION_id_operacion`=`OPERACION.id_operacion`) AND (`URGENCIA.ESPECIALIDAD_nombre_especialidad`=`ESPECIALIDAD.nombre_especialidad`) AND (`OPERACION.QUIROFANO_id_quirofano` =`QUIROFANO.id_quirofano`) AND (`MEDICO.ESPECIALIDAD_nombre_especialidad`=`ESPECIALIDAD.nombre_especialidad`);')
 
-cur1 = db.cursor()
-cur1.execute('SELECT `*` FROM URGENCIA;')
 
-cur2 = db.cursor()
-cur2.execute('SELECT `*` FROM OPERACION;')
-
-cur3 = db.cursor()
-cur3.execute('SELECT `*` FROM ESPECIALIDAD;')
-
-cur4 = db.cursor()
-cur4.execute('SELECT `*` FROM QUIROFANO;')
-
-cur5 = db.cursor()
-cur5.execute('SELECT `*` FROM MEDICO;')
 
 
 # WRITING XML FILE
 
-paciente = ET.Element('PACIENTE')
+
 for row in cur.fetchall():
+    paciente = ET.Element('PACIENTE')
     ET.SubElement(paciente, "num_expediente").text = str(row[0])
     ET.SubElement(paciente, "nombre").text = str(row[1])
     ET.SubElement(paciente, "apellido").text = row[2]
@@ -43,43 +32,35 @@ for row in cur.fetchall():
     ET.SubElement(paciente, "sexo").text = row[4]
     ET.SubElement(paciente, "fecha_ingreso").text = str(row[5])
     ET.SubElement(paciente, "hora_ingreso").text = str(row[6])
-    ET.SubElement(paciente, "pais_origen").text = row[7]
+    ET.SubElement(paciente, "pais_origen").text = str(row[7])
     ET.SubElement(paciente, "fumador").text = row[8]
     ET.SubElement(paciente, "URGENCIA_id_urgencia").text = str(row[9])
-    #URGENCIA
-for row1 in cur1.fetchall():
     urgencia = ET.SubElement(paciente, "URGENCIA")
-    ET.SubElement(urgencia, "id_urgencia").text = str(row1[0])
-    ET.SubElement(urgencia, "causa").text = str(row1[1])
-    ET.SubElement(urgencia, "gravedad").text = row1[2]
-    ET.SubElement(urgencia, "uso_ambulancia").text = str(row1[3])
-    ET.SubElement(urgencia, "necesita_operacion").text = row1[4]
-    ET.SubElement(urgencia, "ingreso").text = str(row1[5])
-    ET.SubElement(urgencia, "ESPECIALIDAD_nombre_especialidad").text = str(row1[6])
-#    ET.SubElement(urgencia, "OPERACION_id_operacion").text = str(row1[7])
-    # OPERACION.
-for row2 in cur2.fetchall():
+    ET.SubElement(urgencia, "id_urgencia").text = str(row[10])
+    ET.SubElement(urgencia, "causa").text = str(row[11])
+    ET.SubElement(urgencia, "gravedad").text = row[12]
+    ET.SubElement(urgencia, "uso_ambulancia").text = str(row[13])
+    ET.SubElement(urgencia, "ingreso").text = str(row[14])
+    ET.SubElement(urgencia, "ESPECIALIDAD_nombre_especialidad").text = str(row[15])
+    ET.SubElement(urgencia, "OPERACION_id_operacion").text = str(row[16])
     operacion = ET.SubElement(urgencia, "OPERACION")
-    ET.SubElement(operacion, "id_operacion").text = str(row2[0])
-    ET.SubElement(operacion, "hora").text = str(row2[1])
-    ET.SubElement(operacion, "cirujano").text = row2[2]
-    ET.SubElement(operacion, "QUIROFANO_id_quirofano").text = str(row2[3])
+    ET.SubElement(operacion, "id_operacion").text = str(row[17])
+    ET.SubElement(operacion, "hora").text = str(row[18])
+    ET.SubElement(operacion, "cirujano").text = row[19]
+    ET.SubElement(operacion, "QUIROFANO_id_quirofano").text = str(row[20])
     #ESPECIALIDAD
-for row3 in cur3.fetchall():
     especialidad = ET.SubElement(urgencia, "ESPECIALIDAD")
-    ET.SubElement(especialidad, "nombre_especialidad").text = str(row3[0])
+    ET.SubElement(especialidad, "nombre_especialidad").text = str(row[21])
     # quirofano
-for row4 in cur4.fetchall():
     quirofano = ET.SubElement(operacion, "QUIROFANO")
-    ET.SubElement(quirofano, "id_quirofano").text = str(row4[0])
-    ET.SubElement(quirofano, "planta").text = str(row4[1])
-    ET.SubElement(quirofano, "puerta").text = row4[2]
+    ET.SubElement(quirofano, "id_quirofano").text = str(row[22])
+    ET.SubElement(quirofano, "planta").text = str(row[23])
+    ET.SubElement(quirofano, "puerta").text = row[24]
     #MEDICO
-for row5 in cur5.fetchall():
     medico = ET.SubElement(especialidad, "MEDICO")
-    ET.SubElement(medico, "id_medico").text = str(row5[0])
-    ET.SubElement(medico, "nombre_medico").text = row5[1]
-    ET.SubElement(medico, "ESPECIALIDAD_nombre_especialidad").text = row5[2]
+    ET.SubElement(medico, "id_medico").text = str(row[25])
+    ET.SubElement(medico, "nombre_medico").text = str(row[26])
+    ET.SubElement(medico, "ESPECIALIDAD_nombre_especialidad").text = str(row[27])
 
 
 

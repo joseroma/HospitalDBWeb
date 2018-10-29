@@ -7,11 +7,11 @@ print("Leemos los datasets")
 
 #Leemos todos los datos
 
-df = pd.read_csv('../datasets/personas-extravidas-y-desaparecidas-datacivica-2018.csv')
-df_paises = pd.read_csv('../datasets/paises.txt')
-especialidades = pd.read_csv('../datasets/especialidades.txt')
-enfermedades = pd.read_csv('../datasets/enfermedades.txt')
-doctor_names = pd.read_csv('../datasets/wc2018-players.csv')
+df = pd.read_csv('../../datasets/internet_data_sets/personas-extravidas-y-desaparecidas-datacivica-2018.csv')
+df_paises = pd.read_csv('../../datasets/internet_data_sets/paises.txt')
+especialidades = pd.read_csv('../../datasets/internet_data_sets/especialidades.txt')
+enfermedades = pd.read_csv('../../datasets/internet_data_sets/enfermedades.txt')
+doctor_names = pd.read_csv('../../datasets/internet_data_sets/wc2018-players.csv')
 print(list(df))
 print("Generamos los dataframes vacios")
 
@@ -55,7 +55,7 @@ for i in range(0, 10000):
     if choice_val == "URGENCIA":
         urgencia.insert(i, choice(["NULL", num_urgencia]))
         enfermedad.insert(i, "NULL")
-        if temp_urgencia != "NULL":
+        if num_urgencia != "NULL":
             num_urgencia_id.insert(cont, num_urgencia)
             cont = cont + 1
     elif choice_val == "ENFERMEDAD":
@@ -243,8 +243,10 @@ tabla_urgencia['id_urgencia'] =  num_urgencia_id
 value_urgencia = [df.fuerocomun_descripcion[x] for x in num_urgencia_id]
 tabla_urgencia['causa'] = value_urgencia
 tabla_urgencia['gravedad'] = enum_gravedad[:len(num_urgencia_id)]
-tabla_urgencia['necesita_operacion'] = id_operacion[:len(num_urgencia_id)]
+tabla_urgencia['uso_ambulancia'] = boolean_ambulancia[:len(num_urgencia_id)]
 tabla_urgencia['ingreso']=tupla_ingreso[:len(num_urgencia_id)]
+tabla_urgencia['OPERACION_id_operacion'] = id_operacion[:len(num_urgencia_id)]
+tabla_urgencia['ESPECIALIDAD_nombre_especialidad'] = especialidad[:len(num_urgencia_id)]
 
 
 
@@ -252,12 +254,10 @@ tabla_urgencia['ingreso']=tupla_ingreso[:len(num_urgencia_id)]
 #OPERACION
 #---------
 id_toperacion.sort()
-tabla_operacion['id_operacion'] = identificador_operacion
-print(df.fuerocomun_desaphora[300:cont_operacion+300])
-
+tabla_operacion['id_operacion'] = list(id_toperacion)
 tabla_operacion['hora'] = list(df.fuerocomun_desaphora[300:(cont_operacion+300)])
-tabla_operacion['cirujano'] = nombre_medico
-
+tabla_operacion['cirujano'] = nombre_medico[:cont_operacion]
+tabla_operacion['QUIROFANO_id_quirofano'] = id_quirofano1[:cont_operacion]
 
 
 #---------
@@ -273,7 +273,7 @@ tabla_quirofano['puerta'] = puerta_quirofano_fin
 #------
 tabla_medico['id_medico'] = id_medico
 tabla_medico['nombre_medico'] = doctor_names.Name
-
+tabla_medico['ESPECIALIDAD_nombre_especialidad']= especialidad_tabla_medico
 
 #------------
 #ESPECIALIDAD
@@ -281,15 +281,15 @@ tabla_medico['nombre_medico'] = doctor_names.Name
 tabla_especialidad['nombre_especialidad'] = lista_especialidades
 
 
-
+print("Guardando resultados")
 #Almacenamos los resultados en .csv
-print(list(tabla_paciente))
-tabla_paciente.to_csv('../Result_datasets_withFK/tabla_paciente.csv', sep=',', encoding='utf-8', index=False)
-tabla_urgencia.to_csv('../Result_datasets_withFK/tabla_urgencia.csv', sep=',', encoding='utf-8', index=False)
-tabla_operacion.to_csv('../Result_datasets_withFK/tabla_operacion.csv', sep=',', encoding='utf-8', index=False)
-tabla_quirofano.to_csv('../Result_datasets_withFK/tabla_quirofano.csv', sep=',', encoding='utf-8', index=False)
-tabla_medico.to_csv('../Result_datasets_withFK/tabla_medico.csv', sep=',', encoding='utf-8', index=False)
-tabla_enfermedad.to_csv('../Result_datasets_withFK/tabla_enfermedad.csv', sep=',', encoding='utf-8', index=False)
-tabla_especialidad.to_csv('../Result_datasets_withFK/tabla_especialidad.csv', sep=',', encoding='utf-8', index=False)
+tabla_paciente.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_paciente.csv', sep=',', encoding='utf-8', index=False)
+tabla_urgencia.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_urgencia.csv', sep=',', encoding='utf-8', index=False)
+tabla_operacion.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_operacion.csv', sep=',', encoding='utf-8', index=False)
+tabla_quirofano.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_quirofano.csv', sep=',', encoding='utf-8', index=False)
+tabla_medico.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_medico.csv', sep=',', encoding='utf-8', index=False)
+tabla_enfermedad.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_enfermedad.csv', sep=',', encoding='utf-8', index=False)
+tabla_especialidad.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_especialidad.csv', sep=',', encoding='utf-8', index=False)
 
 
+print("FIN DEL PROCESO.")
