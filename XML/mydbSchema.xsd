@@ -1,121 +1,129 @@
-d<?xml version="1.0" encoding="UTF-8"?>
-<!---para que sirve????????????????-->
+<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace="https://www.w3schools.com"
-xmlns="https://www.w3schools.com"
-elementFormDefault="qualified">
-<xs:element name="HOSPITAL"> <!---root:Paciente-->
-<xs:element name="PACIENTE">
+ elementFormDefault="qualified">
 
-	<xs:element name="num_expediente">
-  		<xs:simpleType>
-    		<xs:restriction base="xs:nonNegativeInteger">
-      			<xs:pattern value="[0-9][0-9][0-9][0-9][0-9][0-9][0-9]"/>
-    		</xs:restriction>
-  		</xs:simpleType>
-	</xs:element>
-	<xs:element name="nombre" type="xs:string"/>
-	<xs:element name="apellido" type="xs:string"/>
-    <xs:element name="edad" type="xs:nonNegativeInteger"/>
-	<xs:element name="sexo"> 
-		<xs:simpleType>
-    		<xs:restriction base="xs:string">
-      			<xs:pattern value="MUJER|HOMBRE"/>
-    		</xs:restriction>
-  		</xs:simpleType>
-  </xs:element>
-  <xs:element name="fecha_ingreso" type="xs:date"/>
-	<xs:element name="hora_ingreso" type="xs:time"/>
-  <xs:element name="pais_origen" type="xs:string"/>
-  <xs:element name="fumador">
-    <xs:simpleType>
-      <xs:restriction base="xs:string">
-        <xs:pattern value="SI|NO"/>
-      </xs:restriction>
-    </xs:simpleType>
-  </xs:element>
-
-  <!---Urgencia nested in Paciente-->
-  <xs:complexType name="URGENCIA">
-    <xs:sequence>
-        <xs:element name="id_urgencia">
-          <xs:simpleType>
-            <xs:restriction base="xs:nonNegativeInteger">
-              <xs:pattern value="([0-9])+"/>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
-        <xs:element name="causa" type="xs:string"/>
-        <xs:element name="gravedad">
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-              <xs:enumeration value="BAJA"/>
-              <xs:enumeration value="MEDIA"/>
-              <xs:enumeration value="ALTA"/>
-              <xs:enumeration value="MUY ALTA"/>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
-        <xs:element name="uso_ambulancia">
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-              <xs:pattern value="NO|YES"/>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
-        <xs:element name="necesita_operacion"/>
-        <xs:element name="ingreso">
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-              <xs:pattern value="NO|YES"/>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
-
-
-        <!---Especialidad nested in Urgencia nested in Paciente-->
-        <xs:complexType name="ESPECIALIDAD">
+<xs:element name="HOSPITAL"> <!--ROOT-->
+    <xs:element name="PACIENTE">
+        <xs:complexType>
             <xs:sequence>
-      			<xs:element name="nombre_especialidad" type="xs:string"/>
-                <!---Medico nested in Especialidad nested in Urgencia nested in Paciente-->
-      			<xs:complexType name="MEDICO">
-    				  <xs:sequence>
-      					<xs:element name="id_medico" type="xs:nonNegativeInteger"/>
-                <xs:element name="nombre_medico" type="xs:string"/>
-    				  </xs:sequence>
- 				   </xs:complexType>
-    		  </xs:sequence>
+                <xs:element name="num_expediente">
+  		            <xs:simpleType>
+    		            <xs:restriction base="xs:nonNegativeInteger">
+      			            <xs:pattern value="[0-9][0-9][0-9][0-9][0-9][0-9][0-9]"/>
+    		            </xs:restriction>
+  		            </xs:simpleType>
+                </xs:element>
+	            <xs:element name="nombre" type="xs:string"/>
+	            <xs:element name="apellido" type="xs:string"/>
+                <xs:element name="edad" type="xs:nonNegativeInteger"/>
+	            <xs:element name="sexo">
+		            <xs:simpleType>
+    		            <xs:restriction base="xs:string">
+      			            <xs:pattern value="MUJER|HOMBRE"/>
+    		            </xs:restriction>
+  		            </xs:simpleType>
+                </xs:element>
+                <xs:element name="fecha_ingreso" type="xs:date"/>
+	            <xs:element name="hora_ingreso" type="xs:time"/>
+                 <xs:element name="pais_origen" type="xs:string"/>
+                <xs:element name="fumador">
+                     <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="SI|NO"/>
+                        </xs:restriction>
+                     </xs:simpleType>
+                </xs:element>
+                <!---Urgencia nested in Paciente-->
+                <xs:element name="URGENCIA">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="id_urgencia">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:nonNegativeInteger">
+                                        <xs:pattern value="([0-9])+"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="causa" type="xs:string"/>
+                            <xs:element name="gravedad">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="BAJA"/>
+                                        <xs:enumeration value="MEDIA"/>
+                                        <xs:enumeration value="ALTA"/>
+                                        <xs:enumeration value="MUY ALTA"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="uso_ambulancia">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="NO|YES"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="necesita_operacion"/>
+                            <xs:element name="ingreso">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="NO|YES"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <!---Especialidad nested in Urgencia nested in Paciente-->
+                            <xs:element name="ESPECIALIDAD">
+                                <xs:complexType>
+                                    <xs:sequence>
+      			                        <xs:element name="nombre_especialidad" type="xs:string"/>
+                                        <!---Medico nested in Especialidad nested in Urgencia nested in Paciente-->
+                                        <xs:element name="MEDICO">
+                                            <xs:complexType>
+    				                            <xs:sequence>
+      					                            <xs:element name="id_medico" type="xs:nonNegativeInteger"/>
+                                                    <xs:element name="nombre_medico" type="xs:string"/>
+    				                            </xs:sequence>
+ 				                            </xs:complexType>
+                                        </xs:element> <!--medico-->
+    		                        </xs:sequence>
+                                </xs:complexType>
+                             </xs:element> <!--especialidad-->
+                            <!---Operación nested in Urgencia nested in Paciente-->
+                            <xs:element name="OPERACION">
+                                <xs:complexType>
+    		                        <xs:sequence>
+      			                        <xs:element name="id_operacion" type="xs:nonNegativeInteger"/>
+      			                        <xs:element name="hora" type="xs:time"/>
+      			                        <xs:element name="cirujano" type="xs:string"/>
+                                        <!---Quirófano nested in Operación nested in Urgencia nested in Paciente-->
+                                        <xs:element name="QUIROFANO">
+      			                            <xs:complexType>
+    				                            <xs:sequence>
+      					                            <xs:element name="id_quirofano" type="xs:nonNegativeInteger"/>
+      					                            <xs:element name="planta">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:nonNegativeInteger">
+                                                                <xs:pattern value="[0-4]"/>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="puerta">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:pattern value="[ABCDE]"/>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                             </xs:complexType>
+                                        </xs:element> <!--quirofano-->
+    		                        </xs:sequence>
+ 		                        </xs:complexType>
+                            </xs:element> <!--operacion-->
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element><!---closer Urgencia-->
+            </xs:sequence>
         </xs:complexType>
-        <!---Operación nested in Urgencia nested in Paciente-->
-        <xs:complexType name="OPERACION">
-    		  <xs:sequence>
-      			<xs:element name="id_operacion" type="xs:nonNegativeInteger"/>
-      			<xs:element name="hora" type="xs:time"/>
-      			<xs:element name="cirujano" type="xs:string"/>
-      			<!---Quirófano nested in Operación nested in Urgencia nested in Paciente-->
-      			<xs:complexType name="QUIROFANO">
-    				  <xs:sequence>
-      					<xs:element name="id_quirofano" type="xs:nonNegativeInteger"/>
-      					<xs:element name="planta">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:nonNegativeInteger">
-                      <xs:pattern value="[0-4]"/>
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-                <xs:element name="puerta">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:pattern value="[ABCDE]"/>
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:element>
-              </xs:sequence>
- 				    </xs:complexType>
-    		  </xs:sequence>
- 		    </xs:complexType>
-    </xs:sequence> 
-  </xs:complexType> <!---closer Urgencia-->
-</xs:element> <!---closer Pac-->
-</xs:element>
+    </xs:element> <!---closer Paciente-->
+</xs:element><!---closer HOSPITAL-->
 </xs:schema>
