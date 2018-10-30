@@ -19,7 +19,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>pais_origen</th>
         <th>fumador</th>
       </tr>
-      <xsl:for-each select="HOSPITAL/PACIENTE">
+      <xsl:for-each select="note/HOSPITAL/PACIENTE">
         <tr>
           <td><xsl:value-of select="num_expediente"/></td>
           <td><xsl:value-of select="nombre"/></td>
@@ -43,7 +43,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>uso_ambulancia</th>
         <th>ingreso</th>
       </tr>
-      <xsl:for-each select="HOSPITAL/PACIENTE/URGENCIA">
+      <xsl:for-each select="note/HOSPITAL/PACIENTE/URGENCIA">
         <tr>
           <td><xsl:value-of select="id_urgencia"/></td>
           <td><xsl:value-of select="causa"/></td>
@@ -59,7 +59,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <tr bgcolor="#2E9AFE">
         <th>nombre_especialidad</th>
       </tr>
-      <xsl:for-each select="HOSPITAL/PACIENTE/URGENCIA/ESPECIALIDAD">
+      <xsl:for-each select="note/HOSPITAL/PACIENTE/URGENCIA/ESPECIALIDAD">
         <tr>
           <td><xsl:value-of select="nombre_especialidad"/></td>
         </tr>
@@ -72,7 +72,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>id_medico</th>
         <th>nombre_medico</th>
       </tr>
-      <xsl:for-each select="HOSPITAL/PACIENTE/URGENCIA/ESPECIALIDAD/MEDICO">
+      <xsl:for-each select="note/HOSPITAL/PACIENTE/URGENCIA/ESPECIALIDAD/MEDICO">
         <tr>
           <td><xsl:value-of select="id_medico"/></td>
           <td><xsl:value-of select="nombre_medico"/></td>
@@ -87,7 +87,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>hora</th>
         <th>cirujano</th>
       </tr>
-      <xsl:for-each select="HOSPITAL/PACIENTE/URGENCIA/OPERACION">
+      <xsl:for-each select="note/HOSPITAL/PACIENTE/URGENCIA/OPERACION">
         <tr>
           <td><xsl:value-of select="id_operacion"/></td>
           <td><xsl:value-of select="hora"/></td>
@@ -104,7 +104,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <th>planta</th>
         <th>puerta</th>
       </tr>
-      <xsl:for-each select="HOSPITAL/PACIENTE/URGENCIA/OPERACION/QUIROFANO">
+      <xsl:for-each select="note/HOSPITAL/PACIENTE/URGENCIA/OPERACION/QUIROFANO">
         <tr>
           <td><xsl:value-of select="id_quirofano"/></td>
           <td><xsl:value-of select="planta"/></td>

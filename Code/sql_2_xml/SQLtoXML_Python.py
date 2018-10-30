@@ -7,7 +7,7 @@ cd = os.path.dirname(os.path.abspath(__file__))
 
 # DB CONNECTION AND QUERY
 db = pymysql.connect(host='localhost', port=3306, user="root",
-                      passwd="nairapass", db="mydb")
+                      passwd="admin", db="mydb")
 cur = db.cursor()
 cur.execute("SELECT `num_expediente`, `nombre`,`apellido`,`edad`,`sexo`,`fecha_ingreso`,`hora_ingreso`,`pais_origen`,`fumador`,`id_urgencia`,`causa`,`gravedad`,`uso_ambulancia`,`ingreso`,`nombre_especialidad`,`id_medico`,`nombre_medico`,`id_operacion`,`hora`,`cirujano` ,`id_quirofano`,`planta`,`puerta` FROM paciente, urgencia, operacion, especialidad, quirofano, medico WHERE PACIENTE.URGENCIA_id_urgencia=URGENCIA.id_urgencia AND URGENCIA.OPERACION_id_operacion=OPERACION.id_operacion AND URGENCIA.ESPECIALIDAD_nombre_especialidad=ESPECIALIDAD.nombre_especialidad AND OPERACION.QUIROFANO_id_quirofano =QUIROFANO.id_quirofano AND MEDICO.ESPECIALIDAD_nombre_especialidad=ESPECIALIDAD.nombre_especialidad;")
 #cur.execute('SELECT `*` FROM (PACIENTE, URGENCIA, OPERACION, ESPECIALIDAD, QUIROFANO, MEDICO) WHERE (`PACIENTE.URGENCIA_id_urgencia`=`URGENCIA.id_urgencia`) AND (`URGENCIA.OPERACION_id_operacion`=`OPERACION.id_operacion`) AND (`URGENCIA.ESPECIALIDAD_nombre_especialidad`=`ESPECIALIDAD.nombre_especialidad`) AND (`OPERACION.QUIROFANO_id_quirofano` =`QUIROFANO.id_quirofano`) AND (`MEDICO.ESPECIALIDAD_nombre_especialidad`=`ESPECIALIDAD.nombre_especialidad`);')
