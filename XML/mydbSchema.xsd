@@ -4,10 +4,10 @@ d<?xml version="1.0" encoding="UTF-8"?>
 targetNamespace="https://www.w3schools.com"
 xmlns="https://www.w3schools.com"
 elementFormDefault="qualified">
-
-<xs:element name="HOSPITAL">
+<xs:element name="HOSPITAL"> <!---root:Paciente-->
 <xs:element name="PACIENTE">
-  <xs:element name="num_expediente">
+
+	<xs:element name="num_expediente">
   		<xs:simpleType>
     		<xs:restriction base="xs:nonNegativeInteger">
       			<xs:pattern value="[0-9][0-9][0-9][0-9][0-9][0-9][0-9]"/>
@@ -71,11 +71,13 @@ elementFormDefault="qualified">
             </xs:restriction>
           </xs:simpleType>
         </xs:element>
+
+
         <!---Especialidad nested in Urgencia nested in Paciente-->
         <xs:complexType name="ESPECIALIDAD">
             <xs:sequence>
       			<xs:element name="nombre_especialidad" type="xs:string"/>
-            <!---Medico nested in Especialidad nested in Urgencia nested in Paciente-->
+                <!---Medico nested in Especialidad nested in Urgencia nested in Paciente-->
       			<xs:complexType name="MEDICO">
     				  <xs:sequence>
       					<xs:element name="id_medico" type="xs:nonNegativeInteger"/>
@@ -96,7 +98,7 @@ elementFormDefault="qualified">
       					<xs:element name="id_quirofano" type="xs:nonNegativeInteger"/>
       					<xs:element name="planta">
                   <xs:simpleType>
-                    <xs:restriction base="xs:nonNegativeInteger"
+                    <xs:restriction base="xs:nonNegativeInteger">
                       <xs:pattern value="[0-4]"/>
                     </xs:restriction>
                   </xs:simpleType>
@@ -114,6 +116,6 @@ elementFormDefault="qualified">
  		    </xs:complexType>
     </xs:sequence> 
   </xs:complexType> <!---closer Urgencia-->
-</xs:element> <!---closer Paciente-->
-</xs:element><!---closer HOSPITAL-->
+</xs:element> <!---closer Pac-->
+</xs:element>
 </xs:schema>
