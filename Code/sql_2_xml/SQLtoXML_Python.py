@@ -61,8 +61,9 @@ cur.close()
 db.close()
 
 tree_out = (ET.tostring(pacientes, pretty_print=True))
-
 xmlfile = open(os.path.join(cd, 'CLData_Output.xml'),'wb')
+xmlfile.write(str.encode('<?xml version="1.0" encoding = "UTF-8"?>\n'))
+xmlfile.write(str.encode("<?xml-stylesheet type='html/xsl' href='../../XML/mydbXSLT.xsl'?>\n"))
 xmlfile.write(tree_out)
 xmlfile.close()
 
