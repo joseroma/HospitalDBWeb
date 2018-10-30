@@ -5,11 +5,6 @@ import lxml.etree as ET
 
 cd = os.path.dirname(os.path.abspath(__file__))
 
-# SET FILE NAME VALUES
-i = datetime.datetime.today()
-todaydate = i.strftime('%Y') + i.strftime('%m') + i.strftime('%d')
-
-
 # DB CONNECTION AND QUERY
 db = pymysql.connect(host='localhost', port=3306, user="root",
                       passwd="admin", db="mydb")
@@ -22,7 +17,7 @@ cur.execute("SELECT `num_expediente`, `nombre`,`apellido`,`edad`,`sexo`,`fecha_i
 
 # WRITING XML FILE
 
-pacientes = ET.Element('PACIENTES')
+pacientes = ET.Element('HOSPITAL')
 for row in cur.fetchall():
     paciente = ET.SubElement(pacientes,'PACIENTE')
     ET.SubElement(paciente, "num_expediente").text = str(row[0])
@@ -65,7 +60,7 @@ for row in cur.fetchall():
 cur.close()
 db.close()
 
-tree_out = (ET.tostring(paciente, pretty_print=True))
+tree_out = (ET.tostring(pacientes, pretty_print=True))
 
 xmlfile = open(os.path.join(cd, 'CLData_Output.xml'),'wb')
 xmlfile.write(tree_out)
