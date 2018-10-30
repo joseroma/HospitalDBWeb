@@ -3,7 +3,9 @@
  elementFormDefault="qualified">
 
 <xs:element name="HOSPITAL"> <!--ROOT-->
-    <xs:element name="PACIENTE">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="PACIENTE">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="num_expediente">
@@ -125,5 +127,7 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element> <!---closer Paciente-->
+    </xs:sequence>
+    </xs:complexType>
 </xs:element><!---closer HOSPITAL-->
 </xs:schema>
