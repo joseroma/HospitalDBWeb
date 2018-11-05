@@ -22,7 +22,7 @@
 
 #### datasets: 
 
-- Results_datasets_withoutFK contiene un *.csv* con las tablas y datos usados.
+- Results_datasets_withoutFK contiene los *.csv* con las tablas y datos usados.
 
 
   
