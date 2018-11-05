@@ -15,13 +15,14 @@
 
 - mydbSchema: Schema del XML, indica la estructura de arbol que deberán tener los datos del XML y sus formatos entre otras restrincciones, si funciona al linkarlo, significará que el XML es correcto.
 
--mydbXSLT: XSLT para visualizar el XML con HTML en la web. Indica las columnas y los datos que apareceran en cada tabla apuntando a su dirección correspondiente en el arbol definido en Schema.
+- mydbXSLT: XSLT para visualizar el XML con HTML en la web. Indica las columnas y los datos que apareceran en cada tabla apuntando a su ruta correspondiente en el arbol definido en Schema.
 
 
 - CLData_Output.xml: XML creado a partir del script *sql_2_xml*, linkado con el esquema y XSLT , por lo que se peude abrir directamente con un explorador y visualizar las tablas con los datos y estructura del schema.
 
+#### datasets: 
 
-
+- Results_datasets_withoutFK contiene un *.csv* con las tablas y datos usados.
 
 
   
