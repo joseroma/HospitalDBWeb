@@ -9,7 +9,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </head>
   <body>
     
-    <h2>PACIENTE</h2> <!--PACIENTE-->
+    <h2 align="center">PACIENTE</h2> <!--PACIENTE-->
     <table border="1">
       <tr bgcolor="#2E9AFE">
         <th>num_expediente</th>
@@ -37,7 +37,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       </xsl:for-each>
     </table>
 
-    <h2>URGENCIA</h2> <!--URGENCIA-->
+    <h2 align="center">URGENCIA</h2> <!--URGENCIA-->
     <table border="1">
       <tr bgcolor="#2E9AFE">
         <th>id_urgencia</th>
@@ -57,7 +57,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       </xsl:for-each>
     </table>
 
-    <h2>ESPECIALIDAD</h2> <!--ESPECIALIDAD-->
+    <h2 align="center">ESPECIALIDAD</h2> <!--ESPECIALIDAD-->
     <table border="1">
       <tr bgcolor="#2E9AFE">
         <th>nombre_especialidad</th>
@@ -69,7 +69,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       </xsl:for-each>
     </table>
 
-    <h2>MEDICO</h2> <!--MEDICO-->
+    <h2 align="center">MEDICO</h2> <!--MEDICO-->
     <table border="1">
       <tr bgcolor="#2E9AFE">
         <th>id_medico</th>
@@ -83,7 +83,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       </xsl:for-each>
     </table>
 
-    <h2>OPERACION</h2> <!--OPERACION-->
+    <h2 align="center">OPERACION</h2> <!--OPERACION-->
     <table border="1">
       <tr bgcolor="#2E9AFE">
         <th>id_operacion</th>
@@ -100,7 +100,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </table>
 
 
-    <h2>QUIROFANO</h2> <!--QUIROFANO-->
+    <h2 align="center">QUIROFANO</h2> <!--QUIROFANO-->
     <table border="1">
       <tr bgcolor="#2E9AFE">
         <th>id_quirofano</th>
