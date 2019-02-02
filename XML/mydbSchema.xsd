@@ -6,8 +6,8 @@
     <xs:complexType>
         <xs:sequence>
             <xs:element name="PACIENTE">
-        <xs:complexType>
-            <xs:sequence>
+                <xs:complexType>
+                    <xs:sequence>
                 <xs:element name="num_expediente">
   		            <xs:simpleType>
     		            <xs:restriction base="xs:nonNegativeInteger">
