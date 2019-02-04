@@ -1,0 +1,93 @@
+nombre_enfermedad,hereditaria,cura_conocida,tratamiento,contagiosa,ingreso
+Absceso dental,YES,NO,NO,NO,NO
+Accidente cerebro vascular ACV,YES,NO,NO,NO,NO
+Alcoholismo,YES,NO,NO,NO,YES
+Anemia,YES,NO,NO,NO,NO
+Anemia de Fanconi,YES,NO,NO,NO,NO
+Anemia ferropénica,NO,NO,NO,YES,YES
+Anemia hemolítica,YES,NO,NO,NO,YES
+Anorexia,YES,NO,NO,NO,NO
+Apnea del sueño,NO,NO,NO,YES,NO
+Asma,NO,YES,YES,NO,YES
+Aterosclerosis,NO,YES,NO,NO,YES
+Bronquiectasias,YES,NO,NO,NO,NO
+Bronquitis,NO,YES,YES,YES,NO
+Brucelosis,YES,NO,NO,NO,YES
+Bulimia,YES,NO,NO,NO,YES
+Calambres musculares,NO,YES,NO,NO,NO
+Cálculos de riñón,YES,NO,NO,NO,YES
+Callos y callosidades,YES,NO,NO,NO,NO
+Cefaleas,YES,NO,NO,NO,YES
+Cefaleas de tensión,YES,NO,NO,NO,NO
+Ciática,NO,YES,YES,NO,YES
+Colitis Ulcerosa,NO,NO,NO,NO,NO
+Colon irritable,YES,NO,NO,NO,YES
+Coma etílico,YES,NO,NO,NO,YES
+Congelación,YES,NO,NO,NO,YES
+Degeneración macular del ojo,YES,NO,NO,NO,YES
+Depresión,YES,NO,NO,NO,YES
+Deshidratación,NO,YES,NO,NO,NO
+Desmayos y mareos,YES,NO,NO,NO,NO
+Diarrea,YES,NO,NO,NO,NO
+Diarrea del viajero,YES,NO,NO,NO,YES
+Dolor de espalda,NO,NO,NO,YES,NO
+Dolor de garganta,NO,NO,NO,YES,NO
+Dolor de oído,NO,NO,NO,YES,YES
+Embarazo en la adolescencia,YES,NO,NO,NO,NO
+Enfermedad de Crohn,YES,NO,NO,NO,NO
+Enfermedad de Parkinson,YES,NO,NO,NO,YES
+Estreñimiento,YES,NO,NO,NO,YES
+Fisura anal,NO,YES,YES,NO,NO
+Ganglión,NO,NO,NO,YES,YES
+Glositis,NO,NO,NO,YES,YES
+Gota,NO,NO,NO,YES,NO
+Hemorroides,YES,NO,NO,NO,NO
+Hernia discal,YES,NO,NO,NO,YES
+Hiperlipemias y colesterol elevado,NO,NO,NO,YES,NO
+Hipertensión arterial HTA,YES,NO,NO,NO,YES
+Hipertensión intracraneal idiopática,NO,NO,NO,YES,NO
+Hipocondría,YES,NO,NO,NO,NO
+Hipotensión,YES,NO,NO,NO,YES
+Hongos,NO,YES,NO,NO,NO
+Hongos en las uñas,NO,NO,NO,NO,NO
+Juanetes,NO,YES,NO,NO,YES
+La gripe,NO,NO,NO,NO,NO
+Laberintitis,NO,YES,NO,NO,NO
+Labios agrietados,NO,YES,NO,YES,YES
+Laringitis,YES,NO,NO,NO,NO
+Latigazo cervical,NO,NO,NO,NO,YES
+Lengua geográfica,YES,NO,NO,NO,YES
+Lengua negra vellosa,NO,YES,YES,YES,YES
+Litiasis renal,NO,YES,NO,NO,NO
+Mareo,YES,NO,NO,NO,YES
+Mastoiditis,YES,NO,NO,NO,NO
+Medicamento: Prozac®,NO,YES,NO,YES,YES
+Medidas sanitarias en los viajes al extranjero,YES,NO,NO,NO,NO
+Migrañas y jaquecas,NO,NO,NO,YES,YES
+Obesidad,YES,NO,NO,NO,NO
+Orinar por la noche,NO,NO,NO,NO,NO
+Parálisis facial de Bell,YES,NO,NO,NO,YES
+Piel seca,NO,NO,NO,NO,NO
+Preparación de los viajes largos,YES,NO,NO,NO,NO
+Prevención de las hemorroides,YES,NO,NO,NO,YES
+Reflujo gastroesofágico,NO,YES,YES,NO,NO
+Resfriados,YES,NO,NO,NO,NO
+Ronquidos,YES,NO,NO,NO,YES
+Rotura de tímpano,NO,YES,YES,YES,NO
+Sangrado nasal,NO,NO,NO,YES,YES
+Sangrado rectal,NO,NO,NO,YES,NO
+Sangre en el esputo,YES,NO,NO,NO,NO
+Sangre en la orina,NO,NO,NO,YES,YES
+Síndrome de astenia crónica,NO,YES,YES,NO,NO
+Síndrome de piernas inquietas,NO,YES,NO,NO,YES
+Síndrome hepático renal,YES,NO,NO,NO,NO
+Síndrome nefrótico,YES,NO,NO,NO,YES
+Sinusitis,YES,NO,NO,NO,NO
+Talasemia,NO,YES,NO,NO,YES
+Tendinitis,NO,NO,NO,NO,NO
+Tic en el párpado,NO,YES,YES,NO,YES
+Tratamiento de las jaquecas,NO,YES,NO,YES,YES
+Tratamiento del alcoholismo,YES,NO,NO,NO,YES
+Varices,YES,NO,NO,NO,NO
+Vértigo,YES,NO,NO,NO,NO
+Vómitos de sangre,NO,NO,NO,NO,YES

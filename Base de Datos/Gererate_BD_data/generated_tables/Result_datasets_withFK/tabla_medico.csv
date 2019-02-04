@@ -1,0 +1,737 @@
+id_medico,nombre_medico,ESPECIALIDAD_nombre_especialidad
+0,TAGLIAFICO Nicolas,Rehabilitación
+1,PAVON Cristian,Medicina legal y forense
+2,LANZINI Manuel,Cardiología
+3,SALVIO Eduardo,Endocrinología
+4,MESSI Lionel,Toxicología
+5,ANSALDI Cristian,Medicina del trabajo
+6,BIGLIA Lucas,Medicina aeroespacial
+7,BANEGA Ever,Reumatología
+8,MASCHERANO Javier,Toxicología
+9,DYBALA Paulo,Cardiología
+10,AGUERO Sergio,Urología
+11,HIGUAIN Gonzalo,Urología
+12,DI MARIA Angel,Nefrología
+13,LO CELSO Giovani,Hematología y hemoterapia
+14,MEZA Maximiliano,Pediatría
+15,ACUNA Marcos,Medicina familiar y comunitaria
+16,CABALLERO Wilfredo,Endocrinología
+17,MERCADO Gabriel,Oncología radioterápica
+18,OTAMENDI Nicolas,Medicina del deporte
+19,ROJO Marcos,Nutriología
+20,FAZIO Federico,Psiquiatría
+21,ARMANI Franco,Pediatría
+22,GUZMAN Nahuel,Medicina física y rehabilitación
+23,BEHICH Aziz,Toxicología
+24,KRUSE Robbie,Toxicología
+25,RISDON Joshua,Medicina de urgencias
+26,MEREDITH James,Neumología
+27,MOOY Aaron,Rehabilitación
+28,MacLAREN Jamie,Neurología
+29,PETRATOS Dimitrios,Medicina intensiva
+30,ARZANI Daniel,Medicina preventiva y salud pública
+31,CAHILL Tim,Medicina preventiva y salud pública
+32,LUONGO Massimo,Endocrinología
+33,SAINSBURY Trent,Medicina de urgencias
+34,IRVINE Jackson,Oftalmología
+35,MILLIGAN Mark,Medicina veterinaria
+36,JEDINAK Mile,Hematología y hemoterapia
+37,JURIC Tomi,Medicina intensiva
+38,RYAN Mathew,Psiquiatría
+39,JURMAN Matthew,Rehabilitación
+40,LECKIE Mathew,Alergología
+41,DEGENEK Milos,Neumología
+42,NABBOUT Andrew,Alergología
+43,JONES Brad,Medicina física y rehabilitación
+44,ROGIC Tom,Medicina familiar y comunitaria
+45,VUKOVIC Danny,Medicina física y rehabilitación
+46,MERTENS Dries,Psiquiatría
+47,CARRASCO Yannick,Urología
+48,DE BRUYNE Kevin,Gastroenterología
+49,HAZARD Thorgan,Nefrología
+50,TIELEMANS Youri,Infectología
+51,WITSEL Axel,Nefrología
+52,HAZARD Eden,Cardiología
+53,JANUZAJ Adnan,Pediatría
+54,DENDONCKER Leander,Rehabilitación
+55,BATSHUAYI Michy,Psiquiatría
+56,VERMAELEN Thomas,Medicina legal y forense
+57,ALDERWEIRELD Toby,Anestesiología y reanimación
+58,DEMBELE Moussa,Toxicología
+59,BOYATA Dedryck,Medicina preventiva y salud pública
+60,KOMPANY Vincent,Alergología
+61,FELLAINI Marouane,Psiquiatría
+62,CHADLI Nacer,Medicina familiar y comunitaria
+63,VERTONGHEN Jan,Medicina del trabajo
+64,CASTEELS Koen,Medicina familiar y comunitaria
+65,MIGNOLET Simon,Endocrinología
+66,MEUNIER Thomas,Medicina legal y forense
+67,COURTOIS Thibaut,Cardiología
+68,LUKAKU Romelu,Medicina aeroespacial
+69,FRED,Geriatría
+70,TAISON,Infectología
+71,FERNANDINHO,Gastroenterología
+72,FAGNER,Medicina del trabajo
+73,NEYMAR,Medicina preventiva y salud pública
+74,PHILIPPE COUTINHO,Oncología radioterápica
+75,DOUGLAS COSTA,Medicina física y rehabilitación
+76,FILIPE LUIS,Medicina aeroespacial
+77,GABRIEL JESUS,Medicina interna
+78,MARQUINHOS,Oncología radioterápica
+79,ROBERTO FIRMINO,Anestesiología y reanimación
+80,WILLIAN,Medicina física y rehabilitación
+81,MIRANDA,Rehabilitación
+82,DANILO,Oncología radioterápica
+83,THIAGO SILVA,Endocrinología
+84,MARCELO,Geriatría
+85,PAULINHO,Nefrología
+86,PEDRO GEROMEL,Medicina del trabajo
+87,CASEMIRO,Medicina aeroespacial
+88,RENATO AUGUSTO,Medicina preventiva y salud pública
+89,EDERSON,Medicina del trabajo
+90,ALISSON,Cardiología
+91,CASSIO,Cardiología
+92,QUINTERO Juan,Medicina interna
+93,MOJICA Johan,Neumología
+94,LERMA Jefferson,Gastroenterología
+95,ARIAS Santiago,Rehabilitación
+96,URIBE Mateus,Oftalmología
+97,FALCAO Radamel,Anestesiología y reanimación
+98,CUADRADO Juan,Neurología
+99,FABRA Frank,Toxicología
+100,IZQUIERDO Jose,Alergología
+101,BARRIOS  Wilmar,Anestesiología y reanimación
+102,BORJA Miguel,Neumología
+103,RODRIGUEZ James,Geriatría
+104,BACCA Carlos,Nefrología
+105,MURIEL Luis,Medicina interna
+106,OSPINA David,Oncología radioterápica
+107,MURILLO Oscar,Cardiología
+108,VARGAS Camilo,Neumología
+109,CUADRADO Jose,Medicina del deporte
+110,SANCHEZ Davinson,Medicina física y rehabilitación
+111,ZAPATA Cristian,Urología
+112,SANCHEZ Carlos,Toxicología
+113,AGUILAR Abel,Hematología y hemoterapia
+114,MINA Yerry,Medicina del deporte
+115,BOLANOS Christian,Cardiología
+116,GAMBOA Cristian,Cardiología
+117,TEJEDA Yeltsin,Infectología
+118,SMITH Ian,Rehabilitación
+119,OVIEDO Bryan,Hematología y hemoterapia
+120,WALLACE Rodney,Urología
+121,URENA Marcos,Toxicología
+122,MATARRITA Ronald,Cardiología
+123,MOREIRA Leonel,Medicina del trabajo
+124,CAMPBELL Joel,Geriatría
+125,PEMBERTON Patrick,Rehabilitación
+126,RUIZ Bryan,Oncología radioterápica
+127,ACOSTA Johnny,Medicina interna
+128,COLINDRES Daniel,Oncología médica
+129,VENEGAS Johan,Alergología
+130,GONZALEZ Giancarlo,Oncología médica
+131,CALVO Francisco,Gastroenterología
+132,GUZMAN David,Reumatología
+133,BORGES Celso,Geriatría
+134,NAVAS Keylor,Gastroenterología
+135,DUARTE Oscar,Medicina del deporte
+136,AZOFEIFA Randall,Psiquiatría
+137,WASTON Kendall,Alergología
+138,MODRIC Luka,Reumatología
+139,BROZOVIC Marcelo,Gastroenterología
+140,PIVARIC Josip,Pediatría
+141,KRAMARIC Andrej,Medicina física y rehabilitación
+142,VRSALJKO Sime,Geriatría
+143,BADELJ Milan,Neurología
+144,VIDA Domagoj,Anestesiología y reanimación
+145,STRINIC Ivan,Medicina veterinaria
+146,RAKITIC Ivan,Cardiología
+147,KOVACIC Mateo,Medicina del deporte
+148,BRADARIC Filip,Geriatría
+149,REBIC Ante,Hematología y hemoterapia
+150,PERISIC Ivan,Reumatología
+151,JEDVAJ Tin,Medicina interna
+152,KALINIC Nikola,Nutriología
+153,LIVAKOVIC Dominik,Medicina familiar y comunitaria
+154,PJACA Marko,Hematología y hemoterapia
+155,CORLUKA Vedran,Alergología
+156,LOVREN Dejan,Gastroenterología
+157,SUBASIC Danijel,Medicina física y rehabilitación
+158,MANDZUKIC Mario,Medicina familiar y comunitaria
+159,CALETA-CAR Duje,Medicina física y rehabilitación
+160,KALINIC Lovre,Medicina veterinaria
+161,KROHN-DEHLI Michael,Oncología radioterápica
+162,SISTO Pione,Pediatría
+163,BRAITHWAITE Martin,Psiquiatría
+164,ERIKSEN Christian,Rehabilitación
+165,DELANEY Thomas,Psiquiatría
+166,KVIST William,Medicina del trabajo
+167,FISCHER Viktor,Anestesiología y reanimación
+168,SCHONE Lasse,Hematología y hemoterapia
+169,DALSGAARD Henrik,Psiquiatría
+170,KNUDSEN Jonas,Reumatología
+171,STRYGER LARSEN Jens,Cardiología
+172,KJAER Simon,Medicina familiar y comunitaria
+173,POULSEN Yussuf Yurary,Hematología y hemoterapia
+174,CHRISTENSEN Andreas,Medicina de urgencias
+175,DOLBERG Kasper,Medicina veterinaria
+176,JORGENSEN Mathias,Medicina del trabajo
+177,LERAGER Lukas,Reumatología
+178,RONNOW Frederik,Endocrinología
+179,JORGENSEN Nicolai,Neumología
+180,LOSSL Jonas,Oncología radioterápica
+181,CORNELIUS Andreas,Medicina del deporte
+182,SCHMEICHEL Kasper,Medicina intensiva
+183,VESTERGAARD Jannik,Medicina intensiva
+184,TAREK HAMED,Psiquiatría
+185,OMAR GABER,Nutriología
+186,MOHAMED SALAH,Neumología
+187,MOHAMED ABDELSHAFY,Medicina preventiva y salud pública
+188,MAHMOUD HAMDY,Medicina preventiva y salud pública
+189,AYMAN ASHRAF,Gastroenterología
+190,MOHAMED ELNENY,Infectología
+191,SAM MORSY,Medicina legal y forense
+192,ABDALLA SAID,Medicina del trabajo
+193,AHMED ELMOHAMADY,Toxicología
+194,AHMED FATHI,Oftalmología
+195,KAHRABA,Hematología y hemoterapia
+196,RAMADAN SOBHY,Nutriología
+197,TREZEGUET,Pediatría
+198,AMR WARDA,Oftalmología
+199,SHIKABALA,Endocrinología
+200,MARWAN MOHSEN,Cardiología
+201,SAMIR SAAD,Medicina física y rehabilitación
+202,MOHAMED ELSHENAWY,Medicina preventiva y salud pública
+203,ALI GABR,Medicina intensiva
+204,ESSAM EL HADARY,Medicina física y rehabilitación
+205,SHERIF EKRAMY,Pediatría
+206,AHMED HEGAZY,Psiquiatría
+207,LINGARD Jesse,Medicina del deporte
+208,STERLING Raheem,Medicina veterinaria
+209,ALEXANDER-ARNOLD Trent,Pediatría
+210,PICKFORD Jordan,Medicina del deporte
+211,STONES John,Oncología radioterápica
+212,TRIPPIER Kieran,Oftalmología
+213,JONES Phil,Geriatría
+214,LOFTUS-CHEEK Ruben,Geriatría
+215,ROSE Danny,Nefrología
+216,ALLI Dele,Anestesiología y reanimación
+217,POPE Nick,Medicina preventiva y salud pública
+218,WELBECK Danny,Medicina legal y forense
+219,DELPH Fabian,Medicina legal y forense
+220,YOUNG Ashley,Hematología y hemoterapia
+221,RASHFORD Marcus,Medicina física y rehabilitación
+222,VARDY Jamie,Oftalmología
+223,HENDERSON Jordan,Toxicología
+224,WALKER Kyle,Cardiología
+225,CAHILL Gary,Reumatología
+226,DIER Eric,Toxicología
+227,BUTLAND Jack,Gastroenterología
+228,MAGUIRE Harry,Cardiología
+229,KANE Harry,Cardiología
+230,LEMAR Thomas,Reumatología
+231,DEMBELE Ousmane,Medicina familiar y comunitaria
+232,KANTE Ngolo,Medicina preventiva y salud pública
+233,GRIEZMANN Antoine,Medicina del deporte
+234,MATUIDI Blaise,Cardiología
+235,PAVARD Benjamin,Oncología radioterápica
+236,FEKIR Nabil,Cardiología
+237,THAUVIN Florian,Urología
+238,HERNANDEZ Lucas,Medicina del deporte
+239,KIMPEMBE Presnel,Urología
+240,MBAPPE Kylian,Nefrología
+241,VARANE Raphael,Hematología y hemoterapia
+242,SIDIBE Djibril,Medicina de urgencias
+243,LLORIS Hugo,Nutriología
+244,TOLISSO Corentin,Oncología radioterápica
+245,UMTITI Samuel,Medicina interna
+246,MENDY Benjamin,Neumología
+247,POGBA Paul,Endocrinología
+248,NZONZI Steven,Rehabilitación
+249,MANDANDA Steve,Rehabilitación
+250,RAMI Adil,Oncología radioterápica
+251,GIROUD Olivier,Geriatría
+252,AREOLA Alphonse,Nutriología
+253,REUS Marco,Reumatología
+254,OEZIL Mesut,Pediatría
+255,KIMMICH Joshua,Cardiología
+256,DRAXLER Julian,Neumología
+257,RUDY Sebastian,Pediatría
+258,HECTOR Jonas,Endocrinología
+259,WERNER Timo,Reumatología
+260,MUELLER Thomas,Pediatría
+261,PLATTENHARDT Marvin,Neurología
+262,GORETZKA Leon,Geriatría
+263,KROOS Toni,Toxicología
+264,GUENDOGAN Ilkay,Medicina física y rehabilitación
+265,KHEDIRA Sami,Anestesiología y reanimación
+266,BRANDT Julian,Medicina legal y forense
+267,GOMEZ Mario,Anestesiología y reanimación
+268,GINTER Matthias,Alergología
+269,RUEDIGER Antonio,Medicina del deporte
+270,TER STEGEN Marc-Andre,Medicina aeroespacial
+271,TRAPP Kevin,Oncología médica
+272,SUELE Niklas,Reumatología
+273,HUMMELS Mats,Neurología
+274,BOATENG Jerome,Psiquiatría
+275,NEUER Manuel,Medicina del deporte
+276,SKULASON Ari,Nutriología
+277,TRAUSTASON Arnor,Endocrinología
+278,SAEVARSSON Birkir,Alergología
+279,RUNARSSON Runar,Medicina física y rehabilitación
+280,GUDMUNDSSON Johann,Medicina aeroespacial
+281,BJARNASON Birkir,Neumología
+282,FRIDJONSSON Samuel,Hematología y hemoterapia
+283,GISLASON Rurik,Medicina física y rehabilitación
+284,FINNBOGASON Alfred,Medicina familiar y comunitaria
+285,SKULASON Olafur,Oncología radioterápica
+286,GUDMUNDSSON Albert,Oncología radioterápica
+287,INGASON Sverrir,Medicina familiar y comunitaria
+288,EYJOLFSSON Holmar,Urología
+289,SIGURDSSON Gylfi,Medicina veterinaria
+290,ARNASON Kari,Nutriología
+291,SIGURDARSON Bjorn,Medicina del deporte
+292,MAGNUSSON Hordur,Oncología radioterápica
+293,SIGURDSSON Ragnar,Psiquiatría
+294,GUNNARSSON Aron,Toxicología
+295,HALLFREDSSON Emil,Oncología médica
+296,HALLDORSSON Hannes,Neurología
+297,BODVARSSON Jon,Endocrinología
+298,SCHRAM Frederik,Medicina de urgencias
+299,MOHAMMADI Milad,Infectología
+300,TORABI Mehdi,Medicina física y rehabilitación
+301,AMIRI Vahid,Medicina veterinaria
+302,HAJI SAFI Ehsan,Hematología y hemoterapia
+303,EBRAHIMI Omid,Reumatología
+304,REZAEIAN Ramin,Oncología médica
+305,MONTAZERI Pejman,Medicina del trabajo
+306,JAHANBAKHSH Alireza,Oncología médica
+307,HOSSEINI Majid,Gastroenterología
+308,DEJAGAH Ashkan,Geriatría
+309,SHOJAEI Masoud,Medicina del deporte
+310,GHODDOS  Saman,Neumología
+311,GHOOCHANNEJHAD Reza,Infectología
+312,CHESHMI Roozbeh,Medicina veterinaria
+313,ANSARIFARD Karim,Pediatría
+314,KHANZADEH Mohammad Reza,Nefrología
+315,TAREMI Mehdi,Neumología
+316,AZMOUN Sardar,Oncología médica
+317,ABEDZADEH Amir,Oncología radioterápica
+318,EZATOLAHI Saeid,Oftalmología
+319,POURALIGANJI Morteza,Nefrología
+320,MAZAHERI Rashid,Endocrinología
+321,BEIRANVAND Ali,Endocrinología
+322,INUI Takashi,Medicina de urgencias
+323,SHIBASAKI Gaku,Nefrología
+324,OSHIMA Ryota,Gastroenterología
+325,NAGATOMO Yuto,Medicina de urgencias
+326,HARAGUCHI Genki,Cardiología
+327,KAGAWA Shinji,Medicina aeroespacial
+328,OKAZAKI Shinji,Anestesiología y reanimación
+329,SAKAI Hiroki,Medicina aeroespacial
+330,OSAKO Yuya,Gastroenterología
+331,USAMI Takashi,Nefrología
+332,MUTO Yoshinori,Medicina física y rehabilitación
+333,YAMAGUCHI Hotaru,Nutriología
+334,HASEBE Makoto,Alergología
+335,NAKAMURA Kosuke,Geriatría
+336,KAWASHIMA Eiji,Medicina interna
+337,SHOJI Gen,Anestesiología y reanimación
+338,HONDA Keisuke,Oftalmología
+339,SAKAI Gotoku,Nutriología
+340,ENDO Wataru,Medicina interna
+341,MAKINO Tomoaki,Oncología radioterápica
+342,HIGASHIGUCHI Masaaki,Nefrología
+343,YOSHIDA Maya,Medicina legal y forense
+344,UEDA Naomichi,Medicina familiar y comunitaria
+345,LEE Seungwoo,Infectología
+346,GO Yohan,Infectología
+347,HONG Chul,Rehabilitación
+348,MOON Seonmin,Oncología médica
+349,KIM Minwoo,Psiquiatría
+350,JU Sejong,Oncología radioterápica
+351,LEE Jaesung,Medicina veterinaria
+352,PARK Jooho,Anestesiología y reanimación
+353,KOO Jacheol,Oftalmología
+354,LEE Yong,Neurología
+355,JUNG Seunghyun,Rehabilitación
+356,KIM Younggwon,Cardiología
+357,KI Sungyueng,Medicina de urgencias
+358,JO Hyeonwoo,Medicina legal y forense
+359,SON Heungmin,Hematología y hemoterapia
+360,HWANG Heechan,Medicina física y rehabilitación
+361,JANG Hyunsoo,Alergología
+362,YUN Youngsun,Medicina veterinaria
+363,JUNG Wooyoung,Neumología
+364,OH Bansuk,Medicina física y rehabilitación
+365,KIM Seunggyu,Medicina del trabajo
+366,KIM Jinhyeon,Medicina física y rehabilitación
+367,KIM Shinwook,Oncología radioterápica
+368,AQUINO Javier,Gastroenterología
+369,GUARDADO Andres,Medicina de urgencias
+370,LOZANO Hirving,Medicina preventiva y salud pública
+371,DOS SANTOS Jonathan,Alergología
+372,CORONA Jesus,Endocrinología
+373,FABIAN Marco,Anestesiología y reanimación
+374,DOS SANTOS Giovani,Medicina legal y forense
+375,HERNANDEZ Javier,Nutriología
+376,LAYUN Miguel,Endocrinología
+377,PERALTA Oribe,Cardiología
+378,ALVAREZ Edson,Nefrología
+379,GALLARDO Jesus,Urología
+380,OCHOA Guillermo,Nutriología
+381,MARQUEZ Rafael,Alergología
+382,REYES Diego,Medicina aeroespacial
+383,VELA Carlos,Medicina interna
+384,JIMENEZ Raul,Medicina del deporte
+385,HERRERA Hector,Rehabilitación
+386,CORONA Jose,Urología
+387,AYALA Hugo,Geriatría
+388,MORENO Hector,Endocrinología
+389,SALCEDO Carlos,Medicina aeroespacial
+390,TALAVERA Alfredo,Pediatría
+391,BOUSSOUFA Mbark,Medicina aeroespacial
+392,HAKIMI Achraf,Rehabilitación
+393,HARIT Amine,Urología
+394,CARCELA Mehdi,Medicina física y rehabilitación
+395,MENDYL Hamza,Medicina física y rehabilitación
+396,ZIYACH Hakim,Gastroenterología
+397,TAGNAOUTI Ahmed,Medicina preventiva y salud pública
+398,EL KAABI Ayoub,Medicina aeroespacial
+399,FAJR Faycal,Neumología
+400,BELHANDA Younes,Cardiología
+401,AIT BENNASSER Youssef,Infectología
+402,EN NESYRI Youssef,Medicina veterinaria
+403,SAISS Romain,Hematología y hemoterapia
+404,BOUNOU Yassine,Medicina aeroespacial
+405,AMRABAT Noureddine,Endocrinología
+406,AMRABAT Sofyan,Neurología
+407,DA COSTA Manuel,Geriatría
+408,EL AHMADI Karim,Oncología radioterápica
+409,BOUTAIB Khalid,Medicina del trabajo
+410,BOUHADDOUZ Aziz,Endocrinología
+411,DIRAR Nabil,Oncología médica
+412,BENATIA Mehdi,Neumología
+413,EL KAJOUI Monir,Medicina física y rehabilitación
+414,MUSA Ahmed,Alergología
+415,NDIDI Onyinye,Toxicología
+416,ETEBO Oghenekaro,Medicina veterinaria
+417,ONAZI Ogenyi,Medicina aeroespacial
+418,EBUEHI Tyronne,Neumología
+419,IDOWU Bryan,Nefrología
+420,MOSES Victor,Alergología
+421,SHEHU Abdullahi,Infectología
+422,AWAZIEM Chidozie,Endocrinología
+423,OBI Joel,Infectología
+424,EZENWA Ikechukwu,Anestesiología y reanimación
+425,IHEANACHO Kelechi,Medicina aeroespacial
+426,ECHIEJILE Elderson,Geriatría
+427,MIKEL John Obi,Medicina intensiva
+428,OMERUO Kenneth,Nutriología
+429,IGHALO Odion,Medicina del trabajo
+430,EKONG William,Oncología radioterápica
+431,IWOBI Alex,Pediatría
+432,BALOGUN Leon,Endocrinología
+433,NWANKWO Simeon,Oncología médica
+434,OGU John,Rehabilitación
+435,UZOHO Francis,Neurología
+436,AKPEYI Daniel,Medicina interna
+437,QUINTERO Alberto,Alergología
+438,PENEDO Jaime,Medicina de urgencias
+439,BARCENAS Edgar,Alergología
+440,DIAZ Ismael,Medicina aeroespacial
+441,COOPER Armando,Rehabilitación
+442,OVALLE Luis,Medicina de urgencias
+443,TORRES Gabriel,Infectología
+444,RODRIGUEZ Jose Luis,Oncología radioterápica
+445,MURILLO Michael,Endocrinología
+446,MACHADO Adolfo,Oncología radioterápica
+447,PIMENTEL Valentin,Psiquiatría
+448,DAVIS Eric,Neumología
+449,ESCOBAR Fidel,Rehabilitación
+450,GOMEZ Gabriel,Pediatría
+451,ARROYO Abdiel,Reumatología
+452,GODOY Anibal,Medicina legal y forense
+453,PEREZ Blas,Rehabilitación
+454,RODRIGUEZ Alex,Rehabilitación
+455,CALDERON Jose,Oncología radioterápica
+456,TEJADA Luis,Nefrología
+457,BALOY Felipe,Anestesiología y reanimación
+458,CUMMINGS Harold,Nefrología
+459,TORRES Roman,Geriatría
+460,HURTADO Paolo,Oncología radioterápica
+461,RUIDIAZ Raul,Medicina del deporte
+462,LOYOLA Nilson,Neumología
+463,CUEVA Christian,Medicina familiar y comunitaria
+464,YOTUN Yoshimar,Hematología y hemoterapia
+465,POLO Andy,Medicina física y rehabilitación
+466,AQUINO Pedro,Medicina del trabajo
+467,RAMOS Christian,Medicina de urgencias
+468,FLORES Edison,Pediatría
+469,TRAUCO Miguel,Neurología
+470,CORZO Aldo,Medicina intensiva
+471,CARTAGENA Wilder,Hematología y hemoterapia
+472,ARAUJO Miguel,Psiquiatría
+473,CARRILLO Andre,Neurología
+474,RODRIGUEZ Alberto,Rehabilitación
+475,CACEDA Carlos,Oncología radioterápica
+476,GALLESE Pedro,Medicina legal y forense
+477,ADVINCULA Luis,Medicina de urgencias
+478,SANTAMARIA Anderson,Medicina del trabajo
+479,CARVALLO Jose,Rehabilitación
+480,FARFAN Jefferson,Medicina del deporte
+481,TAPIA Renato,Neurología
+482,GUERRERO Paolo,Medicina del deporte
+483,ZIELINSKI Piotr,Geriatría
+484,GORALSKI Jacek,Oncología médica
+485,PESZKO Slawomir,Nefrología
+486,BLASZCZYKOWSKI Jakub,Medicina legal y forense
+487,BERESZYNSKI Bartosz,Hematología y hemoterapia
+488,LINETTY Karol,Reumatología
+489,KURZAWA Rafal,Neumología
+490,RYBUS Maciej,Medicina física y rehabilitación
+491,KOWNACKI Dawid,Anestesiología y reanimación
+492,BEDNAREK Jan,Medicina física y rehabilitación
+493,PAZDAN Michal,Medicina de urgencias
+494,JEDRZEJCZYK Artur,Rehabilitación
+495,GROSICKI Kamil,Medicina aeroespacial
+496,TEODORCZYK Lukasz,Medicina del deporte
+497,LEWANDOWSKI Robert,Neumología
+498,PISZCZEK Lukasz,Gastroenterología
+499,GLIK Kamil,Psiquiatría
+500,CIONEK Thiago,Urología
+501,MILIK Arkadiusz,Oftalmología
+502,KRYCHOWIAK Grzegorz,Oncología médica
+503,BIALKOWSKI Bartosz,Medicina de urgencias
+504,FABIANSKI Lukasz,Nefrología
+505,SZCZESNY Wojciech,Toxicología
+506,JOAO MOUTINHO,Medicina física y rehabilitación
+507,GELSON MARTINS,Medicina interna
+508,RAPHAEL GUERREIRO,Neurología
+509,BRUNO FERNANDES,Infectología
+510,BERNARDO SILVA,Oncología médica
+511,MARIO RUI,Pediatría
+512,CEDRIC,Reumatología
+513,MANUEL FERNANDES,Psiquiatría
+514,RICARDO,Medicina preventiva y salud pública
+515,GONCALO GUEDES,Anestesiología y reanimación
+516,ADRIEN SILVA,Medicina legal y forense
+517,JOAO MARIO,Infectología
+518,RICARDO QUARESMA,Oftalmología
+519,ANDRE SILVA,Urología
+520,BETO,Medicina legal y forense
+521,CRISTIANO RONALDO,Rehabilitación
+522,WILLIAM,Oncología radioterápica
+523,PEPE,Neurología
+524,ANTHONY LOPES,Rehabilitación
+525,BRUNO ALVES,Reumatología
+526,RUBEN DIAS,Medicina veterinaria
+527,RUI PATRICIO,Psiquiatría
+528,JOSE FONTE,Medicina preventiva y salud pública
+529,MIRANCHUK Anton,Hematología y hemoterapia
+530,CHERYSHEV Denis,Endocrinología
+531,GOLOVIN Aleksandr,Medicina física y rehabilitación
+532,SMOLNIKOV Igor,Infectología
+533,DZAGOEV Alan,Medicina interna
+534,KUZIAEV Daler,Reumatología
+535,SAMEDOV Alexander,Medicina del deporte
+536,GAZINSKY Iury,Medicina intensiva
+537,ZHIRKOV Yury,Anestesiología y reanimación
+538,ZOBNIN Roman,Reumatología
+539,MIRANCHUK Alexey,Anestesiología y reanimación
+540,KUDRIASHOV Fedor,Medicina preventiva y salud pública
+541,MARIO FERNANDES,Cardiología
+542,SMOLOV Fedor,Medicina del trabajo
+543,EROKHIN Aleksandr,Nefrología
+544,LUNEV Andrei,Psiquiatría
+545,GRANAT Vladimir,Geriatría
+546,GABULOV Vladimir,Neumología
+547,KUTEPOV Ilya,Medicina preventiva y salud pública
+548,AKINFEEV Igor,Medicina legal y forense
+549,IGNASHEVICH Sergey,Medicina física y rehabilitación
+550,SEMENOV Andrey,Rehabilitación
+551,DZYUBA Artem,Oncología médica
+552,MOHAMMED ALBURAYK,Gastroenterología
+553,SALMAN ALFARAJ,Psiquiatría
+554,YAHIA ALSHEHRI,Psiquiatría
+555,YASIR ALSHAHRANI,Psiquiatría
+556,FAHAD ALMUWALLAD,Oncología radioterápica
+557,HATAN BAHBIR,Hematología y hemoterapia
+558,ABDULLAH OTAYF,Alergología
+559,ABDULLAH ALKHAIBARI,Endocrinología
+560,MANSOUR ALHARBI,Geriatría
+561,SALEM ALDAWSARI,Anestesiología y reanimación
+562,TAISEER ALJASSAM,Anestesiología y reanimación
+563,ABDULMALEK ALKHAIBRI,Medicina interna
+564,MOHAMED KANNO,Psiquiatría
+565,MOHAMMED ALSAHLAWI,Infectología
+566,OMAR OTHMAN,Alergología
+567,HUSSAIN ALMOQAHWI,Oftalmología
+568,MUHANNAD ASIRI,Alergología
+569,MOHAMMED ALOWAIS,Neurología
+570,MOTAZ HAWSAWI,Medicina del deporte
+571,OSAMA HAWSAWI,Medicina del trabajo
+572,ALI ALBULAYHI,Pediatría
+573,YASSER ALMOSAILEM,Medicina física y rehabilitación
+574,ABDULLAH ALMUAIOUF,Geriatría
+575,GUEYE Idrissa Gana,Gastroenterología
+576,CISS Saliou,Medicina familiar y comunitaria
+577,MANE Sadio,Anestesiología y reanimación
+578,SARR Ismaila,Toxicología
+579,WAGUE Moussa,Medicina interna
+580,SABALY Youssouf,Geriatría
+581,NDIAYE Pape Alioune,Geriatría
+582,NIANG Mbaye,Oncología radioterápica
+583,GASSAMA Lamine,Oncología médica
+584,SOW Moussa,Endocrinología
+585,KOUYATE Cheikhou,Nutriología
+586,BALDE Keita,Oncología médica
+587,KONATE Moussa,Infectología
+588,DIALLO Abdoulaye,Medicina veterinaria
+589,SAKHO Diafra,Endocrinología
+590,NDIAYE Alfred,Gastroenterología
+591,NDIAYE Khadim,Medicina física y rehabilitación
+592,GOMIS Alfred,Psiquiatría
+593,DIOUF Mame,Medicina preventiva y salud pública
+594,SANE Salif,Endocrinología
+595,MBODJI Kara,Pediatría
+596,KOULIBALY Kalidou,Cardiología
+597,NDOYE Cheikh,Cardiología
+598,ZIVKOVIC Andrija,Medicina familiar y comunitaria
+599,RODIC Milan,Endocrinología
+600,RUKAVINA Antonio,Infectología
+601,LJAJIC Adem,Oncología radioterápica
+602,JOVIC Luka,Gastroenterología
+603,TADIC Dusan,Medicina del deporte
+604,RADONJIC Nemanja,Medicina interna
+605,MILINKOVIC-SAVIC Sergej,Cardiología
+606,VELJKOVIC Milos,Alergología
+607,TOSIC Dusko,Reumatología
+608,MILIVOJEVIC Luka,Medicina familiar y comunitaria
+609,SPAJIC Uros,Medicina interna
+610,MITROVIC Aleksandar,Hematología y hemoterapia
+611,GRUJIC Marko,Hematología y hemoterapia
+612,KOSTIC Filip,Gastroenterología
+613,KOLAROV Aleksandar,Anestesiología y reanimación
+614,RAJKOVIC Predrag,Medicina física y rehabilitación
+615,MATIC Nemanja,Gastroenterología
+616,PRIJOVIC Aleksandar,Oftalmología
+617,IVANOVIC Branislav,Medicina interna
+618,MILENKOVIC Nikola,Oncología médica
+619,DMITROVIC Marko,Neurología
+620,STOJKOVIC Vladimir,Oncología médica
+621,ODRIOZOLA Alvaro,Medicina física y rehabilitación
+622,ASPAS Iago,Nefrología
+623,SILVA David,Medicina interna
+624,INIESTA Andres,Oncología médica
+625,ALBA Jordi,Pediatría
+626,THIAGO,Neurología
+627,VAZQUEZ Lucas,Reumatología
+628,DE GEA David,Oftalmología
+629,RODRIGO,Oncología radioterápica
+630,MONREAL Nacho,Psiquiatría
+631,CARVAJAL Dani,Hematología y hemoterapia
+632,KOKE,Geriatría
+633,ISCO,Oncología médica
+634,RAMOS Sergio,Toxicología
+635,SAUL,Toxicología
+636,ASENSIO Marco,Urología
+637,NACHO,Nutriología
+638,BUSQUETS Sergio,Medicina del trabajo
+639,AZPILICUETA Cesar,Geriatría
+640,ARRIZABALAGA Kepa,Reumatología
+641,PIQUE Gerard,Urología
+642,COSTA Diego,Medicina legal y forense
+643,REINA Pepe,Nefrología
+644,DURMAZ Jimmy,Oftalmología
+645,LARSSON Sebastian,Alergología
+646,KRAFTH Emil,Medicina de urgencias
+647,HILJEMARK Oscar,Infectología
+648,EKDAL Albin,Medicina física y rehabilitación
+649,AUGUSTINSSON Ludwig,Cardiología
+650,BERG Marcus,Medicina aeroespacial
+651,ROHDEN Marcus,Neumología
+652,LUSTIG Mikael,Nutriología
+653,SVENSSON Gustav,Neurología
+654,FORSBERG Emil,Rehabilitación
+655,TOIVONEN Ola,Medicina intensiva
+656,GUIDETTI John,Medicina del trabajo
+657,CLAESSON Viktor,Urología
+658,LINDELOF Victor,Medicina física y rehabilitación
+659,OLSSON Martin,Neumología
+660,JOHNSSON Karl-Johan,Hematología y hemoterapia
+661,HELANDER Filip,Medicina del deporte
+662,THELIN Isaac Kiese,Gastroenterología
+663,GRANQVIST Andreas,Anestesiología y reanimación
+664,NORDFELDT Kristoffer,Infectología
+665,OLSEN Robin,Medicina del trabajo
+666,JANSSON Pontus,Nefrología
+667,FERNANDES Gelson,Medicina preventiva y salud pública
+668,FREULER Remo,Cardiología
+669,GAVRANOVIC Mario,Medicina física y rehabilitación
+670,MOUBANDJE Francois,Medicina física y rehabilitación
+671,LICHTSTEINER Stephan,Toxicología
+672,ELVEDI Nico,Medicina del trabajo
+673,DZEMAILI Blerim,Rehabilitación
+674,ZAKARIA Denis,Medicina preventiva y salud pública
+675,LANG Michael,Pediatría
+676,BEHRAMI Valon,Pediatría
+677,DRMIC Josip,Endocrinología
+678,SHAQIRI Xherdan,Hematología y hemoterapia
+679,RODRIGUEZ Ricardo,Hematología y hemoterapia
+680,ZUBER Steven,Oftalmología
+681,SOMMER Yann,Endocrinología
+682,XHAKA Granit,Medicina del deporte
+683,BUERKI Roman,Medicina del deporte
+684,SCHAER Fabian,Endocrinología
+685,MVOGO Yvon,Geriatría
+686,AKANJI Manuel,Oncología médica
+687,EMBOLO Breel,Nutriología
+688,SEFEROVIC Haris,Medicina física y rehabilitación
+689,DJOUROU Johan,Urología
+690,SLITI Naim,Rehabilitación
+691,SKHIRI Ellyes,Anestesiología y reanimación
+692,MERIAH Yassine,Urología
+693,BADRI Anice,Medicina del deporte
+694,CHAALELI Ghaylen,Pediatría
+695,HASSEN Mouez,Medicina preventiva y salud pública
+696,SRARFI Bassem,Neurología
+697,MAALOUL Ali,Alergología
+698,KHALIFA Saber,Medicina preventiva y salud pública
+699,BEN ALOUANE Yohan,Psiquiatría
+700,BRONN Dylan,Toxicología
+701,BEN AMOR Mohamed,Medicina aeroespacial
+702,KHALIL Ahmed,Alergología
+703,NAGUEZ Hamdi,Medicina del deporte
+704,HADDADI Oussama,Reumatología
+705,KHAOUI Saifeddine,Medicina aeroespacial
+706,KHAZRI Wahbi,Oncología médica
+707,BEDOUI Rami,Medicina de urgencias
+708,BEN YOUSSEF Fakhreddine,Medicina de urgencias
+709,SASSI Ferjani,Neumología
+710,MATHLOUTHI Aymen,Nutriología
+711,BEN MUSTAPHA Farouk,Medicina de urgencias
+712,BEN YOUSSEF Syam,Reumatología
+713,NANDEZ Nahitan,Oncología radioterápica
+714,TORREIRA Lucas,Gastroenterología
+715,DE ARRASCAETA Giorgian,Geriatría
+716,LAXALT Diego,Urología
+717,URRETAVISCAYA Jonathan,Oncología radioterápica
+718,VARELA Guillermo,Gastroenterología
+719,GODIN Diego,Medicina veterinaria
+720,BENTANCUR Rodrigo,Oncología médica
+721,PEREIRA Maximiliano,Medicina intensiva
+722,MUSLERA Fernando,Medicina intensiva
+723,SANCHEZ Carlos,Medicina aeroespacial
+724,SILVA Gaston,Pediatría
+725,CACERES Martin,Neumología
+726,GIMENEZ Jose,Nefrología
+727,STUANI Cristhian,Oftalmología
+728,CAVANI Edinson,Oftalmología
+729,RODRIGUEZ Cristian,Medicina familiar y comunitaria
+730,CAMPANA Martin,Anestesiología y reanimación
+731,VECINO Matias,Oncología radioterápica
+732,SILVA Martin,Hematología y hemoterapia
+733,SUAREZ Luis,Urología
+734,GOMEZ Maximiliano,Psiquiatría
+735,COATES Sebastian,Medicina intensiva
