@@ -1,6 +1,5 @@
 import socket
-
-from Code.HL7.HL7encoder import generarHL7_ORU_R01, generarHL7_ORU_R02
+from Code.HL7.HL7encoder import generarHL7_ORU_R01
 
 
 def client_program():
@@ -14,7 +13,6 @@ def client_program():
     client = input(" -> ")  # take input
     messagetype = ""
 
-
     while client != 'bye':
 
         if messagetype == "HL7":
@@ -26,15 +24,14 @@ def client_program():
 
         print('Received from server: ' + server)  # show in terminal
         messagetype = ""
-        client = input(" -> ")  # again take input
-        if client == 'ORU_R02':
-            client = generarHL7_ORU_R02()
-            messagetype = "HL7"
+        client = input(" -> ")
 
-        elif client == 'ORU_R01':
+        if client == 'ORU_R01':
             client = generarHL7_ORU_R01()
             messagetype = "HL7"
 
     client_socket.close()  # close the connection
+
+
 if __name__ == '__main__':
     client_program()

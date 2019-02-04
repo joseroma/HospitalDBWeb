@@ -1,14 +1,12 @@
-
 import socket
 import base64
-from PIL import Image
-from io import BytesIO
-
-from hl7apy import core, parser, UnsupportedVersion
+from hl7apy import parser, UnsupportedVersion
 try:
     from StringIO import StringIO
 except ImportError:
     from io import StringIO
+
+
 def server_program():
     # get the hostname
     host = socket.gethostname()
@@ -26,9 +24,6 @@ def server_program():
         # receive data stream. it won't accept data packet greater than 1024 bytes
         client = conn.recv(800000).decode()
 
-        #while (l):
-        #    f.write(l)
-        #    l = sc.recv(1024)
         if not client:
             # if data is not received break
             break
@@ -45,20 +40,17 @@ def server_program():
             f.write(m.value)
             f.close()
 
-            if m.msh.msh_3.value == "IMAGEN":
-
+            if m.msh.msh_3.value == "img":
                 file_like = m.ORU_R01_PATIENT_RESULT.ORU_R01_ORDER_OBSERVATION.ORU_R01_OBSERVATION.OBX.obx_5.value
-                print(file_like)
                 f1 = open("recivedData/hl7image.jpg", "wb")
                 f1.write(base64.b64decode(str.encode(file_like)))
                 f1.close()
-            elif m.msh.msh_3.value == "OWL":
+            elif m.msh.msh_3.value == "text":
                 f1 = open("recivedData/hl7owl.owl", "w")
                 f1.write(m.ORU_R01_PATIENT_RESULT.ORU_R01_ORDER_OBSERVATION.ORU_R01_OBSERVATION.OBX.obx_5.value)
                 f1.close()
             else:
-                print("No se pudo procesar. El archivo enviado por HL7 no corresponde con IMAGEN o OWL.")
-
+                print("No se pudo procesar. El archivo enviado por HL7 no corresponde con img o text.")
 
             server = input(' -> ')
 
