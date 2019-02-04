@@ -36,17 +36,17 @@ def server_program():
                 m = parser.parse_message(client)
             except UnsupportedVersion:
                 m = parser.parse_message(client.replace("n", "r"))
-            f = open("recivedData/message.hl7", "w")
+            f = open("receivedData/message.hl7", "w")
             f.write(m.value)
             f.close()
 
             if m.msh.msh_3.value == "img":
                 file_like = m.ORU_R01_PATIENT_RESULT.ORU_R01_ORDER_OBSERVATION.ORU_R01_OBSERVATION.OBX.obx_5.value
-                f1 = open("recivedData/hl7image.jpg", "wb")
+                f1 = open("receivedData/hl7image.jpg", "wb")
                 f1.write(base64.b64decode(str.encode(file_like)))
                 f1.close()
             elif m.msh.msh_3.value == "text":
-                f1 = open("recivedData/hl7owl.owl", "w")
+                f1 = open("receivedData/hl7owl.owl", "w")
                 f1.write(m.ORU_R01_PATIENT_RESULT.ORU_R01_ORDER_OBSERVATION.ORU_R01_OBSERVATION.OBX.obx_5.value)
                 f1.close()
             else:

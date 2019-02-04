@@ -283,13 +283,13 @@ tabla_especialidad['nombre_especialidad'] = lista_especialidades
 
 print("Guardando resultados")
 #Almacenamos los resultados en .csv
-tabla_paciente.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_paciente.csv', sep=',', encoding='utf-8', index=False)
-tabla_urgencia.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_urgencia.csv', sep=',', encoding='utf-8', index=False)
-tabla_operacion.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_operacion.csv', sep=',', encoding='utf-8', index=False)
-tabla_quirofano.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_quirofano.csv', sep=',', encoding='utf-8', index=False)
-tabla_medico.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_medico.csv', sep=',', encoding='utf-8', index=False)
-tabla_enfermedad.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_enfermedad.csv', sep=',', encoding='utf-8', index=False)
-tabla_especialidad.to_csv('../../datasets/generated_tables/Result_datasets_withFK/tabla_especialidad.csv', sep=',', encoding='utf-8', index=False)
+tabla_paciente.to_csv('../../datasets/generated_tables/tabla_paciente.csv', sep=',', encoding='utf-8', index=False)
+tabla_urgencia.to_csv('../../datasets/generated_tables/tabla_urgencia.csv', sep=',', encoding='utf-8', index=False)
+tabla_operacion.to_csv('../../datasets/generated_tables/tabla_operacion.csv', sep=',', encoding='utf-8', index=False)
+tabla_quirofano.to_csv('../../datasets/generated_tables/tabla_quirofano.csv', sep=',', encoding='utf-8', index=False)
+tabla_medico.to_csv('../../datasets/generated_tables/tabla_medico.csv', sep=',', encoding='utf-8', index=False)
+tabla_enfermedad.to_csv('../../datasets/generated_tables/tabla_enfermedad.csv', sep=',', encoding='utf-8', index=False)
+tabla_especialidad.to_csv('../../datasets/generated_tables/tabla_especialidad.csv', sep=',', encoding='utf-8', index=False)
 
 
 print("FIN DEL PROCESO.")

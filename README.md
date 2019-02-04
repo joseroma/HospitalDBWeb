@@ -1,29 +1,31 @@
 # HospitalDBWeb
 
-#### Code:
+Hemos decidido estructurar este proyecto en 3 bloques.
 
-- db_generator: A partir de unas bases de datos de *Kaggle*, cogemos algunas columnas y otras las generamos, creando el contenido de las tablas de nuestra base de datos.
+#### Base de datos:
 
-- sql_2_xml: Usando el paquete `lxml.etree` indicamos la estructura de arbol que tendrá nuestro XML con la función `SubElement` y los datos correspondientes a cada columna de las tablas, creando así archivo XML desde nuestra DB.
+Aquí encontramos todo el código utilizado y los resultados obtenidos para generar la base de datos. Encontramos dos ficheros.
 
-#### MySQL:
+- **Generate_BD_data**: A partir de unas bases de datos de *Kaggle* (que se encuentran en la carpeta `internet_data_sets`) hemos rellenado con datos aleatorios (con el script `DataGenerator-conFK.py`) una base de datos en MySQL. Las tablas que subimos a MySQL las podemos encontrar en la carpeta `generated_tables` (contiene los *.csv* con las tablas y datos usados.).
 
-- create.sql: script de creación de la BD en MySQL.
-- est.mwb: modelo de la BD.
+- **MySQL**: Dentro de esta carpeta podemos encontrar los scripts de creación y copia de seguridad de la base de datos que hemos creado.
+
+#### HL7:
+
+Servicio socket que permite enviar mensajes codificados en HL7. Podemos ver dos carpetas: `receivedData` y `sendData` que simplemente utilizaremos para guardar los archivos que se envían y reciben.
+
+- **client.py**: Cliente.
+- **server.py**: Servidor.
+- **HL7encoder**: Aquí encontramos una función para codificar el mensaje HL7.
 
 #### XML:
 
-- mydbSchema: Schema del XML, indica la estructura de arbol que deberán tener los datos del XML y sus formatos entre otras restrincciones, si funciona al linkarlo, significará que el XML es correcto.
+- **mydbSchema**: Schema del XML, indica la estructura de arbol que deberán tener los datos del XML y sus formatos entre otras restrincciones, si funciona al linkarlo, significará que el XML es correcto.
 
-- mydbXSLT: XSLT para visualizar el XML con HTML en la web. Indica las columnas y los datos que apareceran en cada tabla apuntando a su ruta correspondiente en el arbol definido en Schema.
+- **mydbXSLT**: XSLT para visualizar el XML con HTML en la web. Indica las columnas y los datos que apareceran en cada tabla apuntando a su ruta correspondiente en el arbol definido en Schema.
 
+- **CLData_Output.xml**: XML creado a partir del script *sql_2_xml*, linkado con el esquema y XSLT , por lo que se peude abrir directamente con un explorador y visualizar las tablas con los datos y estructura del schema.
 
-- CLData_Output.xml: XML creado a partir del script *sql_2_xml*, linkado con el esquema y XSLT , por lo que se peude abrir directamente con un explorador y visualizar las tablas con los datos y estructura del schema.
-
-#### datasets: 
-
-- Results_datasets_withoutFK contiene los *.csv* con las tablas y datos usados.
-
-
+- **style.css**: Hoja de estilos
   
 

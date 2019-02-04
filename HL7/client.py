@@ -1,5 +1,5 @@
 import socket
-from Code.HL7.HL7encoder import generarHL7_ORU_R01
+from HL7.HL7encoder import generarHL7_ORU_R01
 
 
 def client_program():
