@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-3="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#AcudePaciente -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#AcudePaciente"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#NecesitaOperacion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#NecesitaOperacion">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#TieneUrgencia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#PerteneceAEspecialidad -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#PerteneceAEspecialidad">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#TieneUrgencia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#SeRealizaEnQuirofano -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#SeRealizaEnQuirofano">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#NecesitaOperacion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#TieneMedico -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#TieneMedico">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#PerteneceAEspecialidad"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#TieneUrgencia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#TieneUrgencia">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#AcudePaciente"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Especialidad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Especialidad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Urgencia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Hospital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Hospital"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Medico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Medico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Especialidad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Operacion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Operacion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Urgencia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Paciente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Paciente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Hospital"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Quirofano -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Quirofano">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Operacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Urgencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Urgencia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Paciente"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#DerrameCerebral -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#DerrameCerebral">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#TieneUrgencia"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Urgencia"/>
+            </owl:Restriction>
+        </rdf:type>
+        <NecesitaOperacion rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#No"/>
+        <PerteneceAEspecialidad rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Neurologia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#JuanRodriguez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#JuanRodriguez">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#AcudePaciente"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Paciente"/>
+            </owl:Restriction>
+        </rdf:type>
+        <TieneUrgencia rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#UrgenciaPorDesangramiento"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#MartaPerez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#MartaPerez">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#AcudePaciente"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Paciente"/>
+            </owl:Restriction>
+        </rdf:type>
+        <TieneUrgencia rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#DerrameCerebral"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#MedicoCamachoQuijote -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#MedicoCamachoQuijote">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#TieneMedico"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Medico"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Neurologia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Neurologia">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#PerteneceAEspecialidad"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Especialidad"/>
+            </owl:Restriction>
+        </rdf:type>
+        <TieneMedico rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#MedicoCamachoQuijote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#No -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#No">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#NecesitaOperacion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Operacion"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Si -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Si">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#NecesitaOperacion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Operacion"/>
+            </owl:Restriction>
+        </rdf:type>
+        <SeRealizaEnQuirofano rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#34B"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#UrgenciaPorDesangramiento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#UrgenciaPorDesangramiento">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#TieneUrgencia"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Urgencia"/>
+            </owl:Restriction>
+        </rdf:type>
+        <NecesitaOperacion rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Si"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#34B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#34B">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#SeRealizaEnQuirofano"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/nairachiclana/ontologies/2019/1/untitled-ontology-3#Quirofano"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+
