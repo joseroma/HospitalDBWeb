@@ -26,6 +26,6 @@ Servicio socket que permite enviar mensajes codificados en HL7. Podemos ver dos 
 
 - **CLData_Output.xml**: XML creado a partir del script *sql_2_xml*, linkado con el esquema y XSLT , por lo que se peude abrir directamente con un explorador y visualizar las tablas con los datos y estructura del schema.
 
-- **style.css**: Hoja de estilos
+- **style.css**: Hoja de estilos añadida al XSLT.
   
 
