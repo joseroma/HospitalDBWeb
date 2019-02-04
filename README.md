@@ -29,3 +29,4 @@ Servicio socket que permite enviar mensajes codificados en HL7. Podemos ver dos 
 - **style.css**: Hoja de estilos añadida al XSLT.
   
 
+`Hospital.owl` contiene el RDF de la ontología de $Hospital$.
